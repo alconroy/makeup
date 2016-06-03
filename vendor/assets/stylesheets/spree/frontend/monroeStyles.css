@@ -1,3 +1,6 @@
+A{
+	color:#cda11e!important;
+	}
 .btn{
     background:#ec4445!important;
 	}
@@ -21,6 +24,9 @@
 #search-bar FORM{
 	margin-right:0;
     padding:0;
+	}
+#header A{
+	color:#ffffff!important;
 	}
 #header A.btn{
 	float:right;
@@ -67,9 +73,6 @@
 	background:#f6f6f6;
 	min-height:10.2em;
 	padding:1.1em;
-	}
-#header #search-bar SPAN.glyphicon-search{
-	display:none;
 	}
 #header #search-bar form{
 	display:block;
@@ -292,13 +295,6 @@
 			#top-nav-bar UL LI:first-child A{
 			    border-top:none;
 				}
-	#header #search-bar SPAN.glyphicon-search{
-		background:#333333;
-		color:#ffffff;
-		display:block;
-	    padding:1em;
-	    width:3em;
-		}
 	#header #search-bar form{
 		display:none;
 		margin:0.5em 0.1em;

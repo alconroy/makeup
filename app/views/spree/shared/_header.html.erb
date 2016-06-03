@@ -4,11 +4,11 @@
   <div class="row">
     <div class="col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-4">
       <div class="contact-data">
-        <div class="phone">
+        <div class="phone col-md-6">
           <i class="fa fa-phone"></i>
           <a href="tel:+353449382046">044 938 2046</a>
         </div>
-        <div class="email">
+        <div class="email col-md-6">
           <i class="fa fa-envelope"></i>
           <a href="mailto:angela@monroe.ie">angela@monroe.ie</a>
         </div>
@@ -16,7 +16,7 @@
     </div>
 
     <div class="navbar col-md-8">
-      <div class="adminUser-link">
+      <div class="adminUser-link col-md-2">
         <% if spree_current_user %>
           <% if spree_current_user.has_spree_role?("admin") %>
             <%= link_to "Admin Control", admin_path, class: 'admin_section' %>
