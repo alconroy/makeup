@@ -2,25 +2,27 @@
 	<div class="container">
 
   <div class="row">
-    <div class="col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-2">
-    	<i class="fa fa-phone"></i>
-      <a href="tel:+353449382046">044 938 2046</a>
+    <div class="col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-4">
+      <div class="contact-data">
+        <div class="phone">
+          <i class="fa fa-phone"></i>
+          <a href="tel:+353449382046">044 938 2046</a>
+        </div>
+        <div class="email">
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:angela@monroe.ie">angela@monroe.ie</a>
+        </div>
+      </div>
     </div>
 
-    <div class="col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-2">
-      <i class="fa fa-envelope"></i>
-      <a href="mailto:angela@monroe.ie">angela@monroe.ie</a>
-    </div>
-
-   <div class="col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-1">
-    <% if spree_current_user %>
-      <% if spree_current_user.has_spree_role?("admin") %>
-        <%= link_to "Admin Control", admin_path, class: 'admin_section' %>
-      <% end %>
-    <% end %>
-    </div>
-
-    <div class="navbar col-md-5">
+    <div class="navbar col-md-8">
+      <div class="adminUser-link">
+        <% if spree_current_user %>
+          <% if spree_current_user.has_spree_role?("admin") %>
+            <%= link_to "Admin Control", admin_path, class: 'admin_section' %>
+          <% end %>
+        <% end %>
+      </div>
       <%= render :partial => 'spree/shared/nav_bar' %>
       <div id="search-bar" class="col-md-3" data-hook>
         <%= render :partial => 'spree/shared/search' %>
