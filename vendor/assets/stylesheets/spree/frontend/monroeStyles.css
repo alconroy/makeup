@@ -25,8 +25,8 @@ A{
 	margin-right:0;
     padding:0;
 	}
-#header A{
-	color:#ffffff!important;
+#header-top .navbar A{
+	color:#cda11e!important;
 	}
 #header A.btn{
 	float:right;
