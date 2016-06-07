@@ -15,7 +15,13 @@ A{
 	float:left;
 	width:100%;
 	}
-	#top-nav-bar{
+	#header-top .contact-data A{
+		color:#ffffff!important;
+		}
+		#header-top .contact-data A:hover{
+			color:#cda11e!important;
+			}
+	#header-top .navbar{
 		margin:0;
 		}
 		#header-top .navbar A{
