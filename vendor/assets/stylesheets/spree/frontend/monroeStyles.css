@@ -11,23 +11,36 @@ A{
 #spree-header .nav A{
     font-size:1em;
 	}
-#top-nav-bar SPAN.glyphicon-menu-hamburger{
-	display:none;
+#header-top{
+	float:left;
+	width:100%;
 	}
-#top-nav-bar UL{
-	display:block;
-	margin-right:0;
-	}
+	#header-top .navbar A{
+		color:#cda11e!important;
+		}
+	#top-nav-bar SPAN.glyphicon-menu-hamburger{
+		display:none;
+		}
+	#top-nav-bar UL{
+		display:block;
+		margin-right:0;
+		}
 	#top-nav-bar UL #search-bar{
 		display:none;
 		}
-#search-bar FORM{
-	margin-right:0;
-    padding:0;
-	}
-#header-top .navbar A{
-	color:#cda11e!important;
-	}
+	#header-top #search-bar{
+	    padding:0;
+		}
+		#header-top #search-bar FORM{
+			margin-right:0;
+		    padding:0;
+			}
+			#header-top #search-bar INPUT#search{
+				background:none;
+			    border:none;
+			    color:#ffffff;
+			    font-size:0.95em;
+				}
 #header A.btn{
 	float:right;
     padding:0 12px 0.05em 0;
