@@ -15,10 +15,15 @@ A{
 	float:left;
 	width:100%;
 	}
+	#header-top .contact-data I{
+		margin:0 0.5em 0 0;
+		}
 	#header-top .contact-data A{
 		color:#ffffff!important;
 		}
-		#header-top .contact-data A:hover{
+		#header-top .contact-data A:hover,
+		#header-top .contact-data .phone I,
+		#header-top .contact-data .email I{
 			color:#cda11e!important;
 			}
 	#header-top .navbar{
