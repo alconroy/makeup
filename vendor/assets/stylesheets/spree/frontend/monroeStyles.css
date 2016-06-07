@@ -60,6 +60,13 @@ A{
 				#header-top #search-bar INPUT#search:focus{
 					box-shadow:none;
 					}
+				#header-top #search-bar INPUT#search::-webkit-input-placeholder,
+				#header-top #search-bar INPUT#search:-moz-placeholder,
+				#header-top #search-bar INPUT#search::-moz-placeholder,
+				#header-top #search-bar INPUT#search:-ms-input-placeholder{
+					box-shadow:none;
+					color:#ffffff;
+					}
 			#header-top #search-bar BUTTON{
 				background:none!important;
 			    border:none;
