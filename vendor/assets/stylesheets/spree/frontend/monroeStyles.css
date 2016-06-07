@@ -22,8 +22,8 @@ A{
 		color:#ffffff!important;
 		}
 		#header-top .contact-data A:hover,
-		#header-top .contact-data .phone I:hover,
-		#header-top .contact-data .email I:hover{
+		#header-top .contact-data .phone:hover I,
+		#header-top .contact-data .email:hover I{
 			color:#cda11e!important;
 			}
 	#header-top .navbar{
