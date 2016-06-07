@@ -26,10 +26,16 @@ A{
 			}
 	#header-top .navbar{
 		margin:0;
+		min-height:auto;
 		}
 		#header-top .navbar A{
 			color:#cda11e!important;
+			padding:0;
 			}
+			#header-top .navbar A:hover,
+			#header-top .navbar A:focus{
+				background:none;
+				}
 		#top-nav-bar SPAN.glyphicon-menu-hamburger{
 			display:none;
 			}
@@ -45,7 +51,7 @@ A{
 	    padding:0;
 		}
 		#header-top #search-bar FORM{
-			margin-right:0;
+			margin:0;
 		    padding:0;
 			}
 			#header-top #search-bar INPUT#search{
