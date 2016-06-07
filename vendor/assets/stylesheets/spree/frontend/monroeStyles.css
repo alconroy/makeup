@@ -40,7 +40,22 @@ A{
 			    border:none;
 			    color:#ffffff;
 			    font-size:0.95em;
+			    height:1.7em;
+			    padding:0 0.5em 0 0;
+			    width:86%;
 				}
+				#header-top #search-bar INPUT#search:focus{
+					box-shadow:none;
+					}
+			#header-top #search-bar BUTTON{
+				background:none;
+			    border:none;
+			    color:#ffffff;
+			    font-size:0.95em;
+				}
+				#header-top #search-bar BUTTON:hover{
+				    color:#cda11e;
+					}
 #header A.btn{
 	float:right;
     padding:0 12px 0.05em 0;
