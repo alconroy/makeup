@@ -15,20 +15,24 @@ A{
 	float:left;
 	width:100%;
 	}
-	#header-top .navbar A{
-		color:#cda11e!important;
+	#top-nav-bar{
+		margin:0;
 		}
-	#top-nav-bar SPAN.glyphicon-menu-hamburger{
-		display:none;
-		}
-	#top-nav-bar UL{
-		display:block;
-		margin-right:0;
-		}
-	#top-nav-bar UL #search-bar{
-		display:none;
-		}
+		#header-top .navbar A{
+			color:#cda11e!important;
+			}
+		#top-nav-bar SPAN.glyphicon-menu-hamburger{
+			display:none;
+			}
+		#top-nav-bar UL{
+			display:block;
+			margin-right:0;
+			}
+		#top-nav-bar UL #search-bar{
+			display:none;
+			}
 	#header-top #search-bar{
+		float:right;
 	    padding:0;
 		}
 		#header-top #search-bar FORM{
@@ -40,15 +44,15 @@ A{
 			    border:none;
 			    color:#ffffff;
 			    font-size:0.95em;
-			    height:1.7em;
+			    height:1.5em;
 			    padding:0 0.5em 0 0;
-			    width:86%;
+			    width:80%;
 				}
 				#header-top #search-bar INPUT#search:focus{
 					box-shadow:none;
 					}
 			#header-top #search-bar BUTTON{
-				background:none;
+				background:none!important;
 			    border:none;
 			    color:#ffffff;
 			    font-size:0.95em;
