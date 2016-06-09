@@ -11,6 +11,11 @@ A{
 #spree-header .nav A{
     font-size:1em;
 	}
+body{
+	background:transparent url(<%= asset_data_uri 'dark_embroidery.png' %>) repeat-x left top;
+	float:left;
+	width:100%;
+	}
 #header-top{
 	float:left;
 	width:100%;
