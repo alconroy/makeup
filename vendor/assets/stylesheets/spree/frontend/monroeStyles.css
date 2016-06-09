@@ -11,12 +11,16 @@ A{
 #spree-header .nav A{
     font-size:1em;
 	}
+.container{
+	padding:0;
+	}
 body{
-	background:transparent url("/assets/dark_embroidery.png") repeat-x left top;
+	background:#333333 url("/assets/dark_embroidery.png") repeat-x left top;
 	float:left;
 	width:100%;
 	}
 #header-top{
+	background:#222222;
 	float:left;
 	width:100%;
 	}
@@ -105,6 +109,16 @@ body{
 				#header-top #search-bar BUTTON:hover{
 				    color:#cda11e;
 					}
+#spree-header{
+	float:left;
+	width:100%;
+	}
+	#header{
+		background:none;
+		float:left;
+		padding:3.2em 0 1em 0;
+		width:100%;
+		}
 #header A.btn{
 	float:right;
     padding:0 12px 0.05em 0;

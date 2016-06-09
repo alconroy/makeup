@@ -42,6 +42,15 @@
         <figure id="logo" class="col-md-3" data-hook>
           <%= logo %>
         </figure>
+        <div class="social col-md-7">
+          
+        </div>
+        <div id="link-to-cart" class="nav navbar-nav navbar-right col-md-2" data-hook>
+          <noscript>
+            <%= link_to Spree.t(:cart), '/cart' %>
+          </noscript>
+          <script>Spree.fetch_cart()</script>
+        </div>
       </div>
     </div>
   </header>
