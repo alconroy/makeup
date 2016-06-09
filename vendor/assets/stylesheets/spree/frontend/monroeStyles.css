@@ -14,6 +14,9 @@ A{
 .container{
 	padding:0;
 	}
+.row{
+	margin:0;
+	}
 body{
 	background:#333333 url("/assets/dark_embroidery.png") repeat-x left top;
 	float:left;
@@ -37,7 +40,7 @@ body{
 	#header-top .navbar{
 		margin:0;
 		min-height:auto;
-		padding-left:0;
+		padding:0;
 		}
 		#header-top .navbar A{
 			color:#cda11e!important;
@@ -86,7 +89,7 @@ body{
 			    font-size:0.95em;
 			    height:1.5em;
 			    padding:0 0.5em 0 0;
-			    width:80%;
+			    width:90.4%;
 				}
 				#header-top #search-bar INPUT#search:focus{
 					box-shadow:none;
@@ -113,44 +116,23 @@ body{
 	float:left;
 	width:100%;
 	}
-	#header{
-		background:none;
+	#spree-header #header{
+		background:none!important;
 		float:left;
 		padding:3.2em 0 1em 0;
 		width:100%;
 		}
-#header A.btn{
-	float:right;
-    padding:0 12px 0.05em 0;
-    width:11em;
-	}
-	#header A.btn SPAN{
-		background:#ec4445;
-	    color:#ffffff;
-	    float:left;
-	    font-size:1.25em;
-	    line-height:1em;
-	    padding:0.5em 0 0.3em 0;
-	    text-transform:uppercase;
-	    width:84.6%;
-		}
-		#header A.btn SPAN SPAN{
-			float:left;
-		    font-size:0.5em;
-		    padding:0;
-		    width:100%;
+		#spree-header #header #logo{
+			max-width:23.5em;
+    		width:auto;
 			}
-	#header A.btn SPAN.glyphicon{
-		background:#ffffff;
-	    border:0.3em solid #ec4445;
-	    border-radius:2.5em;
-	    color:#ec4445;
-	    float:left;
-	    font-size:1.4em;
-	    margin:-1px 0 0 -1em;
-	    padding:0.3em;
-	    width:auto;
-		}
+		#spree-header #header #link-to-cart{
+			padding:0;
+			}
+			#spree-header #header #link-to-cart A.cart-info{
+				float:right;
+				width:auto;
+				}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
