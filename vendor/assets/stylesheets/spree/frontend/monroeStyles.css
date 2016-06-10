@@ -331,16 +331,16 @@ body{
 		#spree-header #header NAV{
 			padding:0;
 			}
-			#spree-header #header #main-nav-bar UL{
+			#spree-header #header .navbar UL{
 				float:left;
 				width:100%;
 				}
-				#spree-header #header #main-nav-bar UL LI{
+				#spree-header #header .navbar UL LI{
 					background:#272727;
 					float:left;
 					width:auto;
 					}
-					#spree-header #header #main-nav-bar UL LI A{
+					#spree-header #header .navbar UL LI A{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						text-transform:uppercase;
