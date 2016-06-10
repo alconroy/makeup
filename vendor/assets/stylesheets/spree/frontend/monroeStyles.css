@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 A{
 	color:#cda11e!important;
 	}
@@ -18,7 +20,7 @@ A{
 	margin:0;
 	}
 body{
-	background:transparent url("../images/dark_embroidery.png") repeat-x left top;
+	background:#333333 url("../images/dark_embroidery.png") repeat-x left top;
 	float:left;
 	width:100%;
 	}
@@ -326,11 +328,23 @@ body{
 			margin:0 auto 1em auto;
     		width:20.4em;
 			}
-		#spree-header .navbar.col-md-9{
+		#spree-header #header NAV{
 			padding:0;
-			position:absolute;
-	    	width:100%;
 			}
+			#spree-header #header #main-nav-bar UL{
+				float:left;
+				width:100%;
+				}
+				#spree-header #header #main-nav-bar UL LI{
+					background:#272727;
+					float:left;
+					width:auto;
+					}
+					#spree-header #header #main-nav-bar UL LI A{
+						font-family:'Open Sans', sans-serif;
+						font-size:17px;
+						text-transform:uppercase;
+						}
 	#top-nav-bar{
 		left:0;    
 	    min-height:1em;

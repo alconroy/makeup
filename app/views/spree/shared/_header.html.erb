@@ -50,11 +50,8 @@
           </noscript>
           <script>Spree.fetch_cart()</script>
         </div>
+        <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
       </div>
     </div>
   </header>
-  
-  <div class="container">
-    <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
-  </div>
 </div>
