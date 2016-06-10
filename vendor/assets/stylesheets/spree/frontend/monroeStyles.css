@@ -340,7 +340,7 @@ body{
 					float:left;
 					width:auto;
 					}
-					#spree-header #header .navbar UL LI A{
+					#spree-header #header .navbar UL LI{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						text-transform:uppercase;
