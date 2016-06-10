@@ -18,7 +18,7 @@ A{
 	margin:0;
 	}
 body{
-	background:image-url("dark_embroidery.png");
+	background:transparent url("../images/dark_embroidery.png") repeat-x left top;
 	float:left;
 	width:100%;
 	}
