@@ -1,27 +1,25 @@
-<nav class="col-md-12">
-  <div id="main-nav-bar" class="navbar">
-    <ul class="nav navbar-nav">
-      <li id="home-link">
-        <%= link_to Spree.t(:home), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:brands), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:makeup), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:skin), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:body), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:hair), spree.root_path %>
-      </li>
-      <li class="nav-link">
-        <%= link_to Spree.t(:tools), spree.root_path %>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div id="main-nav-bar" class="navbar">
+  <ul class="nav navbar-nav" data-hook>
+    <li id="home-link" data-hook>
+      <%= link_to Spree.t(:home), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:brands), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:makeup), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:skin), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:body), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:hair), spree.root_path %>
+    </li>
+    <li class="nav-link" data-hook>
+      <%= link_to Spree.t(:tools), spree.root_path %>
+    </li>
+  </ul>
+</div>

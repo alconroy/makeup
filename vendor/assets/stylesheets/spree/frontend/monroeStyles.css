@@ -328,19 +328,19 @@ body{
 			margin:0 auto 1em auto;
     		width:20.4em;
 			}
-		#spree-header NAV{
+		#header NAV{
 			padding:0;
 			}
-			#spree-header .navbar UL{
+			#header .main-menu #main-nav-bar UL{
 				float:left;
 				width:100%;
 				}
-				#spree-header .navbar UL LI{
+				#header .main-menu #main-nav-bar UL LI{
 					background:#272727;
 					float:left;
 					width:auto;
 					}
-					#spree-header .navbar UL LI A{
+					#header .main-menu #main-nav-bar UL LI A{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						text-transform:uppercase;
