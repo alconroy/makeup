@@ -176,6 +176,8 @@ body{
 							cursor:text;
 							}
 					#spree-header #header .main-menu UL LI .mega-menu{
+						background:#272727;
+						border:1px solid #464341;
 						display:block;
 					    left:0;
 					    position:absolute;
@@ -188,28 +190,34 @@ body{
 						    padding:1em 2em;
 						    width:100%;
 							}
-						#spree-header #header .main-menu UL LI .mega-menu UL{
-							padding:0;
-							}
-							#spree-header #header .main-menu UL LI .mega-menu UL LI{
-								margin:0;
-								width:214px;
+							#spree-header #header .main-menu UL LI .mega-menu UL{
+								padding:0;
 								}
-								#spree-header #header .main-menu UL LI .mega-menu UL LI A{
-									font-size:1em;
-								    padding:0;
-								    text-transform:none;
+								#spree-header #header .main-menu UL LI .mega-menu UL LI{
+									background:none;
+									margin:0;
+									width:214px;
 									}
-								#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
-									float:left;
-									width:100%;
-									}
-									#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN{
-										float:left;
-									    line-height:1.8em;
-									    margin:0 0 0.8em 0;
-									    width:100%;
+									#spree-header #header .main-menu UL LI .mega-menu UL LI A{
+										font-size:1em;
+									    padding:0;
 										}
+									#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
+										float:left;
+										width:100%;
+										}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN{
+											float:left;
+										    line-height:1.8em;
+										    margin:0 0 0.8em 0;
+										    width:100%;
+											}
+											#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A{
+												float:left;
+											    line-height:1.8em;
+											    margin:0 0 0.8em 0;
+											    width:100%;
+												}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
