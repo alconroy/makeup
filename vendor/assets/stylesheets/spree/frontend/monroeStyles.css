@@ -176,7 +176,7 @@ body{
 							cursor:text;
 							}
 					#spree-header #header .main-menu UL LI .mega-menu{
-						background:#272727;
+						background:#444444;
 						border:1px solid #464341;
 						display:block;
 					    left:0;
@@ -195,13 +195,32 @@ body{
 								}
 								#spree-header #header .main-menu UL LI .mega-menu UL LI{
 									background:none;
+									list-style:none;
 									margin:0;
+									padding:1em;
 									width:214px;
 									}
+								#spree-header #header .main-menu UL LI .mega-menu UL LI.double{
+									width:448px;
+									}
 									#spree-header #header .main-menu UL LI .mega-menu UL LI A{
+										font-family:Georgia, "Times New Roman", Serif;
 										font-size:1em;
 									    padding:0;
+									    width:100%;
 										}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI A:hover{
+											color:#ffffff!important;
+											}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI A P{
+											border-bottom:1px dotted #ffffff;
+											margin:0 0 0.8em 0;
+											padding:0 0 0.5em 0;
+											width:100%;
+											}
+											#spree-header #header .main-menu UL LI .mega-menu UL LI A P SPAN.chevron-right{
+												float:right;
+												}
 									#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
 										float:left;
 										width:100%;
@@ -209,15 +228,18 @@ body{
 										#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN{
 											float:left;
 										    line-height:1.8em;
-										    margin:0 0 0.8em 0;
+										    margin:0 0 0.3em 0;
 										    width:100%;
 											}
 											#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A{
 												float:left;
-											    line-height:1.8em;
-											    margin:0 0 0.8em 0;
+											    margin:0;
+											    text-transform:none;
 											    width:100%;
 												}
+												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
+													color:#cda11e;
+													}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
