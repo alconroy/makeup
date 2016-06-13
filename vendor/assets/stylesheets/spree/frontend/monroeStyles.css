@@ -138,7 +138,7 @@ body{
 				width:auto;
 				}
 		#spree-header #header .main-menu{
-			margin:0;
+			margin:2.75em 0 0 0;
 			padding:0;
 			}
 			#spree-header #header .main-menu UL{
@@ -161,16 +161,17 @@ body{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						float:left;
-						padding:2emem;
+						padding:2.3em 3.34em;
+						text-transform:uppercase;
 						width:auto;
 						}
 						#spree-header #header .main-menu UL LI A:hover{
 							background:none;
-							color:#cda11e;
+							color:#cda11e!important;
 							}
 						#spree-header #header .main-menu UL LI.selected A:hover{
-							color:#ffffff;
-							cursor:pointer;
+							color:#ffffff!important;
+							cursor:text;
 							}
 #page_content,
 #page_content .branch-image,
