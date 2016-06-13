@@ -143,12 +143,14 @@ body{
 			}
 			#spree-header #header .main-menu UL{
 				float:left;
+				position:relative;
 				width:100%;
 				}
 				#spree-header #header .main-menu UL LI{
 					background:#272727;
 					float:left;
 					margin:0 0.15em 0 0;
+					position:static;
 					width:auto;
 					}
 				#spree-header #header .main-menu UL LI:last-child{
@@ -173,6 +175,41 @@ body{
 							color:#ffffff!important;
 							cursor:text;
 							}
+					#spree-header #header .main-menu UL LI .mega-menu{
+						display:block;
+					    left:0;
+					    position:absolute;
+					    top:7em;
+					    width:100%;
+					    z-index:40;
+						}
+						#spree-header #header .main-menu UL LI .mega-menu .mega-menu-content{
+							float:left;
+						    padding:1em 2em;
+						    width:100%;
+							}
+						#spree-header #header .main-menu UL LI .mega-menu UL{
+							padding:0;
+							}
+							#spree-header #header .main-menu UL LI .mega-menu UL LI{
+								margin:0;
+								width:214px;
+								}
+								#spree-header #header .main-menu UL LI .mega-menu UL LI A{
+									font-size:1em;
+								    padding:0;
+								    text-transform:none;
+									}
+								#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
+									float:left;
+									width:100%;
+									}
+									#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN{
+										float:left;
+									    line-height:1.8em;
+									    margin:0 0 0.8em 0;
+									    width:100%;
+										}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
