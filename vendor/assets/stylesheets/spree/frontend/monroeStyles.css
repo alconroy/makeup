@@ -331,21 +331,21 @@ body{
 		#header NAV{
 			padding:0;
 			}
-			#header .main-menu #main-nav-bar UL{
+			#spree-header .nav UL{
 				float:left;
 				width:100%;
 				}
-				#header .main-menu #main-nav-bar UL LI{
+				#spree-header .nav UL LI{
 					background:#272727;
 					float:left;
 					width:auto;
 					}
-					#header .main-menu #main-nav-bar UL LI A{
+					#spree-header .nav UL LI A{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						text-transform:uppercase;
 						}
-						#header .main-menu #main-nav-bar UL LI A:hover{
+						#spree-header .nav UL LI A:hover{
 							background:none!important;
 							}
 	#top-nav-bar{
