@@ -125,7 +125,7 @@ body{
 		padding:3.2em 0 1em 0;
 		width:100%;
 		}
-		#spree-header #header #logo{
+		#spree-header #header #logo IMG{
 			max-width:23.5em;
     		width:auto;
 			}
