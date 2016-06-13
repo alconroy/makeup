@@ -147,9 +147,18 @@ body{
 				}
 				#spree-header #header .main-menu UL LI{
 					float:left;
-					padding:1em;
 					width:auto;
 					}
+					#spree-header #header .main-menu UL LI A{
+						font-family:'Open Sans', sans-serif;
+						font-size:1em;
+						float:left;
+						padding:1em;
+						width:auto;
+						}
+						#spree-header #header .main-menu UL LI A:hover{
+							background:none;
+							}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
