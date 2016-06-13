@@ -222,6 +222,9 @@ body{
 												float:right;
 												}
 									#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
+										-moz-column-count:2;
+										-webkit-column-count:2;
+										column-count:2;
 										float:left;
 										width:100%;
 										}
@@ -238,7 +241,7 @@ body{
 											    width:100%;
 												}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
-													color:#cda11e;
+													color:#cda11e!important;
 													}
 #page_content,
 #page_content .branch-image,
