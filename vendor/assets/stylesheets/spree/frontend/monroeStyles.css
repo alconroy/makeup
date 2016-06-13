@@ -146,18 +146,31 @@ body{
 				width:100%;
 				}
 				#spree-header #header .main-menu UL LI{
+					background:#272727;
 					float:left;
+					margin:0 0.15em 0 0;
 					width:auto;
 					}
+				#spree-header #header .main-menu UL LI:last-child{
+					margin:0;
+					}
+					#spree-header #header .main-menu UL LI.selected{
+						background:#000000;
+						}
 					#spree-header #header .main-menu UL LI A{
 						font-family:'Open Sans', sans-serif;
-						font-size:1em;
+						font-size:17px;
 						float:left;
-						padding:1em;
+						padding:2emem;
 						width:auto;
 						}
 						#spree-header #header .main-menu UL LI A:hover{
 							background:none;
+							color:#cda11e;
+							}
+						#spree-header #header .main-menu UL LI.selected A:hover{
+							color:#ffffff;
+							cursor:pointer;
 							}
 #page_content,
 #page_content .branch-image,
