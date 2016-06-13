@@ -345,6 +345,9 @@ body{
 						font-size:17px;
 						text-transform:uppercase;
 						}
+						#header .main-menu #main-nav-bar UL LI A:hover{
+							background:none!important;
+							}
 	#top-nav-bar{
 		left:0;    
 	    min-height:1em;
