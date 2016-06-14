@@ -116,7 +116,7 @@ body{
 				    color:#cda11e;
 					}
 #spree-header{
-	background:none;
+	background:none!important;
 	float:left;
 	width:100%;
 	}
