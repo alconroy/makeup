@@ -46,6 +46,33 @@
 				$(this).css("color", "#ec4445");
 			}
 		});
+
+		/* Add class just to home page */
+		var pathname = window.location.pathname;
+		if(pathname == "/"){
+			$("body").addClass("home");
+
+			//Home main Slider
+			$("#js-main-slider").pogoSlider({
+				autoplay:true,
+				autoplayTimeout:5000,
+				displayProgess:true,
+				slideTransition:"blocksReveal",
+				slideTransitionDuration:1000,
+				elementTransitionIn:"contract",
+				elementTransitionOut:"expand",
+				elementTransitionStart:500,
+				elementTransitionDuration:1000,
+				generateButtons:true,
+				buttonPosition:"CenterHorizontal",
+				generateNav:false,
+				navPosition:'Bottom',
+				pauseOnHover:false,
+				targetWidth:1000,
+				targetHeight:300,
+				responsive:true,
+			}).data("plugin_pogoSlider");
+		}
 	});
 </script>
 
