@@ -412,6 +412,8 @@ body{
 		}
 FOOTER{
 	background:#1c1c1c;
+	float:left;
+	width:100%;
 	}
 	#footer-top{
 	    color:#7f7e7e;
@@ -434,8 +436,15 @@ FOOTER{
 					color:#cda11e!important;
 					}
 	#footer-bottom{
-	    border-top:1px solid #1c1c1c;
+	    border-top:1px solid #222222;
+	    float:left;
+	    padding:0.5em;
+	    text-align:center;
+	    width:100%;
 		}
+		#footer-bottom A{
+		    font-size:0.85em;
+			}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
