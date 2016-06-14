@@ -20,7 +20,7 @@ A{
 	margin:0;
 	}
 body{
-	background:#333333 url("/images/dark_embroidery.png") repeat-x left top;
+	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat-x left top;
 	float:left;
 	width:100%;
 	}
@@ -435,6 +435,11 @@ FOOTER{
 				#footer-top UL LI A:hover{
 					color:#cda11e!important;
 					}
+		#footer-top IMG{
+		    float:right;
+		    max-width:14em;
+		    width:auto;
+			}
 	#footer-bottom{
 	    border-top:1px solid #222222;
 	    float:left;
