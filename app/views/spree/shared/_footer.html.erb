@@ -3,19 +3,19 @@
 		<div class="container">			
 			<div class="row">
 				<div class="col-md-3">
-					<h3>About us</h3>
+					<h5>About us</h5>
 					<ul>
 						<%= render partial: 'spree/static_content/static_content_list', collection: Spree::Page.by_store(current_store).visible.footer_links, as: :page %>	
 					</ul>
 				</div>
 				<div class="col-md-3">
-					<h3>Shopping with us</h3>
+					<h5>Shopping with us</h5>
 					<ul>
 						<%= render partial: 'spree/static_content/static_content_list', collection: Spree::Page.by_store(current_store).visible.footer_links, as: :page %>
 					</ul>
 				</div>
 				<div class="col-md-3 foot-contact">
-					<h3>Help</h3>
+					<h5>Help</h5>
 					<ul>
 						<li>
 							<a href="#">Get in touch</a>
