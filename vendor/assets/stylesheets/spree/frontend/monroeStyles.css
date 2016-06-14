@@ -20,7 +20,7 @@ A{
 	margin:0;
 	}
 body{
-	background:#333333 url("../images/dark_embroidery.png") repeat-x left top;
+	background:#333333 url(<%= asset_data_uri 'dark_embroidery.png' %>) repeat-x left top;
 	float:left;
 	width:100%;
 	}
