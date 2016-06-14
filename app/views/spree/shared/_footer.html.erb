@@ -27,16 +27,18 @@
 				</div>
 				<div class="col-xs-12 col-md-3">
 					<img src="https://s3-eu-west-1.amazonaws.com/recharge-cartridges/images/poweredFooter-icon.png" alt="Powered by 39bots">
-				</div>
-				<div class="col-xs-12 col-md-12">
-					<%= link_to "Version.b1", admin_path, class: 'version' %>
-				</div>
+				</div>				
 			</div>
-			<% if spree_current_user %>
-      			<% if spree_current_user.has_spree_role?("super") %>
-        			<%= link_to "Admin super", admin_path, class: 'admin_section' %>
-      			<% end %>
-    		<% end %>
 		</div>
-	</div>	
+	</div>
+	<div id="footer-bottom">
+		<div class="col-xs-12 col-md-12">
+			<%= link_to "Version.b1", admin_path, class: 'version' %>
+		</div>
+	</div>
+	<% if spree_current_user %>
+		<% if spree_current_user.has_spree_role?("super") %>
+			<%= link_to "Admin super", admin_path, class: 'admin_section' %>
+		<% end %>
+	<% end %>
 </footer>

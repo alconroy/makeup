@@ -413,8 +413,27 @@ body{
 FOOTER{
 	background:#1c1c1c;
 	}
-	#footer-bottom IMG{
-	    max-width:10.7em;
+	#footer-top{
+	    color:#7f7e7e;
+	    padding:2em 0;
+		}
+		#footer-top H5{
+		    text-transform:uppercase;
+			}
+		#footer-top UL LI{
+		    margin:0 0 0.5em 0;
+			}
+			#footer-top UL LI A{
+				color:#7f7e7e!important;
+				font-synthesis: 0.85em;
+			    padding:0;
+			    text-transform:capitalize;
+				}
+				#footer-top UL LI A:hover{
+					color:#cda11e!important;
+					}
+	#footer-bottom{
+	    border-top:1px solid #1c1c1c;
 		}
 
 /* Mobile devices */
