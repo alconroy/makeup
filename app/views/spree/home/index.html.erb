@@ -5,26 +5,30 @@
 <% end %>
 
 <div class="banner">
-    <div class="pogoSlider" id="js-main-slider">      
-        <ul>
-            <li>
-                <a href="/" class="pogoSlider-slide">
-                    <%= image_tag("slider1.jpg", class: "pogoSlider-slide-element", alt: "Slider1") %>
-                </a>
-            </li>
-            <li>
-                <a href="/" class="pogoSlider-slide">
-                    <%= image_tag("slider2.jpg", class: "pogoSlider-slide-element", alt: "Slider2") %>
-                </a>
-            </li>
-            <li>
-                <a href="/" class="pogoSlider-slide">
-                    <%= image_tag("slider3.jpg", class: "pogoSlider-slide-element", alt: "Slider3") %>
-                </a>
-            </li>
-        </ul>
-        <script src="/assets/jquery.pogo-slider.min.js"></script>
-    </div>
+    <ul class="bxslider">
+    	<li>
+    		<a href="/">
+	        	<%= image_tag("slider1.jpg", alt: "Slider1") %>
+	            <h2 class="title four-lines">Test 1/</h2>
+	    	</a>
+        </li>
+        <li>
+        	<a href="/">
+        		<%= image_tag("slider2.jpg", alt: "Slider2") %>
+	            <h2 class="title four-lines">
+	                <a href="#">Test 2</a>
+	            </h2>
+	        </a>
+        </li>
+        <li>
+        	<a href="/">
+	        	<%= image_tag("slider3.jpg", alt: "Slider3") %>
+	            <h2 class="title two-lines">
+	                <a href="#">Test 3</a>
+	            </h2>
+	        </a>
+        </li>
+    </ul>
 </div>
 
 <div id="triple-top">
