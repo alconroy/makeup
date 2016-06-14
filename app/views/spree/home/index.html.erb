@@ -4,6 +4,29 @@
   </div>
 <% end %>
 
+<div class="banner">
+    <div class="pogoSlider" id="js-main-slider">      
+        <ul>
+            <li>
+                <a href="/" class="pogoSlider-slide">
+                    <%= image_tag("slider1.jpg", class: "pogoSlider-slide-element", alt: "Slider1") %>
+                </a>
+            </li>
+            <li>
+                <a href="/" class="pogoSlider-slide">
+                    <%= image_tag("slider2.jpg", class: "pogoSlider-slide-element", alt: "Slider2") %>
+                </a>
+            </li>
+            <li>
+                <a href="/" class="pogoSlider-slide">
+                    <%= image_tag("slider3.jpg", class: "pogoSlider-slide-element", alt: "Slider3") %>
+                </a>
+            </li>
+        </ul>
+        <script src="/assets/jquery.pogo-slider.min.js"></script>
+    </div>
+</div>
+
 <div id="triple-top">
 	<div class="row">
 		<div class="col-md-6 categories-left">
