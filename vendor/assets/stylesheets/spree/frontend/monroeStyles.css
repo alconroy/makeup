@@ -482,6 +482,10 @@ FOOTER{
 	#spree-header #header{
 		min-height:13.8em;
 		}
+		#spree-header #logo{
+			margin:0 auto 1em auto;
+    		width:20.4em;
+			}
 		#spree-header .social A{
 		    float:right;
 		    margin:0 1.7em 0 0;
@@ -495,10 +499,6 @@ FOOTER{
 			    max-width:2.6em;
 			    width:auto;
 				}
-		#spree-header #logo{
-			margin:0 auto 1em auto;
-    		width:20.4em;
-			}
 		#header NAV{
 			padding:0;
 			}
