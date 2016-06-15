@@ -253,6 +253,11 @@ body{
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
 													color:#cda11e!important;
 													}
+#content .banner .bx-wrapper{
+	background:rgba(0, 0, 0, 0.3);
+    border:none;
+    box-shadow:none;
+	}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
