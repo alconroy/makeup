@@ -174,18 +174,19 @@ body{
 				}
 		#spree-header #header #link-to-cart{
 			margin:0;
-			padding:0;
+			padding:0.9em 0 0 0;
 			}
 			#spree-header #header #link-to-cart A.cart-info{
 				background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/cart-icon.png") no-repeat left top;
+				color:#ffffff!important;
 				float:right;
-				height:2.6em;
-				width:2.6em;
+			    height:2.9em;
+			    padding:0.8em 0 0.8em 3em;
+			    width:auto;
 				}
 				#spree-header #header #link-to-cart A.cart-info:hover{
 					background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/cart-iconHover.png") no-repeat left top;
-					float:right;
-					width:auto;
+					color:#cda11e!important;
 					}
 				#spree-header #header #link-to-cart A.cart-info SPAN.glyphicon-shopping-cart{
 					display:none;
