@@ -131,44 +131,47 @@ body{
 			max-width:23.5em;
     		width:auto;
 			}
-		#spree-header .social A{
-		    float:right;
-		    height:2.6em;
-		    margin:0 1.7em 0 0;
-		    position:relative;
-		    width:auto;
+		#spree-header .social{
+		    padding-top:1em;
 			}
-			#spree-header .social A SPAN{
-			    position:absolute;
-			    top:-5000em;
+			#spree-header .social A{
+			    float:right;
+			    height:2.6em;
+			    margin:0 1.7em 0 0;
+			    position:relative;
+			    width:2.6em;
 				}
-		#spree-header .social A.facebook{
-		    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/facebook-icon.png") no-repeat left top;
-			}
-			#spree-header .social A.facebook:hover{
-			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/facebook-iconHover.png") no-repeat left top;
+				#spree-header .social A SPAN{
+				    display:inline-block;
+				    text-indent:-5000em;
+					}
+			#spree-header .social A.facebook{
+			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/facebook-icon.png") no-repeat left top;
 				}
-		#spree-header .social A.twitter{
-		    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/twitter-icon.png") no-repeat left top;
-			}
-			#spree-header .social A.twitter:hover{
-			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/twitter-iconHover.png") no-repeat left top;
+				#spree-header .social A.facebook:hover{
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/facebook-iconHover.png") no-repeat left top;
+					}
+			#spree-header .social A.twitter{
+			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/twitter-icon.png") no-repeat left top;
 				}
-		#spree-header .social A.instagram{
-		    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/instagram-icon.png") no-repeat left top;
-			}
-			#spree-header .social A.instagram:hover{
-			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/instagram-iconHover.png") no-repeat left top;
+				#spree-header .social A.twitter:hover{
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/twitter-iconHover.png") no-repeat left top;
+					}
+			#spree-header .social A.instagram{
+			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/instagram-icon.png") no-repeat left top;
 				}
-		#spree-header .social A.googlePlus{
-		    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/googlePlus-icon.png") no-repeat left top;
-			}
-			#spree-header .social A.googlePlus:hover{
-			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/googlePlus-iconHover.png") no-repeat left top;
+				#spree-header .social A.instagram:hover{
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/instagram-iconHover.png") no-repeat left top;
+					}
+			#spree-header .social A.googlePlus{
+			    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/googlePlus-icon.png") no-repeat left top;
 				}
-		#spree-header .social A:first-child{
-    		margin:0;
-			}
+				#spree-header .social A.googlePlus:hover{
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/googlePlus-iconHover.png") no-repeat left top;
+					}
+			#spree-header .social A:first-child{
+	    		margin:0;
+				}
 		#spree-header #header #link-to-cart{
 			margin:0;
 			padding:0;
