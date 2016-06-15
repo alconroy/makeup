@@ -164,6 +164,7 @@ body{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						float:left;
+						outline:none;
 						padding:2.3em 3.45em;
 						text-transform:uppercase;
 						width:auto;
@@ -186,7 +187,7 @@ body{
 					    position:absolute;
 					    top:7em;
 					    width:100%;
-					    z-index:40;
+					    z-index:999;
 						}
 					#spree-header #header .main-menu UL LI:hover .mega-menu{						
 						display:block!important;
