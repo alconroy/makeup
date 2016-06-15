@@ -2,6 +2,7 @@
 
 A{
 	color:#cda11e!important;
+	outline:none;
 	}
 .btn{
     background:#ec4445!important;
@@ -164,7 +165,6 @@ body{
 						font-family:'Open Sans', sans-serif;
 						font-size:17px;
 						float:left;
-						outline:none;
 						padding:2.3em 3.45em;
 						text-transform:uppercase;
 						width:auto;
