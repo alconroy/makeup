@@ -370,6 +370,37 @@ body{
 					#content .banner .bx-wrapper .bxslider LI A:hover{
 						background:#535049;
 						}
+	#content .banner .bx-wrapper .bx-pager{
+	    bottom:3em;
+	    position:absolute;
+	    z-index:999;
+		}
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active{
+		    background:#cda11e!important;
+		    border-radius:50%;
+		    box-sizing:border-box;
+		    height:14px;
+		    margin:8px 13px;
+		    opacity:0.7;
+		    position:relative;
+		    transition:all 0.3s ease 0s;
+		    width:14px;
+			}
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link{
+		    background:#535049!important;
+			}
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active::before{
+		    background:#ffffff;
+		    border-radius:50%;
+		    content:"";
+		    display:inline-block;
+		    height:24px;
+		    left:-5px;
+		    opacity:0.2;
+		    position:absolute;
+		    top:-5px;
+		    width:24px;
+			}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
