@@ -17,10 +17,10 @@
     <%= render partial: 'spree/shared/google_analytics.js' %>
     <%= render partial: 'spree/shared/header' %>
 
-    <div class="container">
+    <div id="content" class="container">
       <div class="row" data-hook>
         <% breadcrumbs(@taxon) %>
-		<div id="content" class="col-sm-12" data-hook>
+		    <div id="content-page" class="col-sm-12" data-hook>
           <%= flash_messages %>
           <%= yield %>
         </div>

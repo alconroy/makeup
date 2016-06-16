@@ -305,103 +305,109 @@ body{
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
 													color:#cda11e!important;
 													}
-#content .banner .bx-wrapper{
-	background:rgba(0, 0, 0, 0.3);
-    border:none;
-    box-shadow:none;
+#content{
+	padding:0;
 	}
-	#content .banner .bx-wrapper .bxslider LI .bx-viewport{
-	    height:632px!important;
+	#content-page .banner .bx-wrapper{
+		background:rgba(0, 0, 0, 0.3);
+	    border:none;
+	    box-shadow:none;
 		}
-		#content .banner .bx-wrapper .bxslider LI .text-slider{
-		    left:29em;
-		    position:absolute;
-		    top:8em;
-		    width:24em;
+		#content-page .banner .bx-wrapper .bxslider LI .bx-viewport{
+		    height:632px!important;
 			}
-			#content .banner .bx-wrapper .bxslider LI H2{
-				animation-delay:500ms;
-		    	animation-duration:1000ms;
-			    color:#ffffff;
-			    font-size:3.8em;
-			    font-weight:bold;
-			    line-height:1.25em;
-			    margin:0;
-			    text-align:center;
-			    text-transform:uppercase;
+			#content-page .banner .bx-wrapper .bxslider LI .text-slider{
+			    left:29em;
+			    position:absolute;
+			    top:8em;
+			    width:24em;
 				}
-				#content .banner .bx-wrapper .bxslider LI SPAN{
-					animation-delay:1200ms;
-		    		animation-duration:1000ms;
-		    		animation-fill-mode:forwards;
-		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    color:#cda11e;
-				    float:left;
-				    font-family:Georgia;
-				    font-size:2.5em;
-				    margin:0 0 0.65em 0;
-				    text-align:center;
-				    width:100%;
+				#content-page .banner .bx-wrapper .bxslider LI{
+					width:1170px;
 					}
-				#content .banner .bx-wrapper .bxslider LI P{
-					animation-delay:1200ms;
-		    		animation-duration:1000ms;
-		    		animation-fill-mode:forwards;
-		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    color:#ffffff;
-				    font-size:0.85em;
-				    text-align:center;
-					}
-				#content .banner .bx-wrapper .bxslider LI A{
-					animation-delay:1200ms;
-		    		animation-duration:1000ms;
-		    		animation-fill-mode:forwards;
-		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    background:#cda11e;
-				    color:#ffffff!important;
-				    font-weight:bold;
-				    left:7.8em;
-				    padding:1em 1.85em;
-				    position:relative;
-				    text-align:center;
-				    text-transform:uppercase;
-				    top:2.6em;
-					}
-					#content .banner .bx-wrapper .bxslider LI A:hover{
-						background:#535049;
+					#content-page .banner .bx-wrapper .bxslider LI H2{
+						animation-delay:500ms;
+				    	animation-duration:1000ms;
+					    color:#ffffff;
+					    font-size:3.8em;
+					    font-weight:bold;
+					    line-height:1.25em;
+					    margin:0;
+					    text-align:center;
+					    text-transform:uppercase;
 						}
-	#content .banner .bx-wrapper .bx-pager{
-	    bottom:3em;
-	    position:absolute;
-	    z-index:999;
-		}
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active,
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link{
-		    background:#cda11e!important;
-		    border-radius:50%;
-		    box-sizing:border-box;
-		    height:14px;
-		    margin:8px 13px;
-		    opacity:0.7;
-		    position:relative;
-		    transition:all 0.3s ease 0s;
-		    width:14px;
-			}
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link{
-		    background:#535049!important;
-			}
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link:before{
-		    background:#ffffff;
-		    border-radius:50%;
-		    content:"";
-		    display:inline-block;
-		    height:24px;
-		    left:-5px;
-		    opacity:0.2;
+						#content-page .banner .bx-wrapper .bxslider LI SPAN{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    color:#cda11e;
+						    float:left;
+						    font-family:Georgia;
+						    font-size:2.5em;
+						    margin:0 0 0.65em 0;
+						    text-align:center;
+						    width:100%;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI P{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    color:#ffffff;
+						    font-size:0.85em;
+						    text-align:center;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI A{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    background:#cda11e;
+						    color:#ffffff!important;
+						    font-weight:bold;
+						    left:7.8em;
+						    padding:1em 1.85em;
+						    position:relative;
+						    text-align:center;
+						    text-transform:uppercase;
+						    top:2.6em;
+							}
+							#content-page .banner .bx-wrapper .bxslider LI A:hover{
+								background:#535049;
+								}
+		#content-page .banner .bx-wrapper .bx-pager{
+		    bottom:3em;
 		    position:absolute;
-		    top:-5px;
-		    width:24px;
+		    z-index:999;
 			}
+			#content-page .banner .bx-wrapper .bx-pager .bx-pager-link.active,
+			#content-page .banner .bx-wrapper .bx-pager .bx-pager-link{
+			    background:#cda11e!important;
+			    border-radius:50%;
+			    box-sizing:border-box;
+			    height:14px;
+			    margin:8px 13px;
+			    opacity:0.7;
+			    position:relative;
+			    transition:all 0.3s ease 0s;
+			    width:14px;
+				}
+			#content-page .banner .bx-wrapper .bx-pager .bx-pager-link{
+			    background:#535049!important;
+				}
+			#content-page .banner .bx-wrapper .bx-pager .bx-pager-link:before{
+			    background:#ffffff;
+			    border-radius:50%;
+			    content:"";
+			    display:inline-block;
+			    height:24px;
+			    left:-5px;
+			    opacity:0.2;
+			    position:absolute;
+			    top:-5px;
+			    width:24px;
+				}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
