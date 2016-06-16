@@ -375,7 +375,8 @@ body{
 	    position:absolute;
 	    z-index:999;
 		}
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active{
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active,
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link{
 		    background:#cda11e!important;
 		    border-radius:50%;
 		    box-sizing:border-box;
@@ -389,7 +390,7 @@ body{
 		#content .banner .bx-wrapper .bx-pager .bx-pager-link{
 		    background:#535049!important;
 			}
-		#content .banner .bx-wrapper .bx-pager .bx-pager-link.active::before{
+		#content .banner .bx-wrapper .bx-pager .bx-pager-link:before{
 		    background:#ffffff;
 		    border-radius:50%;
 		    content:"";
