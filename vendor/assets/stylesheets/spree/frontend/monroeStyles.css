@@ -310,57 +310,66 @@ body{
     border:none;
     box-shadow:none;
 	}
-	#content .banner .bx-wrapper .bxslider LI H2{
-		animation-delay:500ms;
-    	animation-duration:1000ms;
-	    color:#ffffff;
-	    font-size:3.8em;
-	    font-weight:bold;
-	    line-height:1.25em;
-	    margin:0;
-	    text-align:center;
-	    text-transform:uppercase;
+	#content .banner .bx-wrapper .bxslider LI .bx-viewport{
+	    height:632px!important;
 		}
-		#content .banner .bx-wrapper .bxslider LI SPAN{
-			animation-delay:1200ms;
-    		animation-duration:1000ms;
-    		animation-fill-mode:forwards;
-    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		    color:#cda11e;
-		    float:left;
-		    font-family:Georgia;
-		    font-size:2.5em;
-		    margin:0 0 0.65em 0;
-		    text-align:center;
-		    width:100%;
+		#content .banner .bx-wrapper .bxslider LI .text-slider{
+		    left:29em;
+		    position:absolute;
+		    top:8em;
+		    width:24em;
 			}
-		#content .banner .bx-wrapper .bxslider LI P{
-			animation-delay:1200ms;
-    		animation-duration:1000ms;
-    		animation-fill-mode:forwards;
-    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		    color:#ffffff;
-		    font-size:0.85em;
-		    text-align:center;
-			}
-		#content .banner .bx-wrapper .bxslider LI A{
-			animation-delay:1200ms;
-    		animation-duration:1000ms;
-    		animation-fill-mode:forwards;
-    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		    background:#cda11e;
-		    color:#ffffff!important;
-		    font-weight:bold;
-		    left:7.8em;
-		    padding:1em 1.85em;
-		    position:relative;
-		    text-align:center;
-		    text-transform:uppercase;
-		    top:2.6em;
-			}
-			#content .banner .bx-wrapper .bxslider LI A:hover{
-				background:#535049;
+			#content .banner .bx-wrapper .bxslider LI H2{
+				animation-delay:500ms;
+		    	animation-duration:1000ms;
+			    color:#ffffff;
+			    font-size:3.8em;
+			    font-weight:bold;
+			    line-height:1.25em;
+			    margin:0;
+			    text-align:center;
+			    text-transform:uppercase;
 				}
+				#content .banner .bx-wrapper .bxslider LI SPAN{
+					animation-delay:1200ms;
+		    		animation-duration:1000ms;
+		    		animation-fill-mode:forwards;
+		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    color:#cda11e;
+				    float:left;
+				    font-family:Georgia;
+				    font-size:2.5em;
+				    margin:0 0 0.65em 0;
+				    text-align:center;
+				    width:100%;
+					}
+				#content .banner .bx-wrapper .bxslider LI P{
+					animation-delay:1200ms;
+		    		animation-duration:1000ms;
+		    		animation-fill-mode:forwards;
+		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    color:#ffffff;
+				    font-size:0.85em;
+				    text-align:center;
+					}
+				#content .banner .bx-wrapper .bxslider LI A{
+					animation-delay:1200ms;
+		    		animation-duration:1000ms;
+		    		animation-fill-mode:forwards;
+		    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    background:#cda11e;
+				    color:#ffffff!important;
+				    font-weight:bold;
+				    left:7.8em;
+				    padding:1em 1.85em;
+				    position:relative;
+				    text-align:center;
+				    text-transform:uppercase;
+				    top:2.6em;
+					}
+					#content .banner .bx-wrapper .bxslider LI A:hover{
+						background:#535049;
+						}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
