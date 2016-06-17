@@ -449,10 +449,10 @@ body{
 						    text-align:center;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI A{
-							animation-delay:1200ms;
-				    		animation-duration:1000ms;
-				    		animation-fill-mode:forwards;
-				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+							-moz-animation-delay:1000ms;
+				    		-moz-animation-duration:1000ms;
+				    		-moz-animation-fill-mode:forwards;
+				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    background:#cda11e;
 						    color:#ffffff!important;
 						    font-weight:bold;
