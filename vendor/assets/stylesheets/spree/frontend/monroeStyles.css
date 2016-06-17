@@ -352,10 +352,6 @@ body{
 						    width:100%;
 							}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN{
-								-moz-animation-delay:500ms;
-					    		-moz-animation-duration:1000ms;
-					    		-moz-animation-fill-mode:forwards;
-					    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 							    float:left;
 							    font-size:1em;
 							    letter-spacing:3px;
@@ -367,10 +363,6 @@ body{
 							    margin:0;
 								}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN.bigSize{
-								-moz-animation-delay:800ms;
-					    		-moz-animation-duration:1000ms;
-					    		-moz-animation-fill-mode:forwards;
-					    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 								color:#ffffff;
 							    float:left;
 							    font-size:1.85em;
@@ -381,10 +373,6 @@ body{
 						    color:#ffffff;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontFamily{
-							-moz-animation-delay:1000ms;
-				    		-moz-animation-duration:1000ms;
-				    		-moz-animation-fill-mode:forwards;
-				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 							clear:left;
 						    float:left;
 						    font-family:Georgia, "Times New Roman", Serif;
@@ -400,10 +388,6 @@ body{
 						    margin:0;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.bigSize{
-							-moz-animation-delay:1000ms;
-				    		-moz-animation-duration:1000ms;
-				    		-moz-animation-fill-mode:forwards;
-				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    color:#cda11e;
 						    font-size:7.2em;
 						    font-weight:bold;
@@ -411,18 +395,6 @@ body{
 						    margin:0 0 0 0.9em;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
-							-moz-animation-delay:1000ms;
-				    		-moz-animation-duration:1000ms;
-				    		-moz-animation-fill-mode:forwards;
-				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    		-webkit-animation-delay:1000ms;
-				    		-webkit-animation-duration:1000ms;
-				    		-webkit-animation-fill-mode:forwards;
-				    		-webkit-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    		animation-delay:1000ms;
-				    		animation-duration:1000ms;
-				    		animation-fill-mode:forwards;
-				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    color:#cda11e;
 						    float:left;
 						    font-family:Georgia, "Times New Roman", Serif;
@@ -432,27 +404,11 @@ body{
 						    width:100%;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text P{
-							-moz-animation-delay:1200ms;
-				    		-moz-animation-duration:1000ms;
-				    		-moz-animation-fill-mode:forwards;
-				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    		-webkit-animation-delay:1200ms;
-				    		-webkit-animation-duration:1000ms;
-				    		-webkit-animation-fill-mode:forwards;
-				    		-webkit-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-				    		animation-delay:1200ms;
-				    		animation-duration:1000ms;
-				    		animation-fill-mode:forwards;
-				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    color:#ffffff;
 						    font-size:0.85em;
 						    text-align:center;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI A{
-							-moz-animation-delay:1000ms;
-				    		-moz-animation-duration:1000ms;
-				    		-moz-animation-fill-mode:forwards;
-				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    background:#cda11e;
 						    color:#ffffff!important;
 						    font-weight:bold;
@@ -508,6 +464,44 @@ body{
 		margin:0 0 3em 0;
 		width:100%;
 		}
+		#content-page .products-content .thumbnail{
+		    background:none;
+		    border:none;
+		    float:left;
+		    margin:0 1.5em 0 0;
+		    padding:0;
+		    width:23.2%;
+			}
+			#content-page .products-content .thumbnail .caption{
+			    float:left;
+			    padding:0;
+			    width:100%;
+				}
+				#content-page .products-content .thumbnail .caption SPAN{
+				    float: left;
+				    margin: 0 0 0.5em;
+				    width: 100%;
+					}
+					#content-page .products-content .thumbnail .caption SPAN A{
+					    float:left;
+					    font-size:1em;
+					    font-weight:normal;
+					    width:auto;
+						}
+				#content-page .products-content .thumbnail .caption H4{
+				    font-size:1.1em;
+				    font-weight:normal;
+				    line-height:1.3em;
+				    text-align:left;
+				    text-transform:uppercase;
+					}
+					#content-page .products-content .thumbnail .caption H4 A{
+					    color:#aaaaaa!important;
+					    font-size:1em;
+						}
+						#content-page .products-content .thumbnail .caption H4 A:hover{
+						    color:#aaaaaa!important;
+							}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
