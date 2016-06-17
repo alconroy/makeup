@@ -477,7 +477,7 @@ body{
 			#content-page .products-content .thumbnail A{
 			    background:#ffffff;
 			    float:left;
-			    padding:5em 0 0 0;
+			    padding:5em 0;
 			    width:100%;
 				}
 			#content-page .products-content .thumbnail .caption{
@@ -526,7 +526,7 @@ body{
 				    padding:0.8em 0 0;
 				    width:100%;
 					}
-				#content-page .products-content .thumbnail:hover .caption SPAN.button BUTTON{
+				#content-page .products-content .thumbnail:hover .caption SPAN.button{
 				    display:block;
 					}
 					#content-page .products-content .thumbnail .caption SPAN.button BUTTON{
