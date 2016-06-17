@@ -23,7 +23,7 @@ A{
 	}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
-	font:1.3em/1.4 "Open Sans",sans-serif;
+	font:1.4em/1.5 "Open Sans",sans-serif;
 	float:left;
 	width:100%;
 	}
@@ -34,7 +34,7 @@ body{
 	}
 	#header-top .contact-data A{
 		color:#ffffff!important;
-		font-size:0.95em;
+		font-size:0.9em;
 		}		
 		#header-top .contact-data A:hover{
 			color:#cda11e!important;
@@ -49,7 +49,7 @@ body{
 		}
 		#header-top .navbar A{
 			color:#cda11e!important;
-			font-size:0.95em;
+			font-size:0.9em;
 			padding:0;
 			}
 			#header-top .navbar A:hover{
@@ -91,7 +91,7 @@ body{
 				background:none;
 			    border:none;
 			    color:#ffffff;
-			    font-size:0.95em;
+			    font-size:0.9em;
 			    height:1.5em;
 			    padding:0 0.5em 0 0;
 			    width:90.4%;
@@ -112,7 +112,7 @@ body{
 				background:none!important;
 			    border:none;
 			    color:#ffffff;
-			    font-size:0.95em;
+			    font-size:0.9em;
 			    padding:0;
 				}
 				#header-top #search-bar BUTTON:hover{
@@ -182,8 +182,9 @@ body{
 				background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/cart-icon.png") no-repeat left top;
 				color:#ffffff!important;
 				float:right;
-			    height:2.9em;
-			    padding:0.8em 0 0.8em 3em;
+				font-size:0.95em;
+			    height:3.1em;
+			    padding:0.8em 0 0.8em 3.3em;
 			    width:auto;
 				}
 				#spree-header #header #link-to-cart A.cart-info:hover{
@@ -480,9 +481,9 @@ body{
 			    width:100%;
 				}
 				#content-page .products-content .thumbnail .caption SPAN{
-				    float: left;
-				    margin: 0 0 0.5em;
-				    width: 100%;
+				    float:left;
+				    margin:0 0 0.2em 0;
+				    width:100%;
 					}
 					#content-page .products-content .thumbnail .caption SPAN A{
 					    float:left;
@@ -503,6 +504,31 @@ body{
 						}
 						#content-page .products-content .thumbnail .caption H4 A:hover{
 						    color:#aaaaaa!important;
+							}				
+				#content-page .products-content .thumbnail .caption SPAN.button{
+				    border-top:1px solid #aaaaaa;
+				    float:left;
+				    margin:0;
+				    padding:0.8em 0 0;
+				    width:100%;
+					}
+					#content-page .products-content .thumbnail .caption SPAN.button BUTTON{
+					    background:none!important;
+					    float:left;
+					    padding:0;
+					    width:100%;
+						}
+						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN{
+						    float:left;
+						    margin:0 0.2em 0 0;
+						    width:auto;
+							}
+						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN,
+						#content-page .products-content .thumbnail .caption SPAN.button BUTTON A{
+							color:#aaaaaa;
+							}
+						#content-page .products-content .thumbnail .caption SPAN.button BUTTON:hover{
+						    color:#cda11e;
 							}
 #page_content,
 #page_content .branch-image,

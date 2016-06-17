@@ -56,7 +56,10 @@
 				      	<span><%= link_to e.ts_code, e %></span>
 				        <h4><%= link_to truncate(e.name, length: 80), e %></h4>				        
 				        <span class="button">
-				        	<button class="btn btn-primary">€<%= link_to e.price, e %></button>
+				        	<button class="btn btn-primary">
+				        		<span>€</span>
+				        		<%= link_to e.price, e %>
+				        	</button>
 				        </span>
 				      </div>
 				  </div>
@@ -78,7 +81,10 @@
 				      	<span><%= link_to e.ts_code, e %></span>
 				        <h4><%= link_to truncate(e.name, length: 80), e %></h4>
 				        <span class="button">
-				        	<button class="btn btn-primary">€<%= link_to e.price, e %></button>
+				        	<button class="btn btn-primary">
+					        	<span>€</span>
+					        	<%= link_to e.price, e %>
+				        	</button>
 				        </span>
 				      </div>
 				  </div>
@@ -100,7 +106,10 @@
 				      	<span><%= link_to e.ts_code, e %></span>
 				        <h4><%= link_to truncate(e.name, length: 80), e %></h4>
 				        <span class="button">
-				        	<button class="btn btn-primary">€<%= link_to e.price, e %></button>
+				        	<button class="btn btn-primary">
+					        	<span>€</span>
+					        	<%= link_to e.price, e %>
+				        	</button>
 				        </span>
 				      </div>
 				  </div>
