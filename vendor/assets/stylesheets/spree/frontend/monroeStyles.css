@@ -492,11 +492,14 @@ body{
 					    width:auto;
 						}
 				#content-page .products-content .thumbnail .caption H4{
+					float:left;
 				    font-size:1.1em;
 				    font-weight:normal;
 				    line-height:1.3em;
+				    margin:0 0 1.2em 0;
 				    text-align:left;
 				    text-transform:uppercase;
+				    width:100%;
 					}
 					#content-page .products-content .thumbnail .caption H4 A{
 					    color:#aaaaaa!important;
@@ -520,16 +523,17 @@ body{
 						}
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN{
 						    float:left;
-						    margin:0 0.2em 0 0;
 						    width:auto;
 							}
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN,
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON A{
-							color:#aaaaaa;
+							color:#aaaaaa!important;
+							font-size:1.6em;
 							}
-						#content-page .products-content .thumbnail .caption SPAN.button BUTTON:hover{
-						    color:#cda11e;
-							}
+							#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER SPAN,
+							#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER A{
+							    color:#cda11e!important;
+								}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
