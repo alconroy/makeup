@@ -332,6 +332,7 @@ body{
 				#content-page .banner .bx-wrapper .bxslider LI .right-text{
 				    left:inherit;
 				    right:11em;
+				    width:37em;
 					}
 					#content-page .banner .bx-wrapper .bxslider LI{
 						width:1170px;
@@ -348,8 +349,10 @@ body{
 						    text-transform:uppercase;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text H2{
+						    float:left;
 						    font-weight:normal;
 						    text-align:left;
+						    width:100%;
 							}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN{
 							    float:left;
@@ -363,23 +366,30 @@ body{
 							    margin:0;
 								}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN.bigSize{
+								color:#ffffff;
 							    float:left;
 							    font-size:1.85em;
-							    margin:0.1em 0 0 0;
+							    font-weight:normal;
+							    line-height:0.68em;
+							    margin:0.1em 0 0;
 								}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN{
 						    color:#ffffff;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontFamily{
+							clear:left;
 						    float:left;
 						    font-family:Georgia, "Times New Roman", Serif;
 						    font-size:2.5em;
+						    margin:0.7em 0.3em 0 -1.5em;
 						    width:auto;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontSize{
-						    font-family:'Playfair Display', serif;
-						    font-size:2.5em;
+							clear:none;
+						    font-family:"Playfair Display",serif;
+						    font-size:4em;
 						    font-style:italic;
+						    margin:0;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
 							animation-delay:1200ms;
@@ -421,6 +431,11 @@ body{
 							#content-page .banner .bx-wrapper .bxslider LI A:hover{
 								background:#535049;
 								}
+						#content-page .banner .bx-wrapper .bxslider LI .right-text A{
+							float:left;
+    						left:0.6em;
+    						top:1.6em;
+							}
 			#content-page .banner .bx-wrapper .bx-pager{
 			    bottom:3em;
 			    position:absolute;
