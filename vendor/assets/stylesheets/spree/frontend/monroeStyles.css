@@ -474,6 +474,12 @@ body{
 		    padding:0;
 		    width:23.2%;
 			}
+			#content-page .products-content .thumbnail A{
+			    background:#ffffff;
+			    float:left;
+			    padding:5em 0 0 0;
+			    width:100%;
+				}
 			#content-page .products-content .thumbnail .caption{
 			    float:left;
 			    margin:1em 0 0 0;
@@ -486,9 +492,11 @@ body{
 				    width:100%;
 					}
 					#content-page .products-content .thumbnail .caption SPAN A{
+						background:none;
 					    float:left;
 					    font-size:1em;
 					    font-weight:normal;
+					    padding:0;
 					    width:auto;
 						}
 				#content-page .products-content .thumbnail .caption H4{
@@ -502,28 +510,30 @@ body{
 				    width:100%;
 					}
 					#content-page .products-content .thumbnail .caption H4 A{
+						background:none;
 					    color:#aaaaaa!important;
 					    font-size:1em;
+					    padding:0;
 						}
 						#content-page .products-content .thumbnail .caption H4 A:hover{
 						    color:#aaaaaa!important;
 							}				
 				#content-page .products-content .thumbnail .caption SPAN.button{
 				    border-top:1px solid #aaaaaa;
+				    display:none;
 				    float:left;
 				    margin:0;
 				    padding:0.8em 0 0;
 				    width:100%;
 					}
+				#content-page .products-content .thumbnail:hover .caption SPAN.button BUTTON{
+				    display:block;
+					}
 					#content-page .products-content .thumbnail .caption SPAN.button BUTTON{
-					    background:none!important;
-					    display:none;
+					    background:none!important;					    
 					    float:left;
 					    padding:0;
 					    width:100%;
-						}
-					#content-page .products-content .thumbnail:hover .caption SPAN.button BUTTON{
-					    display:block;
 						}
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN{
 						    float:left;
@@ -531,8 +541,10 @@ body{
 							}
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN,
 						#content-page .products-content .thumbnail .caption SPAN.button BUTTON A{
+							background:none;
 							color:#aaaaaa!important;
 							font-size:1.6em;
+							padding:0;
 							}
 							#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER SPAN,
 							#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER A{
