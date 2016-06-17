@@ -350,7 +350,6 @@ body{
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text H2{
 						    float:left;
-						    font-weight:normal;
 						    text-align:left;
 						    width:100%;
 							}
@@ -369,7 +368,6 @@ body{
 								color:#ffffff;
 							    float:left;
 							    font-size:1.85em;
-							    font-weight:normal;
 							    line-height:0.68em;
 							    margin:0.1em 0 0;
 								}
@@ -390,6 +388,13 @@ body{
 						    font-size:4em;
 						    font-style:italic;
 						    margin:0;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.bigSize{
+						    color:#cda11e;
+						    font-size:7.2em;
+						    font-weight:bold;
+						    line-height:1em;
+						    margin:0 0 0 0.9em;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
 							animation-delay:1200ms;
