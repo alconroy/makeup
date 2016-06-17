@@ -331,7 +331,7 @@ body{
 					#content-page .banner .bx-wrapper .bxslider LI{
 						width:1170px;
 						}
-						#content-page .banner .bx-wrapper .bxslider LI H2{
+						#content-page .banner .bx-wrapper .bxslider LI .right-text H2{
 							animation-delay:500ms;
 					    	animation-duration:1000ms;
 						    color:#ffffff;
@@ -342,7 +342,18 @@ body{
 						    text-align:center;
 						    text-transform:uppercase;
 							}
-							#content-page .banner .bx-wrapper .bxslider LI SPAN{
+						#content-page .banner .bx-wrapper .bxslider LI .middle-text H2{
+							animation-delay:500ms;
+					    	animation-duration:1000ms;
+						    color:#ffffff;
+						    font-size:3.8em;
+						    font-weight:bold;
+						    line-height:1.25em;
+						    margin:0;
+						    text-align:center;
+						    text-transform:uppercase;
+							}
+							#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
 								animation-delay:1200ms;
 					    		animation-duration:1000ms;
 					    		animation-fill-mode:forwards;
@@ -355,7 +366,7 @@ body{
 							    text-align:center;
 							    width:100%;
 								}
-							#content-page .banner .bx-wrapper .bxslider LI P{
+							#content-page .banner .bx-wrapper .bxslider LI .middle-text P{
 								animation-delay:1200ms;
 					    		animation-duration:1000ms;
 					    		animation-fill-mode:forwards;
