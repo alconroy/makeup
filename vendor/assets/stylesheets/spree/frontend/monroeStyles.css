@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
 A{
 	color:#cda11e!important;
@@ -379,6 +379,7 @@ body{
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontSize{
 						    font-family:'Playfair Display', serif;
 						    font-size:2.5em;
+						    font-style:italic;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
 							animation-delay:1200ms;
