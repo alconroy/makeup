@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
 
 A{
 	color:#cda11e!important;
@@ -328,6 +329,10 @@ body{
 				    top:8em;
 				    width:24em;
 					}
+				#content-page .banner .bx-wrapper .bxslider LI .right-text{
+				    left:inherit;
+				    right:11em;
+					}
 					#content-page .banner .bx-wrapper .bxslider LI{
 						width:1170px;
 						}
@@ -357,51 +362,64 @@ body{
 							    color:#cda11e;
 							    margin:0;
 								}
-							#content-page .banner .bx-wrapper .bxslider LI .right-text h2 span.bigSize{
+							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN.bigSize{
 							    float:left;
 							    font-size:1.85em;
 							    margin:0.1em 0 0 0;
 								}
-							#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
-								animation-delay:1200ms;
-					    		animation-duration:1000ms;
-					    		animation-fill-mode:forwards;
-					    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-							    color:#cda11e;
-							    float:left;
-							    font-family:Georgia;
-							    font-size:2.5em;
-							    margin:0 0 0.65em 0;
-							    text-align:center;
-							    width:100%;
+						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN{
+						    color:#ffffff;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontFamily{
+						    float:left;
+						    font-family:Georgia, "Times New Roman", Serif;
+						    font-size:2.5em;
+						    width:auto;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontSize{
+						    font-family:'Playfair Display', serif;
+						    font-size:2.5em;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    color:#cda11e;
+						    float:left;
+						    font-family:Georgia, "Times New Roman", Serif;
+						    font-size:2.5em;
+						    margin:0 0 0.65em 0;
+						    text-align:center;
+						    width:100%;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI .middle-text P{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    color:#ffffff;
+						    font-size:0.85em;
+						    text-align:center;
+							}
+						#content-page .banner .bx-wrapper .bxslider LI A{
+							animation-delay:1200ms;
+				    		animation-duration:1000ms;
+				    		animation-fill-mode:forwards;
+				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+						    background:#cda11e;
+						    color:#ffffff!important;
+						    font-weight:bold;
+						    left:7.8em;
+						    padding:1em 1.85em;
+						    position:relative;
+						    text-align:center;
+						    text-transform:uppercase;
+						    top:2.6em;
+							}
+							#content-page .banner .bx-wrapper .bxslider LI A:hover{
+								background:#535049;
 								}
-							#content-page .banner .bx-wrapper .bxslider LI .middle-text P{
-								animation-delay:1200ms;
-					    		animation-duration:1000ms;
-					    		animation-fill-mode:forwards;
-					    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-							    color:#ffffff;
-							    font-size:0.85em;
-							    text-align:center;
-								}
-							#content-page .banner .bx-wrapper .bxslider LI A{
-								animation-delay:1200ms;
-					    		animation-duration:1000ms;
-					    		animation-fill-mode:forwards;
-					    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
-							    background:#cda11e;
-							    color:#ffffff!important;
-							    font-weight:bold;
-							    left:7.8em;
-							    padding:1em 1.85em;
-							    position:relative;
-							    text-align:center;
-							    text-transform:uppercase;
-							    top:2.6em;
-								}
-								#content-page .banner .bx-wrapper .bxslider LI A:hover{
-									background:#535049;
-									}
 			#content-page .banner .bx-wrapper .bx-pager{
 			    bottom:3em;
 			    position:absolute;
