@@ -338,8 +338,6 @@ body{
 						width:1170px;
 						}
 						#content-page .banner .bx-wrapper .bxslider LI H2{
-							animation-delay:500ms;
-					    	animation-duration:1000ms;
 						    color:#ffffff;
 						    font-size:3.8em;
 						    font-weight:bold;
@@ -354,6 +352,10 @@ body{
 						    width:100%;
 							}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN{
+								-moz-animation-delay:500ms;
+					    		-moz-animation-duration:1000ms;
+					    		-moz-animation-fill-mode:forwards;
+					    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 							    float:left;
 							    font-size:1em;
 							    letter-spacing:3px;
@@ -365,6 +367,10 @@ body{
 							    margin:0;
 								}
 							#content-page .banner .bx-wrapper .bxslider LI .right-text H2 SPAN.bigSize{
+								-moz-animation-delay:800ms;
+					    		-moz-animation-duration:1000ms;
+					    		-moz-animation-fill-mode:forwards;
+					    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 								color:#ffffff;
 							    float:left;
 							    font-size:1.85em;
@@ -375,6 +381,10 @@ body{
 						    color:#ffffff;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.fontFamily{
+							-moz-animation-delay:1000ms;
+				    		-moz-animation-duration:1000ms;
+				    		-moz-animation-fill-mode:forwards;
+				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 							clear:left;
 						    float:left;
 						    font-family:Georgia, "Times New Roman", Serif;
@@ -390,6 +400,10 @@ body{
 						    margin:0;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text SPAN.bigSize{
+							-moz-animation-delay:1000ms;
+				    		-moz-animation-duration:1000ms;
+				    		-moz-animation-fill-mode:forwards;
+				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
 						    color:#cda11e;
 						    font-size:7.2em;
 						    font-weight:bold;
@@ -397,7 +411,15 @@ body{
 						    margin:0 0 0 0.9em;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text SPAN{
-							animation-delay:1200ms;
+							-moz-animation-delay:1000ms;
+				    		-moz-animation-duration:1000ms;
+				    		-moz-animation-fill-mode:forwards;
+				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    		-webkit-animation-delay:1000ms;
+				    		-webkit-animation-duration:1000ms;
+				    		-webkit-animation-fill-mode:forwards;
+				    		-webkit-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    		animation-delay:1000ms;
 				    		animation-duration:1000ms;
 				    		animation-fill-mode:forwards;
 				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
@@ -410,7 +432,15 @@ body{
 						    width:100%;
 							}
 						#content-page .banner .bx-wrapper .bxslider LI .middle-text P{
-							animation-delay:1200ms;
+							-moz-animation-delay:1200ms;
+				    		-moz-animation-duration:1000ms;
+				    		-moz-animation-fill-mode:forwards;
+				    		-moz-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    		-webkit-animation-delay:1200ms;
+				    		-webkit-animation-duration:1000ms;
+				    		-webkit-animation-fill-mode:forwards;
+				    		-webkit-animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
+				    		animation-delay:1200ms;
 				    		animation-duration:1000ms;
 				    		animation-fill-mode:forwards;
 				    		animation-timing-function:cubic-bezier(0.25, 0.25, 0.75, 0.75);
