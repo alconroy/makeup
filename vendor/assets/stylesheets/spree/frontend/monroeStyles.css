@@ -497,10 +497,11 @@ body{
 				    display:inline-block;
 				    float:none;
 				    margin:0 1em;
-				    padding:0;
+				    padding:0 0 0.1em 0;
 					}
 				#content-page .products-content #tabs UL LI.ui-tabs-active{
 				    border-bottom:1px solid #ffffff;
+				    padding:0;
 					}
 					#content-page .products-content #tabs UL LI A{
 					    font-size:0.9em;
