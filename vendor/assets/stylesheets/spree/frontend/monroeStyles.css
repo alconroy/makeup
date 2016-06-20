@@ -494,13 +494,30 @@ body{
 				#content-page .products-content #tabs UL LI{
 				    background:none;
 					border:none;
-				    border-bottom:1px solid #aaaaaa;
 				    display:inline-block;
 				    float:none;
+				    margin:0 1em;
+				    padding:0;
 					}
-					#content-page .products-content #tabs UL LI A HR{
-					    margin:0;
+				#content-page .products-content #tabs UL LI.ui-tabs-active{
+				    border-bottom:1px solid #ffffff;
+					}
+					#content-page .products-content #tabs UL LI A{
+					    font-size:0.9em;
+					    padding:0;
 						}
+						#content-page .products-content #tabs UL LI A HR{
+						    margin:0;
+							}
+							#content-page .products-content #tabs UL LI A HR::after{
+							    background:none;
+							    color:#ffffff;
+							    font-size:1em;
+							    padding:0;
+							    position:inherit;
+							    text-transform:uppercase;
+							    top:0;
+								}
 		#content-page .products-content .clearfix{
 		    float:left;
 		    width:100%;
