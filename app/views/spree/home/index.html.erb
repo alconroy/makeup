@@ -44,13 +44,21 @@
 
 <div class="products-content">
 	<h2>Products</h2>
-	<ul class="bxslider-products">
-		<li class="sale clearfix">
+	<div id="tabs">
+		<ul>
+			<li class="title">
+	        	<hr class="sale">
+	    	</li>
+	    	<li class="title">
+            	<hr class="featured">
+        	</li>
+        	<li class="title">
+            	<hr class="latest">
+        	</li>
+		</ul>
+		<div id="tabs-1" class="sale clearfix">
 		    <div class="container">
-				<div class="row">
-					<div class="title">
-		            	<hr class="sale">
-		        	</div>
+				<div class="row">					
 					<% @products.where(sale: true).each do |e| %>
 					  <div class="thumbnail col-sm-6 col-md-3">
 					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
@@ -68,14 +76,11 @@
 					<% end %>
 				</div>
 		    </div>
-		</li>
+		</div>
 
-		<li class="featured clearfix">
+		<div id="tabs-2" class="featured clearfix">
 		    <div class="container">
 				<div class="row">
-					<div class="title">
-		            	<hr class="featured">
-		        	</div>
 					<% @products.where(featured: true).each do |e| %>
 					  <div class="thumbnail col-sm-6 col-md-3">
 					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
@@ -93,14 +98,11 @@
 					<% end %>
 				</div>
 		    </div>
-		</li>
+		</div>
 
-		<li class="latest clearfix">
+		<div id="tabs-3" class="latest clearfix">
 		    <div class="container">
-				<div class="row">
-					<div class="title">
-		            	<hr class="latest">
-		        	</div>
+				<div class="row">					
 					<% @products.where(latest: true).each do |e| %>
 					  <div class="thumbnail col-sm-6 col-md-3">
 					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
@@ -118,6 +120,6 @@
 					<% end %>
 				</div>
 		    </div>
-		</li>
-	</ul>
+		</div>
+	</div>
 </div>
