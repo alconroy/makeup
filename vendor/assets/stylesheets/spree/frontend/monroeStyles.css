@@ -476,6 +476,31 @@ body{
 		    text-align:center;
 		    width:100%;
 			}
+		#content-page .products-content #tabs{
+		    background:none;
+		    border:none;
+		    float:left;
+		    padding:0;
+		    width:100%;
+			}
+			#content-page .products-content #tabs UL{
+			    background:none;
+			    border:none;
+			    float:left;
+			    padding:0;
+			    text-align:center;
+			    width:100%;
+				}
+				#content-page .products-content #tabs UL LI{
+				    background:none;
+					border:none;
+				    border-bottom:1px solid #aaaaaa;
+				    display:inline-block;
+				    float:none;
+					}
+					#content-page .products-content #tabs UL LI A HR{
+					    margin:0;
+						}
 		#content-page .products-content .clearfix{
 		    float:left;
 		    width:100%;
