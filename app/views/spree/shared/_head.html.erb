@@ -12,7 +12,6 @@
 <%= csrf_meta_tags %>
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag 'spree/frontend/bxslider' %>
-<%= javascript_include_tag '//code.jquery.com/ui/1.11.4/jquery-ui.js' %>
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
@@ -68,7 +67,9 @@
 		}
 
 		// Products home tabs
-		$("#tabs").tabs();
+		$("#tabs").tabs({
+			active: 1
+		});
 	});
 </script>
 
