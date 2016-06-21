@@ -637,10 +637,12 @@ body{
 					}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev.disabled{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-leftControl.png") no-repeat left top;
+				    cursor:pointer;
 				    left:0;
 					}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next.disabled{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-rightControl.png") no-repeat left top;
+				    cursor:pointer;
 				    right:0;
 					}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev,

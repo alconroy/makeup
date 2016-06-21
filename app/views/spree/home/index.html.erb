@@ -85,10 +85,10 @@
 		</div>
 
 		<div id="tabs-2" class="featured clearfix">
-		    <div class="container">
+		    <ul class="products-bxslider">
 				<div class="row">
 					<% @products.where(featured: true).each do |e| %>
-					  <div class="thumbnail col-sm-6 col-md-3">
+					  <li class="thumbnail col-sm-6 col-md-3">
 					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
 					      <div class="caption">
 					      	<span><%= link_to e.ts_code, e %></span>
@@ -100,17 +100,17 @@
 					        	</button>
 					        </span>
 					      </div>
-					  </div>
+					  </li>
 					<% end %>
 				</div>
-		    </div>
+		    </ul>
 		</div>
 
 		<div id="tabs-3" class="latest clearfix">
-		    <div class="container">
+		    <ul class="products-bxslider">
 				<div class="row">					
 					<% @products.where(latest: true).each do |e| %>
-					  <div class="thumbnail col-sm-6 col-md-3">
+					  <li class="thumbnail col-sm-6 col-md-3">
 					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
 					      <div class="caption">
 					      	<span><%= link_to e.ts_code, e %></span>
@@ -122,10 +122,10 @@
 					        	</button>
 					        </span>
 					      </div>
-					  </div>
+					  </li>
 					<% end %>
 				</div>
-		    </div>
+		    </ul>
 		</div>
 	</div>
 </div>
