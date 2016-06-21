@@ -535,108 +535,127 @@ body{
 				#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
 				    height:33em!important;
 					}
-					#content-page .products-content .thumbnail{
-					    background:none;
-					    border:none;
-					    float:left;
-					    margin:0 0.75em;
-					    padding:0;
-					    width:23%;
+					#content-page .products-content UL.products-bxslider .row{
+					    padding:0 3.5em;
 						}
-						#content-page .products-content .thumbnail A{
-						    background:#ffffff;
+						#content-page .products-content .thumbnail{
+						    background:none;
+						    border:none;
 						    float:left;
-						    padding:5em 0;
-						    width:100%;
-							}
-						#content-page .products-content .thumbnail .caption{
-						    float:left;
-						    margin:1em 0 0 0;
+						    margin:0 0.75em;
 						    padding:0;
-						    width:100%;
+						    width:22.8%;
 							}
-							#content-page .products-content .thumbnail .caption SPAN{
+							#content-page .products-content .thumbnail A{
+							    background:#ffffff;
 							    float:left;
-							    margin:0 0 0.2em 0;
+							    padding:5em 0;
 							    width:100%;
 								}
-								#content-page .products-content .thumbnail .caption SPAN A{
-									background:none;
-								    float:left;
-								    font-size:1em;
-								    font-weight:normal;
-								    padding:0;
-								    width:auto;
-									}
-							#content-page .products-content .thumbnail .caption H4{
-								float:left;
-							    font-size:1.1em;
-							    font-weight:normal;
-							    line-height:1.3em;
-							    margin:0 0 1.2em 0;
-							    min-height:4em;
-							    text-align:left;
-							    text-transform:uppercase;
-							    width:100%;
-								}
-								#content-page .products-content .thumbnail .caption H4 A{
-									background:none;
-								    color:#aaaaaa!important;
-								    font-size:1em;
-								    padding:0;
-									}
-									#content-page .products-content .thumbnail .caption H4 A:hover{
-									    color:#aaaaaa!important;
-										}				
-							#content-page .products-content .thumbnail .caption SPAN.button{
-							    border-top:1px solid #aaaaaa;
+							#content-page .products-content .thumbnail .caption{
 							    float:left;
-							    margin:0;
-							    opacity:0;
-							    padding:0.8em 0 0;
-							    transform:translateY(-15px);
-							    transition:all 0.4s ease 0s;
-							    visibility:hidden;
+							    margin:1em 0 0 0;
+							    padding:0;
 							    width:100%;
 								}
-							#content-page .products-content .thumbnail:hover .caption SPAN.button{
-							    opacity:1;
-							    transform:translateY(-5px);
-							    visibility:visible;
-								}
-								#content-page .products-content .thumbnail .caption SPAN.button BUTTON{
-								    background:none!important;					    
+								#content-page .products-content .thumbnail .caption SPAN{
 								    float:left;
-								    padding:0;
+								    margin:0 0 0.2em 0;
 								    width:100%;
 									}
-									#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN{
+									#content-page .products-content .thumbnail .caption SPAN A{
+										background:none;
 									    float:left;
+									    font-size:1em;
+									    font-weight:normal;
+									    padding:0;
 									    width:auto;
 										}
-									#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN,
-									#content-page .products-content .thumbnail .caption SPAN.button BUTTON A{
+								#content-page .products-content .thumbnail .caption H4{
+									float:left;
+								    font-size:1.1em;
+								    font-weight:normal;
+								    line-height:1.3em;
+								    margin:0 0 1.2em 0;
+								    min-height:4em;
+								    text-align:left;
+								    text-transform:uppercase;
+								    width:100%;
+									}
+									#content-page .products-content .thumbnail .caption H4 A{
 										background:none;
-										color:#aaaaaa!important;
-										font-size:1.6em;
-										padding:0;
+									    color:#aaaaaa!important;
+									    font-size:1em;
+									    padding:0;
 										}
-										#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER SPAN,
-										#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER A{
-										    color:#cda11e!important;
+										#content-page .products-content .thumbnail .caption H4 A:hover{
+										    color:#aaaaaa!important;
+											}				
+								#content-page .products-content .thumbnail .caption SPAN.button{
+								    border-top:1px solid #aaaaaa;
+								    float:left;
+								    margin:0;
+								    opacity:0;
+								    padding:0.8em 0 0;
+								    transform:translateY(-15px);
+								    transition:all 0.4s ease 0s;
+								    visibility:hidden;
+								    width:100%;
+									}
+								#content-page .products-content .thumbnail:hover .caption SPAN.button{
+								    opacity:1;
+								    transform:translateY(-5px);
+								    visibility:visible;
+									}
+									#content-page .products-content .thumbnail .caption SPAN.button BUTTON{
+									    background:none!important;					    
+									    float:left;
+									    padding:0;
+									    width:100%;
+										}
+										#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN{
+										    float:left;
+										    width:auto;
 											}
+										#content-page .products-content .thumbnail .caption SPAN.button BUTTON SPAN,
+										#content-page .products-content .thumbnail .caption SPAN.button BUTTON A{
+											background:none;
+											color:#aaaaaa!important;
+											font-size:1.6em;
+											padding:0;
+											}
+											#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER SPAN,
+											#content-page .products-content .thumbnail .caption SPAN.button BUTTON:HOVER A{
+											    color:#cda11e!important;
+												}
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev,
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next{
+				    height:62px;
+				    left:0;
+				    top:33%;
+					}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev.disabled{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-leftControl.png") no-repeat left top;
+				    left:0;
 					}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next.disabled{
-				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-righttControl.png") no-repeat left top;
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-rightControl.png") no-repeat left top;
+				    right:0;
 					}
-				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev{
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev,
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev:hover{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/leftControl.png") no-repeat left top;
 					}
-				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next{
-				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/righttControl.png") no-repeat left top;
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next,
+				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next:hover{
+				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/rightControl.png") no-repeat left top;
 					}
+					#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev:hover{
+					    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/leftControl-hover.png") no-repeat left top;
+						}
+					#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next:hover{
+					    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/rightControl-hover.png") no-repeat left top;
+						}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
