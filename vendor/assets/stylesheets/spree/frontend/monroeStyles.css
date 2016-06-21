@@ -481,6 +481,7 @@ body{
 		    background:none;
 		    border:none;
 		    float:left;
+		    margin:0 0 3em 0;
 		    padding:0;
 		    width:100%;
 			}
@@ -531,6 +532,7 @@ body{
 			    background:none;
 			    border:none;
 			    box-shadow:none;
+			    margin:0;
 				}
 				#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
 				    height:32em!important;
