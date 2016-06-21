@@ -649,12 +649,14 @@ body{
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next,
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next:hover{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/rightControl.png") no-repeat left top;
+				    left:inherit;
 					}
 					#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev:hover{
 					    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/leftControl-hover.png") no-repeat left top;
 						}
 					#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next:hover{
 					    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/rightControl-hover.png") no-repeat left top;
+					    left:inherit;
 						}
 #page_content,
 #page_content .branch-image,
