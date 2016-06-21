@@ -63,24 +63,22 @@
         	</li>
 		</ul>
 		<div id="tabs-1" class="sale clearfix">
-		    <ul class="products-bxslider">
-				<div class="row">					
-					<% @products.where(sale: true).each do |e| %>
-					  <li class="thumbnail col-sm-6 col-md-3">
-					      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
-					      <div class="caption">
-					      	<span><%= link_to e.ts_code, e %></span>
-					        <h4><%= link_to truncate(e.name, length: 80), e %></h4>				        
-					        <span class="button">
-					        	<button class="btn btn-primary">
-					        		<span>€</span>
-					        		<%= link_to e.price, e %>
-					        	</button>
-					        </span>
-					      </div>
-					  </li>
-					<% end %>
-				</div>
+		    <ul class="products-bxslider">		
+				<% @products.where(sale: true).each do |e| %>
+				  <li class="thumbnail col-sm-6 col-md-3">
+				      <%= link_to image_tag('http://ts.liveofficedata.co.uk/' + e.image_url), e %>
+				      <div class="caption">
+				      	<span><%= link_to e.ts_code, e %></span>
+				        <h4><%= link_to truncate(e.name, length: 80), e %></h4>				        
+				        <span class="button">
+				        	<button class="btn btn-primary">
+				        		<span>€</span>
+				        		<%= link_to e.price, e %>
+				        	</button>
+				        </span>
+				      </div>
+				  </li>
+				<% end %>
 		    </ul>
 		</div>
 
