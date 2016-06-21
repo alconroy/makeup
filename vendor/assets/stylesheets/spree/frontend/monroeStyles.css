@@ -462,12 +462,14 @@ body{
 				    top:-5px;
 				    width:24px;
 					}
-	#content-page .products-content{
+	#content-page .products-content,
+	#content-page .featured-brands{
 		float:left;
 		margin:0 0 3em 0;
 		width:100%;
 		}
-		#content-page .products-content H2{
+		#content-page .products-content H2,
+		#content-page .featured-brands H2{
 			color:#cda11e;
 		    float:left;
 		    font-family:Georgia, "Times New Roman", Serif;
@@ -481,7 +483,7 @@ body{
 		    background:none;
 		    border:none;
 		    float:left;
-		    margin:0 0 3em 0;
+		    margin:0;
 		    padding:0;
 		    width:100%;
 			}
@@ -535,7 +537,7 @@ body{
 			    margin:0;
 				}
 				#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
-				    height:32em!important;
+				    height:31.5em!important;
 				    margin:0 5em;
     				width:86.8%!important;
 					}
@@ -660,6 +662,27 @@ body{
 				    background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/disabled-rightControl.png") no-repeat left top;
 				    cursor:inherit;
 				    right:0;
+					}
+	#content-page .featured-brands UL{
+	    float:left;
+	    padding:0;
+	    width:100%;
+		}
+		#content-page .featured-brands UL LI{
+		    float:left;
+		    margin:0 2.35em;
+		    width:auto;
+			}
+			#content-page .featured-brands UL LI A{
+			    float:left;
+			    opacity:0.6;
+			    width:auto;
+				}
+				#content-page .featured-brands UL LI A:hover{
+				    opacity:1;
+					}
+				#content-page .featured-brands UL LI IMG{
+				    max-width:12em;
 					}
 #page_content,
 #page_content .branch-image,
@@ -823,6 +846,7 @@ body{
 FOOTER{
 	background:#1c1c1c;
 	float:left;
+	margin:5em 0 0 0;
 	width:100%;
 	}
 	#footer-top{
