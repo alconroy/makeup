@@ -534,6 +534,8 @@ body{
 				}
 				#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
 				    height:32em!important;
+				    margin:0 5em;
+    				width:86.8%!important;
 					}
 					#content-page .products-content .thumbnail{
 					    background:none;
