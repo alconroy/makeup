@@ -630,6 +630,7 @@ body{
 												}
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-prev,
 				#content-page .products-content .clearfix .bx-wrapper .bx-controls A.bx-next{
+					display:block!important;
 				    height:62px;
 				    left:0;
 				    top:33%;
