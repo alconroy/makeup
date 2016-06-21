@@ -537,6 +537,7 @@ body{
 					}
 					#content-page .products-content UL.products-bxslider .row{
 					    padding:0 3.5em;
+					    width:1170px!important;
 						}
 						#content-page .products-content .thumbnail{
 						    background:none;
