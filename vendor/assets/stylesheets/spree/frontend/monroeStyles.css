@@ -484,7 +484,7 @@ body{
 		    padding:0;
 		    width:100%;
 			}
-			#content-page .products-content #tabs UL{
+			#content-page .products-content #tabs UL.ui-tabs-nav{
 			    background:none;
 			    border:none;
 			    float:left;
@@ -492,7 +492,7 @@ body{
 			    text-align:center;
 			    width:100%;
 				}
-				#content-page .products-content #tabs UL LI{
+				#content-page .products-content #tabs UL.ui-tabs-nav LI{
 				    background:none;
 					border:none;
 				    display:inline-block;
@@ -500,19 +500,19 @@ body{
 				    margin:0 1em;
 				    padding:0 0 1px 0;
 					}
-				#content-page .products-content #tabs UL LI.ui-tabs-active,
-				#content-page .products-content #tabs UL LI:hover{
+				#content-page .products-content #tabs UL.ui-tabs-nav LI.ui-tabs-active,
+				#content-page .products-content #tabs UL.ui-tabs-nav LI:hover{
 				    border-bottom:1px solid #ffffff;
 				    padding:0;
 					}
-					#content-page .products-content #tabs UL LI A{
+					#content-page .products-content #tabs UL.ui-tabs-nav LI A{
 					    font-size:0.9em;
 					    padding:0;
 						}
-						#content-page .products-content #tabs UL LI A HR{
+						#content-page .products-content #tabs UL.ui-tabs-nav LI A HR{
 						    margin:0;
 							}
-							#content-page .products-content #tabs UL LI A HR::after{
+							#content-page .products-content #tabs UL.ui-tabs-nav LI A HR::after{
 							    background:none;
 							    color:#ffffff;
 							    font-size:1em;
@@ -523,8 +523,15 @@ body{
 								}
 		#content-page .products-content .clearfix{
 		    float:left;
+		    margin:1em 0 0 0;
+		    padding:0;
 		    width:100%;
 			}
+			#content-page .products-content .clearfix .bx-wrapper{
+			    background:none;
+			    border:none;
+			    box-shadow:none;
+				}
 			#content-page .products-content .thumbnail{
 			    background:none;
 			    border:none;
