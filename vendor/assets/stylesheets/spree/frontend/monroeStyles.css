@@ -670,8 +670,11 @@ body{
 		}
 		#content-page .featured-brands UL LI{
 		    float:left;
-		    margin:0 2.35em;
+		    margin:0 5.85em 0 0;
 		    width:auto;
+			}
+		#content-page .featured-brands UL LI:last-child{
+		    margin:0;
 			}
 			#content-page .featured-brands UL LI A{
 			    float:left;
