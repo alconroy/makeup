@@ -5,7 +5,7 @@
     </li>
     <li class="nav-link" data-hook>
       <%= link_to Spree.t(:hair), spree.root_path %>
-      <div class="mega-menu" style="display:none;">
+      <div class="mega-menu" style="display:block;">
         <div class="mega-menu-content">
           <ul>
             <li class="featured-categories" data-alloweditems="14">
@@ -125,6 +125,28 @@
               </div>
             </li>
           </ul>
+          <li class="inspire" data-alloweditems="14">
+            <p class="head">
+              Inspire me
+              <span class="chevron-right">»</span>
+            </p>
+            <div class="c">
+              <a href="#">
+                <%= image_tag("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/hair-care.jpg", alt: "Makeup products") %>
+                <span class="banner-label">
+                  <p>Hair Protection</p>
+                  <p>Keep your hair in great condition whatever you throw at it!</p>
+                </span>
+              </a>
+              <a href="#">
+                <%= image_tag("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/outlet-image.jpg", alt: "Makeup products") %>
+                <span class="banner-label">
+                  <p>Up to 70% off</p>
+                  <p>Shop our latest offers.</p>
+                </span>
+              </a>
+            </div>
+          </li>
         </div>
       </div>
     </li>
