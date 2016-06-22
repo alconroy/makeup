@@ -698,6 +698,9 @@ body{
 		    margin:0 1.5em 0 0;
 		    width:23.65%;
 			}
+		#content-page .product-promotions UL LI:last-child{
+		    margin:0;
+			}
 			#content-page .product-promotions UL LI A{
 			    float:left;
 			    width:100%;
