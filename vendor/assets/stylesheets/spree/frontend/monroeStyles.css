@@ -712,8 +712,8 @@ body{
 				    transition:all 1s ease 0s;
 				    width:auto;
 					}
-					#content-page .product-promotions UL LI A:hover IMG{1
-					    opacity:1;1
+					#content-page .product-promotions UL LI A:hover IMG{
+					    opacity:1;
 						}
 				#content-page .product-promotions UL LI A .text-content{
 				    bottom:2.6em;
