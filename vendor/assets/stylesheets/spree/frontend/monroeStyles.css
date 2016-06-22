@@ -470,7 +470,8 @@ body{
 		width:100%;
 		}
 		#content-page .products-content H2,
-		#content-page .featured-brands H2{
+		#content-page .featured-brands H2,
+		#content-page .product-promotions H2{
 			color:#cda11e;
 		    float:left;
 		    font-family:Georgia, "Times New Roman", Serif;
