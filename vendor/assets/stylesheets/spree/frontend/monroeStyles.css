@@ -708,7 +708,7 @@ body{
 				#content-page .product-promotions UL LI A IMG{
 				    float:left;
 				    max-width:19.8em;
-				    opacity:0.5;
+				    opacity:0.7;
 				    transition:all 1s ease 0s;
 				    width:auto;
 					}
