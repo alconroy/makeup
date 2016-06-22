@@ -261,10 +261,10 @@ body{
 									list-style:none;
 									margin:0;
 									padding:1em;
-									width:214px;
+									width:280px;
 									}
 								#spree-header #header .main-menu UL LI .mega-menu UL LI.double{
-									width:448px;
+									width:552px;
 									}
 									#spree-header #header .main-menu UL LI .mega-menu UL LI A{
 										font-family:Georgia, "Times New Roman", Serif;
@@ -312,6 +312,38 @@ body{
 												}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
 													color:#cda11e!important;
+													}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire P SPAN{
+											display:none;
+											}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A{
+											border-bottom:1px solid #aaaaaa;
+										    float:left;
+										    margin:0 0 1em 0;
+										    padding:0 0 1em 0;
+										    width:100%;
+											}
+										#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A:last-child{
+											border-bottom:none;
+											}
+											#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A IMG{
+											    margin:0 0 0.5em 0;
+    											max-width:18em;
+												}
+											#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A SPAN.banner-label{
+											    margin:0;
+												}
+												#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A SPAN.banner-label P{
+													border-bottom:1px solid #666666;
+													color:#858585;
+    												line-height:1.5em;
+												    float:left;
+												    margin:0 0 1em 0;
+												    padding:0 0 1em 0;
+												    width:100%;
+													}
+												#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A SPAN.banner-label P:first-child{
+													color:#ffffff;
 													}
 #content-page{
 	padding:0;
