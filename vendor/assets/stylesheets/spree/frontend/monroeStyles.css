@@ -275,13 +275,17 @@ body{
 										#spree-header #header .main-menu UL LI .mega-menu UL LI A:hover{
 											color:#ffffff!important;
 											}
-										#spree-header #header .main-menu UL LI .mega-menu UL LI A P{
+										#spree-header #header .main-menu UL LI .mega-menu UL LI P{
 											border-bottom:1px dotted #ffffff;
+											color:#ffffff;
+    										font-family:Georgia,"Times New Roman",serif;
+    										font-size:1em;
 											margin:0 0 0.8em 0;
 											padding:0 0 0.5em 0;
+											text-transform:uppercase;
 											width:100%;
 											}
-											#spree-header #header .main-menu UL LI .mega-menu UL LI A P SPAN.chevron-right{
+											#spree-header #header .main-menu UL LI .mega-menu UL LI P SPAN.chevron-right{
 												float:right;
 												}
 									#spree-header #header .main-menu UL LI .mega-menu UL LI .c{
