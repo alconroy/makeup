@@ -708,8 +708,13 @@ body{
 				#content-page .product-promotions UL LI A IMG{
 				    float:left;
 				    max-width:19.8em;
+				    opacity:0.5;
+				    transition:all 1s ease 0s;
 				    width:auto;
 					}
+					#content-page .product-promotions UL LI A:hover IMG{1
+					    opacity:1;1
+						}
 				#content-page .product-promotions UL LI A .text-content{
 				    bottom:2.6em;
 				    padding:0 10%;
