@@ -308,7 +308,7 @@ body{
 												float:left;
 											    margin:0;
 											    text-transform:none;
-											    width:100%;
+											    width:auto;
 												}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
 													color:#cda11e!important;
@@ -334,12 +334,13 @@ body{
 											    margin:0;
 												}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A SPAN.banner-label P{
-													border-bottom:1px solid #666666;
+													border-bottom:none;
 													color:#858585;
     												line-height:1.5em;
 												    float:left;
-												    margin:0 0 1em 0;
-												    padding:0 0 1em 0;
+												    margin:0;
+												    padding:0;
+												    text-transform:none;
 												    width:100%;
 													}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire .c A SPAN.banner-label P:first-child{
