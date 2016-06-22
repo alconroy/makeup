@@ -463,7 +463,8 @@ body{
 				    width:24px;
 					}
 	#content-page .products-content,
-	#content-page .featured-brands{
+	#content-page .featured-brands,
+	#content-page .product-promotions{
 		float:left;
 		margin:0 0 3em 0;
 		width:100%;
@@ -686,6 +687,48 @@ body{
 					}
 				#content-page .featured-brands UL LI IMG{
 				    max-width:12em;
+					}
+	#content-page .product-promotions UL{
+	    float:left;
+	    padding:0;
+	    width:100%;
+		}
+		#content-page .product-promotions UL LI{
+		    float:left;
+		    margin:0 1.5em 0 0;
+		    width:23.65%;
+			}
+			#content-page .product-promotions UL LI A{
+			    float:left;
+			    width:100%;
+				}
+				#content-page .product-promotions UL LI A IMG{
+				    float:left;
+				    max-width:19.8em;
+				    width:auto;
+					}
+				#content-page .product-promotions UL LI A .text-content{
+				    bottom:2.6em;
+				    padding:0 10%;
+				    position:relative;
+				    width:100%;
+					}
+				#content-page .product-promotions UL LI A .text-content SPAN{
+				    background:rgba(0, 0, 0, 0.85);
+				    border:none;
+				    border-radius:2px;
+				    color:#ffffff!important;
+				    float:left;
+				    font-size:0.85em;
+				    letter-spacing:0.1em;
+				    padding:0.75em 1.4em;
+				    position:relative;
+				    text-transform:uppercase;
+				    transition:background-color 0.4s ease 0s;
+				    text-align:center;
+				    vertical-align:top;
+				    width:100%;
+				    z-index:10;
 					}
 #page_content,
 #page_content .branch-image,
