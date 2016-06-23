@@ -83,9 +83,8 @@
 		});
 
 		//Change Signup page structure
-		var sectionTitle = "<h3>Register an account</h3>"
 		$("#signup form#new_spree_user").wrap('<div class="register-box"></div');
-		sectionTitle.insertBefore("#signup form#new_spree_user");
+		$("<h3>Register an account</h3>").appendTo("#signup form#new_spree_user");
 	});
 </script>
 
