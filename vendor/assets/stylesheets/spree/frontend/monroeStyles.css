@@ -23,56 +23,69 @@ A{
 	margin:0;
 	}
 FORM .form-group{
-    float:left!important;
-    width:100%!important;
+    float:left;
+    margin:0 0 2.3em 0;
+    width:100%;
 	}
 	FORM LABEL{
-	    color:#858585!important;
-	    float:left!important;
-	    font-size:1.1em!important;
-	    font-weight:normal!important;
-	    margin:0 0 0.6em 0!important;
-	    width:100%!important;
+	    color:#858585;
+	    float:left;
+	    font-size:1.1em;
+	    font-weight:normal;
+	    margin:0 0 0.6em 0;
+	    width:100%;
 		}
-	FORM INPUT{
-		background:rgba(0, 0, 0, 0.3)!important;
-	    border:1px solid #464341!important;
-	    border-radius:0!important;
-	    clear:both!important;
-	    color:#858585!important;
-	    float:left!important;
-	    font-family:Georgia,"Times New Roman",serif!important;
-	    font-size:1.3em!important;
-	    height:auto!important;
-	    margin:0 0 1em 0!important;
-	    padding:0.7em 0.8em!important;
-	    text-transform:capitalize!important;
-	    width:13.75em!important;
+	FORM INPUT.form-control{
+		background:rgba(0, 0, 0, 0.3);
+	    border:1px solid #464341;
+	    border-radius:0;
+	    clear:both;
+	    color:#858585;
+	    float:left;
+	    font-family:Georgia,"Times New Roman",serif;
+	    font-size:1.3em;
+	    height:auto;
+	    margin:0;
+	    padding:0.7em 0.8em;
+	    text-transform:capitalize;
+	    width:13.75em;
 		}
-		FORM INPUT:focus{
+		FORM INPUT.form-control:focus{
 			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
 			}
-		FORM INPUT::-webkit-input-placeholder{
-			color:#464646!important;
+		FORM INPUT.form-control::-webkit-input-placeholder{
+			color:#464646;
 				}
-		FORM INPUT::-moz-placeholder{
-			color:#464646!important;
+		FORM INPUT.form-control::-moz-placeholder{
+			color:#464646;
 			}
-		FORM INPUT::-ms-input-placeholder{
-			color:#464646!important;
+		FORM INPUT.form-control::-ms-input-placeholder{
+			color:#464646;
+			}
+	FORM A.forgot{
+	    clear:both;
+	    float:left;
+	    font-size:0.85em;
+	    margin:0.5em 0 0 0;
+	    text-decoration:none;
+	    width:auto;
+		}
+		FORM A.forgot:hover{
+			text-decoration:underline;
 			}
 	FORM INPUT.btn{
 		background:#cda11e!important;
+		border-radius:none;
 	    color:#ffffff!important;
-	    font-size:1.28em!important;
-	    font-style:italic!important;
-		outline:none!important;
-		margin:0!important;
-	    padding:0.75em 3.75em!important;
-	    width:auto!important;
+	    font-size:1.28em;
+	    font-style:italic;
+		outline:none;
+		margin:0;
+	    padding:0.75em 3.75em;
+	    width:auto;
 		}
 		FORM INPUT.btn:hover{
-			background:#535049!important;
+			background:#535049;
 			}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
@@ -841,21 +854,26 @@ body{
 	    border:medium none;
 	    border-radius:0;
 		}
-		#login .panel-heading{
-		    display:none;
+		#login .panel-body{
+		    background:none;
+		    border:medium none;
+		    border-radius:0;
 			}
-			#login .login-box,
-			#login .register-box{
-			    background:rgba(0, 0, 0, 0.3);
-	    		padding:2.3em;
+			#login .panel-heading{
+			    display:none;
 				}
-				#login H3 {
-				    color:#cda11e;
-				    font-family:Georgia,"Times New Roman",serif;
-				    font-size:48px;
-				    font-style:italic;
-				    margin:0 0 0.8em 0;
+				#login .login-box,
+				#login .register-box{
+				    background:rgba(0, 0, 0, 0.3);
+		    		padding:2.3em;
 					}
+					#login H3 {
+					    color:#cda11e;
+					    font-family:Georgia,"Times New Roman",serif;
+					    font-size:48px;
+					    font-style:italic;
+					    margin:0 0 0.8em 0;
+						}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
