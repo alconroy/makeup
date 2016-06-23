@@ -83,8 +83,9 @@
 		});
 
 		//Change Signup page structure
-		$("#signup .panel-body").prepend('<div class="register-box"><h3>Register an account</h3></div>');
+		var h3-title = "<h3>Register an account</h3>"
 		$("#signup form#new_spree_user").wrap('<div class="register-box"></div');
+		h3-title.insertBefore("#signup form#new_spree_user");
 	});
 </script>
 
