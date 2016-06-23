@@ -51,6 +51,7 @@ FORM .form-group{
 	    width:13.75em;
 		}
 		FORM INPUT.form-control:focus{
+			border:1px solid #cda11e;
 			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
 			}
 		FORM INPUT.form-control::-webkit-input-placeholder{
@@ -75,17 +76,18 @@ FORM .form-group{
 			}
 	FORM INPUT.btn{
 		background:#cda11e!important;
-		border-radius:none;
+		border-radius:0;
 	    color:#ffffff!important;
 	    font-size:1.28em;
 	    font-style:italic;
 		outline:none;
 		margin:0;
+		outline:none;
 	    padding:0.75em 3.75em;
 	    width:auto;
 		}
 		FORM INPUT.btn:hover{
-			background:#535049;
+			background:#535049!important;
 			}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
@@ -157,6 +159,7 @@ body{
 				background:none;
 			    border:none;
 			    color:#ffffff;
+			    font-family:"Open Sans",sans-serif;
 			    font-size:0.9em;
 			    height:1.5em;
 			    padding:0 0.5em 0 0;
@@ -867,10 +870,13 @@ body{
 				    background:rgba(0, 0, 0, 0.3);
 		    		padding:2.3em;
 					}
-					#login H3 {
+				#login .login-box{
+				    margin:0 5em 0 3.5em;
+					}
+					#login H3{
 					    color:#cda11e;
 					    font-family:Georgia,"Times New Roman",serif;
-					    font-size:48px;
+					    font-size:3.45em;
 					    font-style:italic;
 					    margin:0 0 0.8em 0;
 						}
