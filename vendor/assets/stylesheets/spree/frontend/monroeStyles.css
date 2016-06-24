@@ -857,23 +857,27 @@ body{
 	    border:medium none;
 	    border-radius:0;
 		}
-		#login .panel-heading{
+		#login .panel-heading,
+		#signup .panel-heading{
 		    display:none;
 			}
-		#login .panel-body{
+		#login .panel-body,
+		#signup .panel-body{
 		    background:none;
 		    border:medium none;
 		    border-radius:0;
 			}
 			#login .login-box,
-			#login .register-box{
+			#login .register-box,
+			#signup .register-box{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
 			#login .login-box{
 			    margin:0 5em 0 3.5em;
 				}
-				#login H3{
+				#login H3,
+				#signup H3{
 				    color:#cda11e;
 				    font-family:Georgia,"Times New Roman",serif;
 				    font-size:3.45em;
@@ -898,7 +902,8 @@ body{
 					#login .register-box A:hover{
 						background:#535049!important;
 						}
-			#login .panel-body .text-center{
+			#login .panel-body .text-center,
+			#signup .panel-body .text-center{
 			    display:none;
 				}
 #page_content,
