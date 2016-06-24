@@ -88,6 +88,15 @@
 		$("#signup form#new_spree_user .form-group").each(function(){
 			if($(this).children().attr("placeholder") == "Email"){
 				$("<label>Email:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Enter email address");
+			}
+			elseif($(this).children().attr("placeholder") == "Password"){
+				$("<label>Email:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Enter password");
+			}
+			elseif($(this).children().attr("placeholder") == "Password Confirmation"){
+				$("<label>Email:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Repeat password");
 			}
 		});
 		
