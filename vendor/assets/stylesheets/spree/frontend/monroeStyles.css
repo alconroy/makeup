@@ -56,12 +56,15 @@ FORM .form-group{
 			}
 		FORM INPUT.form-control::-webkit-input-placeholder{
 			color:#464646;
+			text-transform:capitalize;
 				}
 		FORM INPUT.form-control::-moz-placeholder{
 			color:#464646;
+			text-transform:capitalize;
 			}
 		FORM INPUT.form-control::-ms-input-placeholder{
 			color:#464646;
+			text-transform:capitalize;
 			}
 	FORM A.forgot{
 	    clear:both;
