@@ -85,7 +85,7 @@
 		//Change Signup page structure
 		$("#signup form#new_spree_user").wrap('<div class="register-box"></div');
 		$("<h3>Register an account</h3>").insertBefore("#signup form#new_spree_user");
-		$("<label>Email:</label>").appendTo($("#signup form#new_spree_user input").attr("placeholder") == "Email").parent();
+		$("<label>Email:</label>").appendTo(("#signup form#new_spree_user input").attr("placeholder") == "Email").parent();
 	});
 </script>
 
