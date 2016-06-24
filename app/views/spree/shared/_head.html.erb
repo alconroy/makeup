@@ -87,8 +87,7 @@
 		$("<h3>Register an account</h3>").appendTo("#signup form#new_spree_user");
 		$("<h3>Register an account</h3>").insertBefore("#signup form#new_spree_user");
 		if($("#signup form#new_spree_user input").attr("name") == "spree_user[email]"){
-			$("<label>Email:</label>").appendTo($(this)).parent();
-			$("<label>Email:</label>").insertBefore("#signup form#new_spree_user").attr("name") == "spree_user[email]";
+			$(this).add($("<label>Email:</label>")).insertBefore("#signup form#new_spree_user").attr("name") == "spree_user[email]";
 		}
 		
 	});
