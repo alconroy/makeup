@@ -86,6 +86,7 @@
 		$("#signup form#new_spree_user").wrap('<div class="register-box"></div');
 		$("<h3>Register an account</h3>").insertBefore("#signup form#new_spree_user");
 		if($("#signup form#new_spree_user input").attr("name") == "spree_user[email]"){
+			alert("inside");
 			$("#signup form#new_spree_user input").attr("placeholder", "Enter Email Address");
 			$("<label>Email:</label>").insertBefore("#signup form#new_spree_user").attr("name") == "spree_user[email]";
 		}
