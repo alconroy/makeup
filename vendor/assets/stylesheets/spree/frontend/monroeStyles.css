@@ -852,7 +852,8 @@ body{
     padding:0;
     width:100%;
 	}
-	#login .panel.panel-default{
+	#login .panel.panel-default,
+	#signup .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
@@ -863,9 +864,7 @@ body{
 			}
 		#login .panel-body,
 		#signup .panel-body{
-		    background:none;
-		    border:medium none;
-		    border-radius:0;
+		    padding:0;
 			}
 			#login .login-box,
 			#login .register-box,
