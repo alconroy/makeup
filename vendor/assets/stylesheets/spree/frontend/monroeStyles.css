@@ -884,6 +884,14 @@ body{
 				    font-style:italic;
 				    margin:0 0 0.8em 0;
 					}
+				#login .alert H3,
+				#signup .alert H3{
+				    color:inherit;
+				    font-family:inherit;
+				    font-size:24px;
+				    font-style:inherit;
+				    margin:inherit;
+					}
 				#login .register-box P{
 				    color:#858585;
 				    font-size:1.1em;
