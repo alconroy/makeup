@@ -91,12 +91,12 @@
 				$(this).children().attr("placeholder","Enter email address");
 			}
 			if($(this).children().attr("placeholder") == "Password"){
-				$("<label>Email:</label>").insertBefore($(this).children());
+				$("<label>Password:</label>").insertBefore($(this).children());
 				$(this).children().attr("placeholder","Enter password");
 			}
 			if($(this).children().attr("placeholder") == "Password Confirmation"){
-				$("<label>Email:</label>").insertBefore($(this).children());
-				$(this).children().attr("placeholder","Repeat password");
+				$("<label>Confirm Password:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Confirm password");
 			}
 		});
 		
