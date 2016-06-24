@@ -85,9 +85,9 @@
 		//Change Signup page structure
 		$("#signup form#new_spree_user").wrap('<div class="register-box"></div');
 		$("<h3>Register an account</h3>").insertBefore("#signup form#new_spree_user");
-		$("#signup form#new_spree_user .form-group").each({
-			if($("#signup form#new_spree_user .form-group input").attr("placeholder") == "Email"){
-				$("<label>Email:</label>").insertBefore($("#signup form#new_spree_user .form-group input"));
+		$("#signup form#new_spree_user .form-group").each(function(){
+			if($(this).children().attr("placeholder") == "Email"){
+				$("<label>Email:</label>").insertBefore($(this).children());
 			}
 		});
 		
