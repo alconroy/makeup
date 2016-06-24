@@ -48,7 +48,6 @@ FORM .form-group{
 	    height:auto;
 	    margin:0;
 	    padding:0.7em 0.8em;
-	    text-transform:capitalize;
 	    width:13.75em;
 		}
 		FORM INPUT.form-control:focus{
@@ -92,6 +91,7 @@ FORM .form-group{
 			}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
+	color:#aaaaaa;
 	font:1.4em/1.5 "Open Sans",sans-serif;
 	float:left;
 	width:100%;
