@@ -921,30 +921,30 @@ body{
 	float:left;
 	width:100%;
 	}
-	#tabs .ui-tabs-vertical{
+	#tabs.ui-tabs-vertical{
 		width:55em;
 		}
-	#tabs .ui-tabs-vertical .ui-tabs-nav{
+	#tabs.ui-tabs-vertical .ui-tabs-nav{
 		float:left;
 		padding:0.2em 0.1em 0.2em 0.2em;
 		width:12em;
 		}
-		#tabs .ui-tabs-vertical .ui-tabs-nav LI{
+		#tabs.ui-tabs-vertical .ui-tabs-nav LI{
 			clear:left;
 			border-bottom-width:1px!important;
 			border-right-width:0!important;
 			margin:0 -1px 0.2em 0;
 			width:100%;
 			}
-			#tabs .ui-tabs-vertical .ui-tabs-nav LI A{
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI A{
 				display:block;
 				}
-			#tabs .ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
 				border-right-width:1px;
 				padding-bottom:0;
 				padding-right:0.1em;
 				}
-			#tabs .ui-tabs-vertical .ui-tabs-panel{
+			#tabs.ui-tabs-vertical .ui-tabs-panel{
 				float:right;
 				padding:1em;
 				width:40em;
