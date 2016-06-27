@@ -917,12 +917,38 @@ body{
 			#signup .panel-body .text-center{
 			    display:none;
 				}
-  .ui-tabs-vertical { width: 55em; }
-  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
-  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
-  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
-  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
-  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+#tabs.product-tabs{
+	float:left;
+	width:100%;
+	}
+	#tabs .ui-tabs-vertical{
+		width:55em;
+		}
+	#tabs .ui-tabs-vertical .ui-tabs-nav{
+		float:left;
+		padding:0.2em 0.1em 0.2em 0.2em;
+		width:12em;
+		}
+		#tabs .ui-tabs-vertical .ui-tabs-nav LI{
+			clear:left;
+			border-bottom-width:1px!important;
+			border-right-width:0!important;
+			margin:0 -1px 0.2em 0;
+			width:100%;
+			}
+			#tabs .ui-tabs-vertical .ui-tabs-nav LI A{
+				display:block;
+				}
+			#tabs .ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
+				border-right-width:1px;
+				padding-bottom:0;
+				padding-right:0.1em;
+				}
+			#tabs .ui-tabs-vertical .ui-tabs-panel{
+				float:right;
+				padding:1em;
+				width:40em;
+				}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
