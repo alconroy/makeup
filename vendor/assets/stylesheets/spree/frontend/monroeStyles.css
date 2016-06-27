@@ -78,7 +78,7 @@ FORM .form-group{
 			text-decoration:underline!important;
 			}
 	FORM INPUT.btn,
-	BUTTON{
+	BUTTON.btn{
 		background:#cda11e!important;
 		border-radius:0;
 	    color:#ffffff!important;
@@ -91,7 +91,7 @@ FORM .form-group{
 	    width:auto!important;
 		}
 		FORM INPUT.btn:hover,
-		BUTTON:hover{
+		BUTTON.btn:hover{
 			background:#535049!important;
 			}
 body{
@@ -999,23 +999,34 @@ body{
 	}
 #product-description #cart-form{
     float:left;
+    margin:0 0 2em 0;
     width:100%;
 	}
-	#product-description #cart-form #product-price SPAN{
-	    font-size:1.5em;
-	    text-decoration:line-through;
+	#product-description #cart-form #product-price{
+		padding-left:0;
 		}
-	#product-description #cart-form #product-price SPAN.price{
-	    font-size:3em;
-	    text-decoration:none;
-		}
+		#product-description #cart-form #product-price SPAN{
+		    font-size:1.5em;
+		    text-decoration:line-through;
+			}
+		#product-description #cart-form #product-price SPAN.price{
+		    font-size:3em;
+		    text-decoration:none;
+			}
 	#product-description #cart-form .add-to-cart{
 	    margin:1.1em 0 0 0;
+	    padding-right:0;
 		}
 		#product-description #cart-form .add-to-cart INPUT#quantity{
-		    margin:1.1em 0 0 0;
-		    width:auto;
+		    margin:0 1em 0 0;
+		    width:5em;
 			}
+#product-description A.favorite_link{
+    float:left;
+    font-size:1.3em;
+    margin:1em 0 2em;
+    width:100%;
+	}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
