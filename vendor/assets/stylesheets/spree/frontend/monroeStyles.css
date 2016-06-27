@@ -931,23 +931,26 @@ body{
 	    border-radius:0;
 		float:left;
 		padding:0;
-		width:12em;
+		width:17.5em;
 		}
 		#tabs.ui-tabs-vertical .ui-tabs-nav LI{
-			background:#4c4c4c;
+			background:rgba(69, 69, 69, 0.7);
 			border:none;
 			border-radius:0;
 			clear:left;
 			margin:0;
 			width:100%;
-			}
+			}			
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover{
+				background:#454545;
+				transition:all 300ms linear 0s;
+				}
 		#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
 			background:rgba(0, 0, 0, 0.3);
-			border-right-width:1px;
-			padding-bottom:0;
-			padding-right:0.1em;
+			border-left:2px solid #cda11e;
 			}
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI A{
+				color:#757575!important;
 				display:block;
 			    float:left;
 			    font-family:"Open Sans",sans-serif;
@@ -956,11 +959,14 @@ body{
 			    text-transform:uppercase;
 			    transition:color 300ms linear 0s, border-color 300ms linear 0s;
 			    width:100%;
-				}			
+				}
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active A{
+				color:#cda11e!important;
+				}		
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
 		float:right;
 		padding:1em;
-		width:40em;
+		width:76.95%;
 		}
 	#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
 	    background:rgba(0, 0, 0, 0.3);
