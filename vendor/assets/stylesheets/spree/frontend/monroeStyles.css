@@ -963,7 +963,7 @@ body{
 		width:40em;
 		}
 	#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
-	    background:background:rgba(0, 0, 0, 0.3);
+	    background:rgba(0, 0, 0, 0.3);
 		}
 #page_content,
 #page_content .branch-image,
