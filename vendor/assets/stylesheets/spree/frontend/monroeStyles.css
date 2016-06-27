@@ -988,10 +988,15 @@ body{
 	color:#cda11e;
     float:left;
     font-family:Georgia,"Times New Roman",serif;
-    font-size:3.6em;
+    font-size:2.6em;
     font-style:italic;
+    line-height:1.2em;
     margin:0 0 0.3em;
     text-align:left;
+    width:100%;
+	}
+#product-description #cart-form{
+    float:left;
     width:100%;
 	}
 #page_content,
