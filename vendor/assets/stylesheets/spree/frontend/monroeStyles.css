@@ -969,14 +969,21 @@ body{
 				color:#333333!important;
 				}		
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
+		border-radius:0;
 		float:right;
 		min-height:20em;
-		padding:1em;
+		padding:2em;
 		width:76.95%;
 		}
 	#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
 	    background:rgba(0, 0, 0, 0.3);
 		}
+		#tabs.ui-tabs-vertical .ui-tabs-panel .description{
+			color:#aaaaaa;
+		    font-family:"Open Sans",sans-serif;
+		    font-size:0.9em;
+		    line-height:1.7em;
+			}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
