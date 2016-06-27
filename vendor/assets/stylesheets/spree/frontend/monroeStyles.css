@@ -926,7 +926,7 @@ body{
     width:100%;
 	}
 	#tabs.ui-tabs-vertical UL.ui-tabs-nav{
-		background:rgba(0, 0, 0, 0)0;
+		background:none;
 	    border:none;
 	    border-radius:0;
 		float:left;
@@ -965,6 +965,7 @@ body{
 				}		
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
 		float:right;
+		min-height:20em;
 		padding:1em;
 		width:76.95%;
 		}
