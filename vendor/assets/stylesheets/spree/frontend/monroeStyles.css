@@ -939,15 +939,17 @@ body{
 			border-radius:0;
 			clear:left;
 			margin:0;
+			padding:0 0 0 0.15em;
 			width:100%;
 			}			
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover{
-				background:#454545;
+				background:rgba(205, 161, 30, 0.5);
 				transition:all 300ms linear 0s;
 				}
 		#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
 			background:rgba(0, 0, 0, 0.3);
 			border-left:2px solid #cda11e;
+			padding:0;
 			}
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI A{
 				color:#757575!important;
@@ -962,6 +964,9 @@ body{
 				}
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active A{
 				color:#cda11e!important;
+				}
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover A{
+				color:#333333!important;
 				}		
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
 		float:right;
