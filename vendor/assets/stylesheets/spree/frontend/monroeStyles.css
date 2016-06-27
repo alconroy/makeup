@@ -984,6 +984,16 @@ body{
 		    font-size:0.9em;
 		    line-height:1.7em;
 			}
+#content-page H1{
+	color:#cda11e;
+    float:left;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:3.6em;
+    font-style:italic;
+    margin:0 0 0.3em;
+    text-align:left;
+    width:100%;
+	}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
