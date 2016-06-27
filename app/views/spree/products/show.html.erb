@@ -22,7 +22,7 @@
       <div data-hook="product_right_part_wrap">
         <div id="product-description" data-hook="product_description">
           <h1 class="product-title" itemprop="name"><%= @product.name %></h1>
-          <div id="cart-form" data-hook="cart_form">
+          <div id="cart-form" data-hook="cart_form" itemprop="after-fav">
             <%= render :partial => 'cart_form' %>
           </div>
           <h4>Sku: <%= @product.ts_code %></h4>
