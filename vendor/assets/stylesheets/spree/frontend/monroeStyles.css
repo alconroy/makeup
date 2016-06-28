@@ -38,7 +38,7 @@ FORM .form-group{
 		}
 	FORM INPUT.form-control,
 	FORM SELECT,
-	FORM TEXTAREA{
+	FORM TEXTAREA.form-control{
 		background:rgba(0, 0, 0, 0.3);
 	    border:1px solid #464341;
 	    border-radius:0;
@@ -52,7 +52,7 @@ FORM .form-group{
 	    padding:0.7em 0.8em;
 	    width:13.75em;
 		}
-	FORM TEXTAREA{
+	FORM TEXTAREA.form-control{
 	    width:auto;
 		}
 		FORM INPUT.form-control:focus{
@@ -96,7 +96,8 @@ FORM .form-group{
 	    padding:0.75em 3.75em;
 	    width:auto!important;
 		}
-	A.btn{
+	A.btn,
+	FORM#new_review INPUT.btn{
 	    padding:0.75em 1.75em;
 		}
 		FORM INPUT.btn:hover,
