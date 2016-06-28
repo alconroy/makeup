@@ -943,18 +943,14 @@ body{
 			margin:0;
 			padding:0 0 0 0.15em;
 			width:100%;
-			}			
-			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover{
-				background:rgba(205, 161, 30, 0.5);
-				transition:all 300ms linear 0s;
-				}
+			}
 		#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active{
 			background:rgba(0, 0, 0, 0.3);
 			border-left:2px solid #cda11e;
 			padding:0;
 			}
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI A{
-				color:#757575!important;
+				color:#333333!important;
 				display:block;
 			    float:left;
 			    font-family:"Open Sans",sans-serif;
@@ -968,6 +964,7 @@ body{
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active:hover A,
 			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover A{
 				color:#cda11e!important;
+				transition:all 300ms linear 0s;
 				}
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
 		border-radius:0;
