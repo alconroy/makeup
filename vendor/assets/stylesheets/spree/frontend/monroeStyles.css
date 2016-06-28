@@ -976,11 +976,20 @@ body{
 	#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
 	    background:rgba(0, 0, 0, 0.3);
 		}
-		#tabs.ui-tabs-vertical .ui-tabs-panel .description{
+		#tabs.ui-tabs-vertical .ui-tabs-panel .description,
+		#tabs.ui-tabs-vertical .ui-tabs-panel #reviews{
+			float:left;
+			width:100%;
+			}
+		#tabs.ui-tabs-vertical .ui-tabs-panel .description P,
+		#tabs.ui-tabs-vertical .ui-tabs-panel #reviews P{
 			color:#aaaaaa;
 		    font-family:"Open Sans",sans-serif;
 		    font-size:0.9em;
 		    line-height:1.7em;
+			}
+		#tabs.ui-tabs-vertical .ui-tabs-panel #reviews H3{
+			display:none;
 			}
 #content-page H1{
 	color:#cda11e;

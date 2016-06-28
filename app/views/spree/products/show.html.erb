@@ -58,7 +58,7 @@
       </ul>
       <div id="tabs-1" style="display:block;">
         <div class="description" itemprop="description" data-hook="description">
-          <%= product_description(@product) rescue Spree.t(:product_has_no_description) %>
+          <p><%= product_description(@product) rescue Spree.t(:product_has_no_description) %></p>
         </div>
       </div>
       <div id="tabs-2">
