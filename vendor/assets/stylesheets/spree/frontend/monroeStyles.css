@@ -139,7 +139,7 @@ TABLE{
 				color:#333333;
 				font-size:1em;
 				}
-		TABLE THEAD TBODY{
+		TABLE TBODY{
 			background:rgba(0, 0, 0, 0.3);
 			}
 			TABLE TBODY TD{
