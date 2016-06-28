@@ -1029,10 +1029,14 @@ body{
 		    margin:0.2em 0;
 		    padding-right:0;
 			}
-			#product-description #cart-form .add-to-cart INPUT#quantity{
-			    margin:0 1em 0 0;
-			    width:5em;
+			#product-description #cart-form .add-to-cart .input-group{
+			    float:right;
+			    width:auto;
 				}
+				#product-description #cart-form .add-to-cart INPUT#quantity{
+				    margin:0 1em 0 0;
+				    width:5em;
+					}
 	#product-description A.favorite_link{
 		background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-icon.png") no-repeat left center;
 	    float:left;
