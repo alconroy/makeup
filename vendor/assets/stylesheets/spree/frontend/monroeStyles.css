@@ -1037,7 +1037,11 @@ body{
     font-size:1.3em;
     margin:0 0 1em 0;
 	}
-	#product-description P SPAN.title{
+	#product-description P SPAN{
+	    float:left;
+	    width:80%;
+		}
+	#product-description P SPAN.label{
 	    float:left;
 	    min-width:10em;
 	    width:auto;
