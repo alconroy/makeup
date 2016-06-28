@@ -936,7 +936,7 @@ body{
 		width:17.5em;
 		}
 		#tabs.ui-tabs-vertical .ui-tabs-nav LI{
-			background:rgba(69, 69, 69, 0.7);
+			background:rgba(170, 170, 170, 0.5);
 			border:none;
 			border-radius:0;
 			clear:left;
@@ -964,12 +964,11 @@ body{
 			    transition:color 300ms linear 0s, border-color 300ms linear 0s;
 			    width:100%;
 				}
-			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active A{
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active A,
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI.ui-tabs-active:hover A,
+			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover A{
 				color:#cda11e!important;
 				}
-			#tabs.ui-tabs-vertical .ui-tabs-nav LI:hover A{
-				color:#333333!important;
-				}		
 	#tabs.ui-tabs-vertical .ui-tabs-panel{
 		border-radius:0;
 		float:right;
@@ -1000,9 +999,19 @@ body{
 #content-page .product-left-part,
 #content-page .product-right-part{
     float:left;
-    margin:0 0 2em 0;
-    width:100%;
+    margin:0 0 4em 0;
 	}
+	#content-page .product-left-part #product-images .panel-body{
+	    float:left;
+	    margin:0 0 1em 0;
+	    padding:0;
+	    width:100%;
+		}
+		#content-page .product-left-part #product-images .panel-body IMG{
+		    float:left;
+		    max-width:23.6em;
+		    width:auto;
+			}
 	#product-description #cart-form{
 	    float:left;
 	    margin:0 0 2em 0;
@@ -1040,8 +1049,10 @@ body{
 			color:#aaaaaa!important;
 			}
 	#product-description P{
-	    font-size:1.3em;
-	    margin:0 0 1em 0;
+	    float:left;
+	    font-size:1.2em;
+	    margin:0 0 0.5em;
+	    width:100%;
 		}
 		#product-description P SPAN{
 		    float:left;
@@ -1052,6 +1063,7 @@ body{
 		    width:75.7%;
 			}
 		#product-description P SPAN.label{
+			color:#aaaaaa;
 		    float:left;
 		    min-width:10em;
 		    width:auto;
