@@ -59,15 +59,18 @@ FORM .form-group{
 			border:1px solid #cda11e;
 			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
 			}
-		FORM INPUT.form-control::-webkit-input-placeholder{
+		FORM INPUT.form-control::-webkit-input-placeholder,
+		FORM TEXTAREA.form-control::-webkit-input-placeholder{
 			color:#464646;
 			text-transform:capitalize;
 				}
-		FORM INPUT.form-control::-moz-placeholder{
+		FORM INPUT.form-control::-moz-placeholder,
+		FORM TEXTAREA.form-control::-moz-placeholder{
 			color:#464646;
 			text-transform:capitalize;
 			}
-		FORM INPUT.form-control::-ms-input-placeholder{
+		FORM INPUT.form-control::-ms-input-placeholder,
+		FORM TEXTAREA.form-control::-ms-input-placeholder{
 			color:#464646;
 			text-transform:capitalize;
 			}
