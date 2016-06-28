@@ -989,7 +989,7 @@ body{
     font-size:2em;
     font-style:italic;
     line-height:1.2em;
-    margin:0 0 0.3em;
+    margin:0 0 0.5em;
     text-align:left;
     width:100%;
 	}
@@ -1038,7 +1038,7 @@ body{
 	    float:left;
 	    font-size:1.3em;
 	    padding:0 0 0 1.3em;
-	    margin:1em 0 2em;
+	    margin:1em 0;
 	    width:100%;
 		}
 		#product-description A.favorite_link:hover{
@@ -1048,13 +1048,13 @@ body{
 	#product-description P{
 	    float:left;
 	    font-size:1.2em;
-	    margin:0 0 0.5em;
+	    margin:0 0 0.3em 0;
 	    width:100%;
 		}
 		#product-description P SPAN{
 		    float:left;
 		    font-size:1em;
-		    line-height:1.2em;
+		    line-height:1.4em;
 		    padding:0;
 		    text-align:left;
 		    width:75.7%;
