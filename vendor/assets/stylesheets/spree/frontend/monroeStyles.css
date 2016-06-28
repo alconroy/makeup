@@ -36,7 +36,9 @@ FORM .form-group{
 	    text-transform:capitalize;
 	    width:100%;
 		}
-	FORM INPUT.form-control{
+	FORM INPUT.form-control,
+	FORM SELECT,
+	FORM TEXTAREA{
 		background:rgba(0, 0, 0, 0.3);
 	    border:1px solid #464341;
 	    border-radius:0;
@@ -1009,6 +1011,24 @@ body{
 			}
 		#tabs.ui-tabs-vertical .ui-tabs-panel #reviews H3{
 			display:none;
+			}
+		#content-page H3.new-review-title{
+			background:rgba(0, 0, 0, 0.3);
+		    color:#cda11e;
+		    float:none;
+		    font-family:Georgia,"Times New Roman",serif;
+		    font-size:1.6em;
+		    font-style:italic;
+		    line-height:1.4em;
+		    margin:0 auto;
+		    padding:2.3em 2.3em 0;
+		    width:28.1em;
+			}
+		#content-page #new_review{
+			background:rgba(0, 0, 0, 0.3);
+		    margin:0 auto;
+		    padding:2.3em;
+		    width:45em;
 			}
 #content-page H1{
 	color:#cda11e;
