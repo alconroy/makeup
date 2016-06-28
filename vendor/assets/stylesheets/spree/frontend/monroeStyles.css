@@ -52,6 +52,9 @@ FORM .form-group{
 	    padding:0.7em 0.8em;
 	    width:13.75em;
 		}
+	FORM TEXTAREA{
+	    width:auto;
+		}
 		FORM INPUT.form-control:focus{
 			border:1px solid #cda11e;
 			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
@@ -1024,12 +1027,15 @@ body{
 		    padding:2.3em 2.3em 0;
 		    width:28.1em;
 			}
-		#content-page #new_review{
+		#content-page FORM#new_review{
 			background:rgba(0, 0, 0, 0.3);
 		    margin:0 auto;
 		    padding:2.3em;
 		    width:45em;
 			}
+			#content-page FORM#new_review TEXTAREA{
+			    width:100%;
+				}
 #content-page H1{
 	color:#cda11e;
     float:left;
