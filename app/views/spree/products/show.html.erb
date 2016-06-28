@@ -62,57 +62,69 @@
         </div>
       </div>
       <div id="tabs-2">
-        <%= render 'spree/shared/reviews' %>
-        
-        <%= form_for review, :url => product_reviews_path(product), :html => {:method => :post} do |f| %>
-          <%= render "spree/shared/error_messages", :target => review %>
+        <div id="reviews">
+          <h2 class="product-section-title"><%= Spree.t(:reviews) %></h2>
+          <% if Spree::Reviews::Config[:include_unapproved_reviews] == false and @product.reviews.approved.count == 0 %>
+            <p class="reviews-none"><%= Spree.t('no_reviews_available') %></p>
+          <% else %>
+            <%= render 'spree/shared/rating', :product => @product, :review => 0 %>
+            <% for review in (Spree::Reviews::Config[:track_locale] ? @product.reviews.localized(I18n.locale) : @product.reviews).default_approval_filter.preview %>
+              <%= render 'spree/shared/review', :review => review %>
+            <% end %>
+          <% end %>
+          <% if !Spree::Reviews::Config[:require_login] || spree_current_user %>
+            <%= link_to Spree.t('write_your_own_review'), new_product_review_path(@product), :class => "button",
+                        :rel => "nofollow,noindex" %>
+          <% end %>
 
-          <div class="review_rating_field">
-            <div class="label-field">
-              <%= f.label :rating %>
-              <span class="required">*</span>
+          <%= form_for review, :url => product_reviews_path(product), :html => {:method => :post} do |f| %>
+            <div class="review_rating_field">
+              <div class="label-field">
+                <%= f.label :rating %>
+                <span class="required">*</span>
+              </div>
+
+              <div class="stars-field">
+                <%= render "spree/reviews/stars", :stars => review.rating, :edit_enabled => true %>
+              </div>
             </div>
 
-            <div class="stars-field">
-              <%= render "spree/reviews/stars", :stars => review.rating, :edit_enabled => true %>
-            </div>
-          </div>
+            <div class="review_name_field">
+              <div class="label-field">
+                <%= f.label :name %>
+                <span class="required">*</span>
+              </div>
 
-          <div class="review_name_field">
-            <div class="label-field">
-              <%= f.label :name %>
-              <span class="required">*</span>
-            </div>
-
-            <div class="text-field">
-              <%= f.text_field :name, :maxlength => "255", :size => "50" %>
-            </div>
-          </div>
-
-          <div class="review_title_field">
-            <div class="label-field">
-              <%= f.label :title %>
+              <div class="text-field">
+                <%= f.text_field :name, :maxlength => "255", :size => "50" %>
+              </div>
             </div>
 
-            <div class="text-field">
-              <%= f.text_field :title, :maxlength => "255", :size => "50" %>
-            </div>
-          </div>
+            <div class="review_title_field">
+              <div class="label-field">
+                <%= f.label :title %>
+              </div>
 
-          <div class="review_review_field">
-            <div class="label-field">
-              <%= f.label :review %> <span class="required">*</span>
+              <div class="text-field">
+                <%= f.text_field :title, :maxlength => "255", :size => "50" %>
+              </div>
             </div>
 
-            <div class="text-field">
-              <%= f.text_area :review, :wrap => "virtual", :rows => "10", :cols => "50" %>
-            </div>
-          </div>
+            <div class="review_review_field">
+              <div class="label-field">
+                <%= f.label :review %> <span class="required">*</span>
+              </div>
 
-          <div class="review_submit">
-            <%= f.submit Spree.t(:submit_your_review), :class => "button bg_darkfirst" %>
-          </div>
-        <% end %>
+              <div class="text-field">
+                <%= f.text_area :review, :wrap => "virtual", :rows => "10", :cols => "50" %>
+              </div>
+            </div>
+
+            <div class="review_submit">
+              <%= f.submit Spree.t(:submit_your_review), :class => "button bg_darkfirst" %>
+            </div>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
