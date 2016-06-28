@@ -94,6 +94,19 @@ FORM .form-group{
 		BUTTON.btn:hover{
 			background:#535049!important;
 			}
+UL{
+	float:left;
+	width:100%;
+	}
+	UL LI{
+		float:left;
+		list-style:none;
+		width:100%;
+		}
+		UL LI P,
+		UL LI A{
+			font-size:1em;
+			}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
 	color:#aaaaaa;
