@@ -1022,11 +1022,26 @@ body{
 		    width:5em;
 			}
 #product-description A.favorite_link{
+	background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-icon.png") no-repeat left center;
     float:left;
     font-size:1.3em;
+    padding:0 0 0 1.3em;
     margin:1em 0 2em;
     width:100%;
 	}
+	#product-description A.favorite_link:hover{
+		background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-iconHover.png") no-repeat left center;
+		color:#aaaaaa!important;
+		}
+#product-description P{
+    font-size:1.3em;
+    margin:0 0 1em 0;
+	}
+	#product-description P SPAN.title{
+	    float:left;
+	    min-width:10em;
+	    width:auto;
+		}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{

@@ -25,10 +25,22 @@
           <div id="cart-form" data-hook="cart_form" itemprop="after-fav">
             <%= render :partial => 'cart_form' %>
           </div>
-          <h4>Sku: <%= @product.ts_code %></h4>
-          <h4>Colour: <%= @product.colour %></h4>
-          <h4>Page Yield: <%= @product.page_yield %></h4>
-          <h4>Machine Models: <%= @product.machine_models %></h4>      
+          <p>
+            <span class="label">Sku: </span>
+            <span><%= @product.ts_code %></span>
+          </p>
+          <p>
+            <span class="label">Colour: </span>
+            <span class="label"><%= @product.colour %></span>
+          </p>
+          <p>
+            <span class="label">Page Yield: </span>
+            <span class="label"><%= @product.page_yield %></span>
+          </p>
+          <p>
+            <span class="label">Machine Models: </span>
+            <span class="label"><%= @product.machine_models %></span>
+          </p>
       </div>
 
       <%= render :partial => 'taxons' %>
