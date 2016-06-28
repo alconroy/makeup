@@ -1,26 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
+::selection{
+	background:#cda11e;
+	color:#333333;
+	}
+::-moz-selection{
+	background:#cda11e;
+	color:#333333;
+	}
+::-webkit-selection{
+	background:#cda11e;
+	color:#333333;
+	}
 A{
 	color:#cda11e!important;
 	outline:none!important;
 	transition:all 0.3s ease 0s;
-	}
-.btn{
-    background:#ec4445!important;
-	}
-.row-space{
-	margin:0 0 1.35em;
-	}
-.admin_section,
-#spree-header .nav A{
-    font-size:1em;
-	}
-.container{
-	padding:0;
-	}
-.row{
-	margin:0;
 	}
 FORM .form-group{
     float:left;
@@ -165,6 +161,22 @@ TABLE{
 				TABLE TBODY TD IMG{
 				    max-width: 6em;
 					}
+.btn{
+    background:#ec4445!important;
+	}
+.row-space{
+	margin:0 0 1.35em;
+	}
+.admin_section,
+#spree-header .nav A{
+    font-size:1em;
+	}
+.container{
+	padding:0;
+	}
+.row{
+	margin:0;
+	}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
 	color:#aaaaaa;
@@ -492,6 +504,7 @@ body{
 													color:#ffffff;
 													}
 #content-page{
+	min-height:35em;
 	padding:0;
 	}
 	#content-page .banner{
@@ -1245,12 +1258,11 @@ body{
 	    width:4.5em;
 		}
 #cart-detail .box-price{
-	background:#ebebeb;
+	background:rgba(0, 0, 0, 0.3);
     padding:1em;
     width:32.333%;
 	}
 	#cart-detail .content-box-price{
-	    background:#ffffff;
 	    float:left;
 	    padding:1em;
 	    width:100%;
