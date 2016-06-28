@@ -4,18 +4,18 @@
     <table class="favorite-products order-summary" width="100%">
       <thead>
       <tr>
+        <th class="favorite-product-action"></th> 
         <th class="favorite-product-image"><%= Spree.t(:product_image) %></th>
         <th class="favorite-product-name"><%= Spree.t(:product_name) %></th>
-        <th class="favorite-product-action">Action</th>        
       </tr>
       </thead>
       <tbody>
       <% @favorite_products.each do |product| %>
         <tr class="<%= cycle('even', 'odd') %> favorite_product" id="favorite_product_<%= product.id %>">
+          <td class="favorite-product-remove"><%= link_to 'x', favorite_product_path(:id => product.id), :method => :delete, :remote => true, :confirm => 'Are you sure you want to remove the product?' %>
           <td class="favorite-product-image"><%= link_to image_tag('http://ts.liveofficedata.co.uk/
 ' + product.image_url), product %></td>
           <td class="favorite-product-name"><%= product.name %></td>
-          <td class="favorite-product-remove"><%= link_to 'Remove', favorite_product_path(:id => product.id), :method => :delete, :remote => true, :confirm => 'Are you sure you want to remove the product?' %>
         </tr>
       <% end %>
       </tbody>

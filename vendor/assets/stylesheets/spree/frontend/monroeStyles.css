@@ -122,6 +122,33 @@ UL{
 		UL LI A{
 			font-size:1em;
 			}
+TABLE{
+	border:1px solid #464341;
+    float:left;
+    width:100%;
+	}
+	TABLE THEAD{
+	    background:rgba(170, 170, 170, 0.5);
+		}
+		TABLE THEAD TH{
+			color:#333333;
+		    padding:1.2em 1em;
+		    text-transform:uppercase;
+			}
+			TABLE THEAD TH SPAN{
+				color:#333333;
+				font-size:1em;
+				}
+		TABLE THEAD TBODY{
+			background:rgba(0, 0, 0, 0.3);
+			}
+			TABLE TBODY TD{
+				border-top:1px solid #464341;
+			    padding: 1.2em 1em;
+				}
+				TABLE TBODY TD IMG{
+				    max-width: 6em;
+					}
 body{
 	background:#333333 url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/dark_embroidery.png") repeat left top;
 	color:#aaaaaa;
@@ -1041,7 +1068,8 @@ body{
 			#content-page FORM#new_review TEXTAREA{
 			    width:100%;
 				}
-#content-page H1{
+#content-page H1,
+#content-page H3{
 	color:#cda11e;
     float:left;
     font-family:Georgia,"Times New Roman",serif;
@@ -1128,6 +1156,14 @@ body{
 		    min-width:10em;
 		    width:auto;
 			}
+#content-page .account-my-favorite-products{
+    float:left;
+    width:100%;
+	}
+	#content-page .account-my-favorite-products TABLE{
+	    float:left;
+	    width:100%;
+		}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
