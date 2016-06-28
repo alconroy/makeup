@@ -78,7 +78,8 @@ FORM .form-group{
 			text-decoration:underline!important;
 			}
 	FORM INPUT.btn,
-	BUTTON.btn{
+	BUTTON.btn,
+	A.btn{
 		background:#cda11e!important;
 		border-radius:0;
 	    color:#ffffff!important;
@@ -90,8 +91,12 @@ FORM .form-group{
 	    padding:0.75em 3.75em;
 	    width:auto!important;
 		}
+	A.btn{
+	    padding:0.75em 1.75em;
+		}
 		FORM INPUT.btn:hover,
-		BUTTON.btn:hover{
+		BUTTON.btn:hover,
+		A.btn:hover{
 			background:#535049!important;
 			}
 UL{
@@ -628,6 +633,7 @@ body{
 				    float:none;
 				    margin:0 1em;
 				    padding:0 0 1px 0;
+				    width:auto;
 					}
 				#content-page .products-content #tabs UL.ui-tabs-nav LI.ui-tabs-active,
 				#content-page .products-content #tabs UL.ui-tabs-nav LI:hover{
