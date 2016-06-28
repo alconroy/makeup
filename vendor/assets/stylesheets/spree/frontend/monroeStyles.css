@@ -159,6 +159,9 @@ TABLE{
 				    text-transform:uppercase;
 				    width:1.2em;
 					}
+					TABLE TBODY TD A.remove:hover{
+					    color:#cda11e!important;
+						}
 				TABLE TBODY TD IMG{
 				    max-width: 6em;
 					}
