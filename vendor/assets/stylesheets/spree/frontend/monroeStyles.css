@@ -147,18 +147,17 @@ TABLE{
 			    padding: 1.2em 1em;
 				}
 				TABLE TBODY TD A.remove{
-				    color:#999!important;
+				    color:#aaaaaa!important;
 				    display:inline-block!important;
-				    font-size:30px;
+				    font-size:1.5em;
 				    font-weight:bold;
 				    height:auto;
-				    line-height:28px;
+				    line-height:1.2em;
 				    margin:0;
 				    padding:0;
-				    position:relative;
-				    top:0;
-				    vertical-align:middle;
-				    width:28px;
+				    text-align:center;
+				    text-transform:uppercase;
+				    width:1.2em;
 					}
 				TABLE TBODY TD IMG{
 				    max-width: 6em;
