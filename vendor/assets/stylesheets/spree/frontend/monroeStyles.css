@@ -997,56 +997,65 @@ body{
     text-align:left;
     width:100%;
 	}
-#product-description #cart-form{
+#content-page .product-left-part,
+#content-page .product-right-part{
     float:left;
     margin:0 0 2em 0;
     width:100%;
 	}
-	#product-description #cart-form #product-price{
-		padding-left:0;
-		}
-		#product-description #cart-form #product-price SPAN{
-		    font-size:1.5em;
-		    text-decoration:line-through;
-			}
-		#product-description #cart-form #product-price SPAN.price{
-		    font-size:3em;
-		    text-decoration:none;
-			}
-	#product-description #cart-form .add-to-cart{
-	    margin:1.1em 0 0 0;
-	    padding-right:0;
-		}
-		#product-description #cart-form .add-to-cart INPUT#quantity{
-		    margin:0 1em 0 0;
-		    width:5em;
-			}
-#product-description A.favorite_link{
-	background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-icon.png") no-repeat left center;
-    float:left;
-    font-size:1.3em;
-    padding:0 0 0 1.3em;
-    margin:1em 0 2em;
-    width:100%;
-	}
-	#product-description A.favorite_link:hover{
-		background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-iconHover.png") no-repeat left center;
-		color:#aaaaaa!important;
-		}
-#product-description P{
-    font-size:1.3em;
-    margin:0 0 1em 0;
-	}
-	#product-description P SPAN{
+	#product-description #cart-form{
 	    float:left;
-	    font-size:1em;
-	    width:80%;
+	    margin:0 0 2em 0;
+	    width:100%;
 		}
-	#product-description P SPAN.label{
+		#product-description #cart-form #product-price{
+			padding-left:0;
+			}
+			#product-description #cart-form #product-price SPAN{
+			    font-size:1.5em;
+			    text-decoration:line-through;
+				}
+			#product-description #cart-form #product-price SPAN.price{
+			    font-size:3em;
+			    text-decoration:none;
+				}
+		#product-description #cart-form .add-to-cart{
+		    margin:1.1em 0 0 0;
+		    padding-right:0;
+			}
+			#product-description #cart-form .add-to-cart INPUT#quantity{
+			    margin:0 1em 0 0;
+			    width:5em;
+				}
+	#product-description A.favorite_link{
+		background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-icon.png") no-repeat left center;
 	    float:left;
-	    min-width:10em;
-	    width:auto;
+	    font-size:1.3em;
+	    padding:0 0 0 1.3em;
+	    margin:1em 0 2em;
+	    width:100%;
 		}
+		#product-description A.favorite_link:hover{
+			background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/heart-iconHover.png") no-repeat left center;
+			color:#aaaaaa!important;
+			}
+	#product-description P{
+	    font-size:1.3em;
+	    margin:0 0 1em 0;
+		}
+		#product-description P SPAN{
+		    float:left;
+		    font-size:1em;
+		    line-height:1.2em;
+		    padding:0;
+		    text-align:left;
+		    width:75.7%;
+			}
+		#product-description P SPAN.label{
+		    float:left;
+		    min-width:10em;
+		    width:auto;
+			}
 #page_content,
 #page_content .branch-image,
 #page_content .branch-content{
