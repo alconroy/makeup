@@ -1266,7 +1266,7 @@ body{
 		#cart-detail .product-info BUTTON{
 		    float:right;
 			}
-		#content-page .empty-cart{
+		#content-page #empty-cart{
 			bottom:8.9em;
     		position:relative;
 			}
