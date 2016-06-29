@@ -1218,7 +1218,7 @@ body{
 		margin:0 0 2em 0;
 		}
 		#cart-detail .product-info .line-item{
-			border-bottom:1px solid #505050;
+			border-bottom:1px solid #494949;
 		    float:left;
 		    margin:0 0 1em 0;
 		    padding:1em 0;
@@ -1242,8 +1242,11 @@ body{
 						}
 			#cart-detail .product-info .line-item .cart-item-price,
 			#cart-detail .product-info .line-item .cart-item-total{
+				color:#aaaaaa;
 			    float:left;
-			    margin:0.2em 0;
+			    font-size:1.4em;
+    			line-height:2.7em;
+			    margin:0;
 			    text-align:right;
 			    width:4.3em;
 				}
@@ -1258,6 +1261,17 @@ body{
 		#cart-detail .product-info BUTTON{
 		    float:right;
 			}
+		#cart-detail .product-info #empty-cart A.continue{
+			background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-icon.png") no-repeat left center;
+		    float:left;
+		    font-size:1em;
+		    margin:0.5em 0 0;
+		    padding:0 0 0 1.3em;
+		    width:auto;
+			}
+			#cart-detail .product-info #empty-cart A.continue:hover{
+				background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-iconHover.png") no-repeat left center;
+				}
 	#cart-detail .box-price{
 		background:rgba(0, 0, 0, 0.3);
 	    padding:1em;
@@ -1284,7 +1298,7 @@ body{
 			    width:100%;
 				}
 				#cart-detail .content-box-price .cart-adjustments-header H5{
-				    border-bottom:1px solid #000;
+				    border-bottom:1px solid #494949;
 				    float:left;
 				    font-weight:bold;
 				    padding:0 0 0.3em 0;
@@ -1300,7 +1314,7 @@ body{
 				    width:50%;
 					}
 			#cart-detail .content-box-price .cart-total{
-			    border-top:1px dotted #000000;
+			    border-top:1px solid #494949;
 			    margin:1em 0 0 0;
 			    padding:0.5em 0 0 0;
 				}
@@ -1313,6 +1327,7 @@ body{
 					}
 					#cart-detail .content-box-price .cart-total .total-label H4,
 					#cart-detail .content-box-price .cart-total .total-price H4{
+						font-size:1.8em;
 					    font-weight:bold;
 						}
 #checkout DIV[data-hook*="checkout_progress"]{
