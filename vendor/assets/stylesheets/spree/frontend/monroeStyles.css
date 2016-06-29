@@ -1218,49 +1218,52 @@ body{
 	#triple-top A IMG{
 		max-width:35em;
 		}
-#cart-detail .line-item{
-	border-bottom:1px dotted #000000;
-    float:left;
-    margin:0 0 1em 0;
-    padding:1em 0;
-    width:100%;
+#cart-detail .product-info{
+	background:rgba(0, 0, 0, 0.3);
+    padding:1em;
 	}
-	#cart-detail .line-item .cart-item-image IMG{
-	    max-width:6em;
-		}
-	#cart-detail .line-item .cart-item-delete{
+	#cart-detail .product-info .line-item{
+		border-bottom:1px solid #505050;
 	    float:left;
-	    margin:0.5em 0 0 0;
+	    margin:0 0 1em 0;
+	    padding:1em 0;
 	    width:100%;
 		}
-		#cart-detail .line-item .cart-item-delete A.delete{
-    		line-height:1.4em;
+		#cart-detail .product-info .line-item .cart-item-image IMG{
+		    max-width:6em;
 			}
-			#cart-detail .line-item .cart-item-delete A.delete .glyphicon-minus-sign{
-			    float:left;
-			    font-size:1.3em;
-			    margin:0 0.5em 0 0;
+		#cart-detail .product-info .line-item .cart-item-delete{
+		    float:left;
+		    margin:0.5em 0 0 0;
+		    width:100%;
+			}
+			#cart-detail .product-info .line-item .cart-item-delete A.delete{
+	    		line-height:1.4em;
 				}
-	#cart-detail .line-item .cart-item-price{
-	    float:left;
-	    margin:0.2em 0;
-	    text-align:right;
-	    width:4.5em;
-		}
-	#cart-detail .line-item .cart-item-quantity{
-	    float:left;
-	    margin:0 0.5em;
-	    width:5.6em;
-		}
-	#cart-detail .line-item .cart-item-total{
-	    float:left;
-	    margin:0.2em 0;
-	    width:4.5em;
-		}
+				#cart-detail .product-info .line-item .cart-item-delete A.delete .glyphicon-minus-sign{
+				    float:left;
+				    font-size:1.3em;
+				    margin:0 0.5em 0 0;
+					}
+		#cart-detail .product-info .line-item .cart-item-price{
+		    float:left;
+		    margin:0.2em 0;
+		    text-align:right;
+		    width:4.5em;
+			}
+		#cart-detail .product-info .line-item .cart-item-quantity{
+		    float:left;
+		    margin:0 0.5em;
+		    width:5.6em;
+			}
+		#cart-detail .product-info .line-item .cart-item-total{
+		    float:left;
+		    margin:0.2em 0;
+		    width:4.5em;
+			}
 #cart-detail .box-price{
 	background:rgba(0, 0, 0, 0.3);
     padding:1em;
-    width:32.333%;
 	}
 	#cart-detail .content-box-price{
 	    float:left;
@@ -1402,96 +1405,6 @@ FOOTER{
 		display:block;
 		overflow-x:scroll;
 		}
-	#header-top{
-		min-height:4.2em;
-	    position:relative;
-	    z-index:999;
-		}
-		A.admin_section{
-			font-size:0.9em;
-    		margin:0.5em 0 0 0;
-			}
-			A.admin_section:hover{
-				color:#ec4445;
-			}
-	#spree-header #header{
-		min-height:13.8em;
-		}
-		#spree-header #logo{
-			margin:0 auto 1em auto;
-    		width:20.4em;
-			}
-		#header NAV{
-			padding:0;
-			}
-			#spree-header .nav UL{
-				float:left;
-				width:100%;
-				}
-				#spree-header .nav UL LI{
-					background:#272727;
-					float:left;
-					width:auto;
-					}
-					#spree-header .nav UL LI A{
-						font-family:'Open Sans', sans-serif;
-						font-size:17px;
-						text-transform:uppercase;
-						}
-						#spree-header .nav UL LI A:hover{
-							background:none!important;
-							}
-	#top-nav-bar{
-		left:0;    
-	    min-height:1em;
-	    padding:0;
-	    position:absolute;
-	    top:-13.5em;
-	    width:100%;
-		}
-		#top-nav-bar SPAN.glyphicon-menu-hamburger{
-			background:#4f4f4f;
-		    color: #ffffff;
-		    cursor:pointer;
-		    display:block;
-		    font-size:1.5em;
-		    padding:0.9em 0.8em 0.95em 0.8em;
-		    position:relative;
-		    top:0;
-		    width:2.6em;
-		    z-index:999;
-			}
-		#top-nav-bar UL{
-			display:none;
-			background:#4f4f4f;
-		    float:left;
-		    margin:0;
-		    width:100%;
-			}
-			#top-nav-bar UL LI A{
-				background:none!important;
-			    border-top:1px solid #ffffff;
-			    color:#ffffff!important;
-			    margin:0 1em;
-				}
-				#top-nav-bar UL LI A:hover{
-				    color:#ec4445!important;
-					}
-			#top-nav-bar UL LI:first-child A{
-			    border-top:none;
-				}
-	#header #search-bar form{
-		display:none;
-		margin:0.5em 0.1em;
-		}
-	#header .contact-button{
-		position:static;
-		}
-		#header .contact-button A.btn{
-			position:absolute;
-			right:1em;
-			top:0;
-			}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
 		text-align:center;
