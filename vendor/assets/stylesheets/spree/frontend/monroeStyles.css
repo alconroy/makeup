@@ -18,6 +18,13 @@ A{
 	outline:none!important;
 	transition:all 0.3s ease 0s;
 	}
+A.remove{
+	color:#aaaaaa!important;
+	font-size:1.4em;
+	}
+	A.remove:hover{
+		color:#cda11e!important;
+		}
 FORM .form-group{
     float:left;
     margin:0 0 2.3em 0;
@@ -142,22 +149,6 @@ TABLE{
 				border-top:1px solid #464341;
 			    padding: 1.2em 1em;
 				}
-				TABLE TBODY TD A.remove{
-				    color:#aaaaaa!important;
-				    display:inline-block!important;
-				    font-size:1.5em;
-				    font-weight:bold;
-				    height:auto;
-				    line-height:1.2em;
-				    margin:0;
-				    padding:0;
-				    text-align:center;
-				    text-transform:uppercase;
-				    width:1.2em;
-					}
-					TABLE TBODY TD A.remove:hover{
-					    color:#cda11e!important;
-						}
 				TABLE TBODY TD IMG{
 				    max-width: 6em;
 					}
