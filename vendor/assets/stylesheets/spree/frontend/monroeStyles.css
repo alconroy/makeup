@@ -3,15 +3,15 @@
 
 ::selection{
 	background:#cda11e;
-	color:#333333;
+	color:#000000;
 	}
 ::-moz-selection{
 	background:#cda11e;
-	color:#333333;
+	color:#000000;
 	}
 ::-webkit-selection{
 	background:#cda11e;
-	color:#333333;
+	color:#000000;
 	}
 A{
 	color:#cda11e!important;
@@ -47,7 +47,7 @@ FORM .form-group{
 	    width:100%;
 		}
 	FORM INPUT.form-control,
-	FORM SELECT,
+	FORM SELECT.form-control,
 	FORM TEXTAREA.form-control{
 		background:rgba(0, 0, 0, 0.3);
 	    border:1px solid #464341;
@@ -66,21 +66,25 @@ FORM .form-group{
 	    width:auto;
 		}
 		FORM INPUT.form-control:focus,
+		FORM SELECT.form-control:focus,
 		FORM TEXTAREA.form-control:focus{
 			border:1px solid #cda11e;
 			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
 			}
 		FORM INPUT.form-control::-webkit-input-placeholder,
+		FORM SELECT.form-control::-webkit-input-placeholder,
 		FORM TEXTAREA.form-control::-webkit-input-placeholder{
 			color:#464646;
 			text-transform:capitalize;
 				}
 		FORM INPUT.form-control::-moz-placeholder,
+		FORM SELECT.form-control::-moz-placeholder,
 		FORM TEXTAREA.form-control::-moz-placeholder{
 			color:#464646;
 			text-transform:capitalize;
 			}
 		FORM INPUT.form-control::-ms-input-placeholder,
+		FORM SELECT.form-control::-ms-input-placeholder,
 		FORM TEXTAREA.form-control::-ms-input-placeholder{
 			color:#464646;
 			text-transform:capitalize;
@@ -1372,7 +1376,22 @@ body{
 	}
 	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-heading,
 	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-heading{
-	    margin:0 0 1.5em 0;
+		background:none;
+		border:none;
+	    margin:0;
+	    padding:0;
+		}
+#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body SPAN{
+    color:#cda11e;
+	}
+#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL,
+#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL{
+    margin:0 0.2em 0 0;
+    width:auto;
+	}
+	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL SpAN,
+	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN{
+	    color:#aaaaaa;
 		}
 #checkout DIV[data-hook*="checkout_content"] FORM .well{
 	background:none;
@@ -1381,17 +1400,18 @@ body{
     min-height:auto;
 	}
 #checkout DIV[data-hook*="checkout_content"] #checkout-summary{
-	background:#ebebeb;
+	background:rgba(0,0,0,0.3);
 	}
 	#checkout DIV[data-hook*="checkout_content"] #checkout-summary H3{
-	    background:#ffffff;
 	    margin:0.6em 0 0 0;
 	    padding:1em 0.3em;
 		}
 	#checkout DIV[data-hook*="checkout_content"] TABLE{
-	    background:#ffffff;
 	    margin:0 0 1em 0!important;
 		}
+		#checkout DIV[data-hook*="checkout_content"] TABLE TBODY{
+			background:none;
+			}
 FOOTER{
 	background:#1c1c1c;
 	float:left;
