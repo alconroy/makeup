@@ -1278,7 +1278,7 @@ body{
 				    float:left;
 				    margin:0;
 					}
-				#content-page .empty-cart #clear_cart_link A.continue{
+				#content-page .empty-cart A.continue{
 					background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-icon.png") no-repeat left center;
 					clear:both;
 				    float:left;
@@ -1287,7 +1287,7 @@ body{
 				    padding:0 0 0 1.3em;
 				    width:auto;
 					}
-					#content-page .empty-cart #clear_cart_link A.continue:hover{
+					#content-page .empty-cart A.continue:hover{
 						background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-iconHover.png") no-repeat left center;
 						}
 	#cart-detail .box-price{

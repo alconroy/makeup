@@ -5,7 +5,7 @@
   <% if @order.line_items.empty? %>
     <div class="empty-cart" data-hook="empty_cart">
       <div class="alert alert-info"><%= Spree.t(:your_cart_is_empty) %></div>
-      <p id="clear_cart_link"<%= link_to Spree.t(:continue_shopping), products_path, class: 'continue' %></p>
+      <p><%= link_to Spree.t(:continue_shopping), products_path, class: 'continue' %></p>
     </div>
   <% else %>
     <div data-hook="outside_cart_form">
