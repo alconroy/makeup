@@ -25,7 +25,6 @@
           <%= submit_tag Spree.t(:empty_cart), class: 'btn btn-default' %>
           <%= Spree.t(:or) %>
           <%= link_to content_tag(:span, '', class: 'glyphicon glyphicon-plus'), Spree.t(:continue_shopping), products_path, class: 'continue' %>
-          <%= link_to content_tag(:span, '', class: 'glyphicon glyphicon-remove'), '#', class: 'remove', id: "delete_#{dom_id(line_item)}" %>
         </p>
       <% end %>
     </div>
