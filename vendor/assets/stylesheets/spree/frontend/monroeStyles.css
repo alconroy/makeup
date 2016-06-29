@@ -18,11 +18,13 @@ A{
 	outline:none!important;
 	transition:all 0.3s ease 0s;
 	}
-A.remove{
+A.remove,
+A.continue{
 	color:#aaaaaa!important;
 	font-size:1.4em;
 	}
-	A.remove:hover{
+	A.remove:hover,
+	A.continue:hover{
 		color:#cda11e!important;
 		}
 FORM .form-group{
