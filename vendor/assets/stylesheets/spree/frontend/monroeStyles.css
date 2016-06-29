@@ -1255,6 +1255,9 @@ body{
 				#cart-detail .product-info .line-item .cart-item-quantity INPUT{
 				    width:4.3em;
 					}
+		#cart-detail .product-info BUTTON{
+		    float:right;
+			}
 	#cart-detail .box-price{
 		background:rgba(0, 0, 0, 0.3);
 	    padding:1em;
