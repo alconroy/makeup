@@ -1335,6 +1335,7 @@ body{
 	width:100%;
 	}
 #checkout DIV[data-hook*="checkout_content"] FORM .panel{
+	background:none;
 	border:none;
 	}
 	#checkout DIV[data-hook*="checkout_content"] FORM .panel-body{
