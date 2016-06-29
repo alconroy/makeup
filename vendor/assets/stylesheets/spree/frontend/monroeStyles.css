@@ -1107,6 +1107,17 @@ body{
     text-align:left;
     width:100%;
 	}
+#errorExplanation H3{
+	color:#a94442;
+    font-family:"Open Sans",sans-serif;
+    font-size:1.4em;
+    font-style:normal;
+	}
+	#errorExplanation UL,
+	#errorExplanation UL LI{
+		float:none;
+    	width:auto;
+		}
 #content-page .product-left-part,
 #content-page .product-right-part{
     float:left;
@@ -1266,30 +1277,26 @@ body{
 		#cart-detail .product-info BUTTON{
 		    float:right;
 			}
-		#content-page #empty-cart{
-			bottom:8.9em;
-    		position:relative;
+		#content-page .empty-cart #clear_cart_link{
+		    margin:0;
 			}
-			#content-page .empty-cart #clear_cart_link{
+			#content-page .empty-cart #clear_cart_link INPUT.btn{
+				clear:both;
+			    float:left;
 			    margin:0;
 				}
-				#content-page .empty-cart #clear_cart_link INPUT.btn{
-					clear:both;
-				    float:left;
-				    margin:0;
+			#content-page .empty-cart A.continue{
+				background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-icon.png") no-repeat left center;
+				clear:both;
+			    float:left;
+			    font-size:1em;
+			    margin:0.5em 0 0;
+			    padding:0 0 0 1.3em;
+			    width:auto;
+				}
+				#content-page .empty-cart A.continue:hover{
+					background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-iconHover.png") no-repeat left center;
 					}
-				#content-page .empty-cart A.continue{
-					background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-icon.png") no-repeat left center;
-					clear:both;
-				    float:left;
-				    font-size:1em;
-				    margin:0.5em 0 0;
-				    padding:0 0 0 1.3em;
-				    width:auto;
-					}
-					#content-page .empty-cart A.continue:hover{
-						background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-iconHover.png") no-repeat left center;
-						}
 	#cart-detail .box-price{
 		background:rgba(0, 0, 0, 0.3);
 	    padding:1em;
