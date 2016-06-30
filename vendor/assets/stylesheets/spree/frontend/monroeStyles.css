@@ -160,8 +160,8 @@ TABLE{
 			}
 			TABLE TBODY TD{
 				border-top:1px solid #464341!important;
-				font-size:1em!important;
-			    padding: 1.2em 1em!important;
+				font-size:1em;
+			    padding:1.2em 1em;
 				}
 				TABLE TBODY TD SPAN{
 				    color:#aaaaaa;
@@ -1347,11 +1347,20 @@ body{
 			    float:left;
 			    width:100%;
 				}
-				#cart-detail .content-box-price #cart_adjustments H5{
+				#cart-detail .content-box-price #cart_adjustments DIV{
 				    float:left;
 				    margin:0 0 0.5em 0;
-				    width:50%;
+				    width:100%;
 					}
+					#cart-detail .content-box-price #cart_adjustments H5{
+					    float:left;
+					    margin:0 1em 0.5em 0;
+					    width:53.1%;
+						}
+					#cart-detail .content-box-price #cart_adjustments H5:last-child{
+					    text-align:right;
+					    width:35%;
+						}
 			#cart-detail .content-box-price .cart-total{
 			    border-top:1px solid #494949;
 			    margin:1em 0 0 0;
@@ -1595,9 +1604,27 @@ body{
 #checkout DIV[data-hook*="checkout_content"] FORM .well.form-buttons{
 	padding:0;
 	}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items{
 	border:none;
+	}
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+		border:none;
+		}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+    padding:1.2em 1em;
+	}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT#subtotal TD{
+    text-align:right;
+	}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted{
+    font-weight:bold;
+	}
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted STRONG{
+	    font-weight:normal;
+		}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total{
+    text-align:right;
 	}
 FOOTER{
 	background:#1c1c1c;
