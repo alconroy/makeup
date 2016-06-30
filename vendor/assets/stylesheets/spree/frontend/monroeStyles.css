@@ -1425,8 +1425,7 @@ body{
 			#checkout UL LI:nth-child(4) A:after{
 				border-left-color:#696969;
 				}
-			#checkout UL LI.active A,
-			#checkout UL LI.completed A{
+			#checkout UL LI.active A{
 				background:#cda11e!important;
 				color:#ffffff!important;
 				font-weight:bold;
@@ -1434,6 +1433,7 @@ body{
 			#checkout UL LI.completed A{
 				background:#6f5300!important;
 			    color:#433303!important;
+			    font-weight:normal;
 				}
 			#checkout UL LI.active A:after{
 				border-left:30px solid #cda11e;
@@ -1460,8 +1460,7 @@ body{
     box-shadow:none;
     margin:0;
 	}
-	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-heading,
-	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-heading{
+	#checkout DIV[data-hook*="checkout_content"] FORM .panel-heading{
 		background:none;
 		border:none;
 	    margin:0;
