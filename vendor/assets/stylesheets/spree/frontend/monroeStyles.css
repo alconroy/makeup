@@ -160,12 +160,19 @@ TABLE{
 			}
 			TABLE TBODY TD{
 				border-top:1px solid #464341!important;
-			    padding: 1.2em 1em;
+				font-size:1em!important;
+			    padding: 1.2em 1em!important;
 				}
+				TABLE TBODY TD SPAN{
+				    color:#aaaaaa;
+					}
 				TABLE TBODY TD IMG{
 				    max-width:6em;
 				    width:auto;
 					}
+HR{
+	border:1px solid #494949;
+	}
 .btn{
     background:#ec4445!important;
 	}
@@ -1587,6 +1594,10 @@ body{
 			}
 #checkout DIV[data-hook*="checkout_content"] FORM .well.form-buttons{
 	padding:0;
+	}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+	border:none;
 	}
 FOOTER{
 	background:#1c1c1c;
