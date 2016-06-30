@@ -1355,9 +1355,10 @@ body{
 					#cart-detail .content-box-price #cart_adjustments H5{
 					    float:left;
 					    margin:0 1em 0.5em 0;
-					    width:53.1%;
+					    width:59%;
 						}
 					#cart-detail .content-box-price #cart_adjustments H5:last-child{
+						margin:0 0 0.5em 0;
 					    text-align:right;
 					    width:35%;
 						}
