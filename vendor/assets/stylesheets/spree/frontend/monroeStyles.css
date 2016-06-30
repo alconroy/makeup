@@ -1611,7 +1611,20 @@ body{
 	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
 	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
 		border:none;
+		color:#aaaaaa;
+		font-size:1em;
+		padding:1.2em 1em;
 		}
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD.total{
+		text-align:right;
+		}
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT{
+	    background:rgba(0, 0, 0, 0.3);
+		}
+		#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+			background:none;
+			padding:0.5em 1em;
+			}
 #checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
     padding:1.2em 1em;
 	}
@@ -1626,6 +1639,12 @@ body{
 		}
 #checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total{
     text-align:right;
+	}
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total SPAN#order_total,
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TR.warning.total TD B{
+    color:#aaaaaa;
+    font-size:1.5em;
+    font-weight:bold;
 	}
 FOOTER{
 	background:#1c1c1c;
