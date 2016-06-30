@@ -1376,6 +1376,7 @@ body{
 #checkout DIV[data-hook*="checkout_content"] FORM #billing,
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping{
     box-shadow:none;
+    margin:0;
 	}
 	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-heading,
 	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-heading{
@@ -1406,8 +1407,11 @@ body{
 	background:none;
     border:none;
     box-shadow:none;
+    float:left;
     min-height:auto;
+    padding:0 0 0 1.3em;
     text-align:left;
+    width:auto;
 	}
 	#checkout DIV[data-hook*="checkout_content"] FORM .well INPUT.btn{
 		clear:both;
@@ -1439,6 +1443,7 @@ body{
 		}
 	#checkout DIV[data-hook*="checkout_content"] TABLE{
 		border:none;
+		border-collapse:inherit;
 	    margin:0 0 1em 0!important;
 		}
 		#checkout DIV[data-hook*="checkout_content"] TABLE TBODY{
@@ -1447,10 +1452,26 @@ body{
 			}
 			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD{
 				border:none;
+				padding:0 0 1em 0;
+				}
+			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD{
+			    border-top:1px solid #494949;
+			    color:#aaaaaa;
+			    font-size:1.8em;
+			    padding:0.5em 0 0 0;
 				}
 			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD:last-child{
 			    text-align:right;
 				}
+			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD{
+			    border-top:1px solid #494949;
+			    padding:0.5em 0 0 0;
+				}
+				#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD SPAN{
+				    color:#aaaaaa;
+				    font-size:1em;
+				    font-weight:bold;
+					}
 FOOTER{
 	background:#1c1c1c;
 	float:left;
