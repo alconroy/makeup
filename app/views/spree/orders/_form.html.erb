@@ -1,13 +1,13 @@
 <%= render partial: 'spree/shared/error_messages', locals: { target: @order } %>
 <div class="cart-detail" id="cart-detail" data-hook>
   <div class="row">
-    <div class="product-info col-xs-12 col-md-8">
+    <div class="product-info col-xs-12 col-md-9">
       <%= render partial: 'spree/orders/line_item', collection: order_form.object.line_items, locals: { order_form: order_form } %>
       <%= button_tag class: 'btn btn-primary', id: 'update-button' do %>
         <%= Spree.t(:update) %>
       <% end %>
     </div>
-    <div class="box-price col-xs-12 col-md-4">
+    <div class="box-price col-xs-12 col-md-3">
       <div class="content-box-price">
         <% if @order.adjustments.nonzero.exists? || @order.line_item_adjustments.nonzero.exists? || @order.shipment_adjustments.nonzero.exists? || @order.shipments.any? %>
           <div class="cart-subtotal col-xs-12 col-md-12">
