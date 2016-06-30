@@ -1540,11 +1540,11 @@ body{
 			border:none;
 			}
 			#checkout DIV[data-hook*="checkout_content"] #checkout-summary TABLE.table TBODY TD{
-				border:none;
+				border:none!important;
 				padding:0 0 1em 0;
 				}
 			#checkout DIV[data-hook*="checkout_content"] #checkout-summary TABLE.table TBODY TR[data-hook="order_total"] TD{
-			    border-top:1px solid #494949;
+			    border-top:1px solid #494949!important;
 			    color:#aaaaaa;
 			    font-size:1.5em;
 			    padding:0.5em 0 0 0;
