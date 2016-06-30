@@ -145,8 +145,10 @@ TABLE{
 	    background:rgba(170, 170, 170, 0.5);
 		}
 		TABLE THEAD TH{
+			background:none!important;
+			border:none!important;
 			color:#333333;
-		    padding:1.2em 1em;
+		    padding:1.2em 1em!important;
 		    text-transform:uppercase;
 			}
 			TABLE THEAD TH SPAN{
@@ -157,11 +159,12 @@ TABLE{
 			background:rgba(0, 0, 0, 0.3);
 			}
 			TABLE TBODY TD{
-				border-top:1px solid #464341;
+				border-top:1px solid #464341!important;
 			    padding: 1.2em 1em;
 				}
 				TABLE TBODY TD IMG{
-				    max-width: 6em;
+				    max-width:6em
+				    width:auto;
 					}
 .btn{
     background:#ec4445!important;
@@ -1554,6 +1557,12 @@ body{
 			#checkout DIV[data-hook*="checkout_content"] #checkout-summary TABLE.table TBODY TD:last-child{
 			    text-align:right;
 				}
+#shipping_method UL LI.shipping-method{
+	background:none;
+    border:none;
+    border-radius:0;
+    padding:0;
+	}
 FOOTER{
 	background:#1c1c1c;
 	float:left;
