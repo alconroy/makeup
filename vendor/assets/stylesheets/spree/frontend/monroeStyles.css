@@ -1371,10 +1371,11 @@ body{
 			float:left;
 			width:24.86%;
 			}
-			#checkout UL#checkout-step-address LI A{
+			#checkout UL#checkout-step-address LI A,
+			#checkout UL#checkout-step-address LI:last-child A{
 				background:#696969!important;
 			    border-radius:0;
-			    color:white;
+			    color:#444444!important;
 			    display:block;
 			    float:left;
 			    padding:10px 0 10px 65px;
@@ -1412,23 +1413,15 @@ body{
 				z-index:1;
 				}
 			#checkout UL#checkout-step-address LI:first-child A{
-				padding-left: 10px;
+				padding-left:10px;
 				}
-			#checkout UL#checkout-step-address LI:nth-child(2) A{
+			#checkout UL#checkout-step-address LI:nth-child(2) A,
+			#checkout UL#checkout-step-address LI:nth-child(3) A,
+			#checkout UL#checkout-step-address LI:nth-child(4) A{
 				background:#696969;
 				}
-			#checkout UL#checkout-step-address LI:nth-child(2) A:after{
-				border-left-color:#696969;
-				}
-			#checkout UL#checkout-step-address LI:nth-child(3) A{
-				background:hsla(34,85%,55%,1);
-				}
-			#checkout UL#checkout-step-address LI:nth-child(3) A:after{
-				border-left-color:#696969;
-				}
-			#checkout UL#checkout-step-address LI:nth-child(4) A{
-				background:hsla#696969;
-				}
+			#checkout UL#checkout-step-address LI:nth-child(2) A:after,
+			#checkout UL#checkout-step-address LI:nth-child(3) A:after,
 			#checkout UL#checkout-step-address LI:nth-child(4) A:after{
 				border-left-color:#696969;
 				}
