@@ -1356,7 +1356,7 @@ body{
 					}
 					#cart-detail .content-box-price .cart-total .total-label H4,
 					#cart-detail .content-box-price .cart-total .total-price H4{
-						font-size:1.8em;
+						font-size:1.5em;
 					    font-weight:bold;
 						}
 #checkout DIV[data-hook*="checkout_progress"]{
@@ -1457,21 +1457,17 @@ body{
 			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD{
 			    border-top:1px solid #494949;
 			    color:#aaaaaa;
-			    font-size:1.8em;
+			    font-size:1.5em;
 			    padding:0.5em 0 0 0;
-				}
-			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD:last-child{
-			    text-align:right;
-				}
-			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD{
-			    border-top:1px solid #494949;
-			    padding:0.5em 0 0 0;
-				}
+				}				
 				#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD SPAN{
 				    color:#aaaaaa;
 				    font-size:1em;
 				    font-weight:bold;
 					}
+			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD:last-child{
+			    text-align:right;
+				}
 FOOTER{
 	background:#1c1c1c;
 	float:left;
