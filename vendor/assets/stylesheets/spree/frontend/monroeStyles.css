@@ -1431,9 +1431,15 @@ body{
 				color:#ffffff!important;
 				font-weight:bold;
 				}
-			#checkout UL LI.active A:after,
-			#checkout UL LI.completed A:after{
+			#checkout UL LI.completed A{
+				background:#6f5300!important;
+			    color:#433303!important;
+				}
+			#checkout UL LI.active A:after{
 				border-left:30px solid #cda11e;
+				}
+			#checkout UL LI.completed A::after{
+			    border-left: 30px solid #6f5300;
 				}
 				#checkout UL LI.active A:hover,
 				#checkout UL LI.completed A:hover{
