@@ -1450,7 +1450,7 @@ body{
 					}
 				#checkout DIV[data-hook*="checkout_content"] FORM .panel{
 					background:none;
-					border:none;
+					border: none;
 					}
 	#checkout DIV[data-hook*="checkout_content"] FORM .panel-body{
 		padding:0;
