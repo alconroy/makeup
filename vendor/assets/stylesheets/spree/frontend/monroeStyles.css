@@ -1447,14 +1447,8 @@ body{
 					}
 #checkout DIV[data-hook*="checkout_content"] FORM .panel{
 	background:none;
-	border: none;
+	border:none;
 	}
-	#checkout DIV[data-hook*="checkout_content"] FORM .panel-body{
-		padding:0;
-		}
-		#checkout DIV[data-hook*="checkout_content"] FORM .panel-body .form-group INPUT#order_email{
-			width:22.5em;
-			}
 #checkout DIV[data-hook*="checkout_content"] FORM #billing,
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping{
     box-shadow:none;
@@ -1463,22 +1457,32 @@ body{
 	#checkout DIV[data-hook*="checkout_content"] FORM .panel-heading{
 		background:none;
 		border:none;
+	    float:left;
 	    margin:0;
-	    padding:0;
+		padding:0;
+		width:100%;
+		}	
+	#checkout DIV[data-hook*="checkout_content"] FORM .panel-body{
+		float:left;
+		padding:0;
+		width:100%;
 		}
-	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body SPAN,
-	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body SPAN{
-	    color:#cda11e;
-		}
-	#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL,
-	#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL{
-	    margin:0 0.2em 0 0;
-	    width:auto;
-		}
-		#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL SPAN,
-		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN{
-		    color:#aaaaaa;
+		#checkout DIV[data-hook*="checkout_content"] FORM .panel-body .form-group INPUT#order_email{
+			width:22.5em;
 			}
+		#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body SPAN,
+		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body SPAN{
+		    color:#cda11e;
+			}
+		#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL,
+		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL{
+		    margin:0 0.2em 0 0;
+		    width:auto;
+			}
+			#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL SPAN,
+			#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN{
+			    color:#aaaaaa;
+				}
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping P.field.checkbox{
     float:left;
     margin:0 0 1em;
