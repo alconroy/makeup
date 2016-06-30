@@ -1563,6 +1563,28 @@ body{
     border-radius:0;
     padding:0;
 	}
+#checkout DIV[data-hook*="checkout_content"] FORM #payment{
+    float:left;
+    width:100%;
+	}
+	#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body .card_options,
+	#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body #existing_cards{
+	    float:left;
+	    margin:0 0 1em;
+	    width:100%;
+		}
+		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body .card_options INPUT{
+			clear:both;
+		    float:left;
+		    margin:0.4em 0.5em 0 0;
+		    width:auto;
+			}
+		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body .card_options LABEL{
+		    width:auto;
+			}
+#checkout DIV[data-hook*="checkout_content"] FORM .well.form-buttons{
+	padding:0;
+	}
 FOOTER{
 	background:#1c1c1c;
 	float:left;
