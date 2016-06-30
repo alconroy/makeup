@@ -1412,7 +1412,7 @@ body{
 			UL#checkout-step-address LI:first-child A{
 				padding-left: 10px;
 				}
-			UL#checkout-step-address LI:nth-child(2)A{
+			UL#checkout-step-address LI:nth-child(2) A{
 				background:hsla(34,85%,45%,1);
 				}
 			UL#checkout-step-address LI:nth-child(2) A:after{
@@ -1421,7 +1421,7 @@ body{
 			UL#checkout-step-address LI:nth-child(3) A{
 				background:hsla(34,85%,55%,1);
 				}
-			UL#checkout-step-address LI:nth-child(3)A:after{
+			UL#checkout-step-address LI:nth-child(3) A:after{
 				border-left-color:hsla(34,85%,55%,1);
 				}
 			UL#checkout-step-address LI:nth-child(4) A{
