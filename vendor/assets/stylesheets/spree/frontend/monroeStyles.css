@@ -1382,10 +1382,6 @@ body{
 			    text-decoration:none;
 			    width:100%;
 				}
-			UL#checkout-step-address LI.active A{
-				background:#cda11e!important;
-				font-weight:bold;
-				}
 			UL#checkout-step-address LI A:after{
 				border-bottom:50px solid transparent;
 				border-left:30px solid #696969;
@@ -1444,6 +1440,17 @@ body{
 				}
 				UL#checkout-step-address LI A:hover{
 					color:#cda11e!important;
+					}
+			UL#checkout-step-address LI.active A{
+				background:#cda11e!important;
+				color:#ffffff!important;
+				font-weight:bold;
+				}
+			UL#checkout-step-address LI.active A:after{
+				border-left:30px solid #cda11e;
+				}
+				UL#checkout-step-address LI.active A:hover{
+					color:#ffffff!important;
 					}
 #checkout DIV[data-hook*="checkout_content"] FORM .panel{
 	background:none;
