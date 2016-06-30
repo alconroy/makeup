@@ -1527,31 +1527,31 @@ body{
 	#checkout DIV[data-hook*="checkout_content"] #checkout-summary H3{
 	    display:none;
 		}
-	#checkout DIV[data-hook*="checkout_content"] TABLE{
+	#checkout DIV[data-hook*="checkout_content"] TABLE.table{
 		border:none;
 		border-collapse:inherit;
 	    margin:0 0 1em 0!important;
 		}
-		#checkout DIV[data-hook*="checkout_content"] TABLE TBODY{
+		#checkout DIV[data-hook*="checkout_content"] TABLE.table TBODY{
 			background:none;
 			border:none;
 			}
-			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD{
+			#checkout DIV[data-hook*="checkout_content"] TABLE.table TBODY TD{
 				border:none;
 				padding:0 0 1em 0;
 				}
-			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD{
+			#checkout DIV[data-hook*="checkout_content"] TABLE.table TBODY TR[data-hook="order_total"] TD{
 			    border-top:1px solid #494949;
 			    color:#aaaaaa;
 			    font-size:1.5em;
 			    padding:0.5em 0 0 0;
 				}				
-				#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TR[data-hook="order_total"] TD SPAN{
+				#checkout DIV[data-hook*="checkout_content"] TABLE.table TBODY TR[data-hook="order_total"] TD SPAN{
 				    color:#aaaaaa;
 				    font-size:1em;
 				    font-weight:bold;
 					}
-			#checkout DIV[data-hook*="checkout_content"] TABLE TBODY TD:last-child{
+			#checkout DIV[data-hook*="checkout_content"] TABLE.table TBODY TD:last-child{
 			    text-align:right;
 				}
 FOOTER{
