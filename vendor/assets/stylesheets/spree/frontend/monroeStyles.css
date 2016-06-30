@@ -1363,16 +1363,16 @@ body{
 	margin:0 0 3em 0;
 	width:100%;
 	}
-	#checkout UL#checkout-step-address{
+	#checkout UL{
 		list-style:none; 
 		overflow:hidden; 
 		}
-		#checkout UL#checkout-step-address LI{
+		#checkout UL LI{
 			float:left;
 			width:24.86%;
 			}
-			#checkout UL#checkout-step-address LI A,
-			#checkout UL#checkout-step-address LI:last-child A{
+			#checkout UL LI A,
+			#checkout UL LI:last-child A{
 				background:#696969!important;
 			    border-radius:0;
 			    color:#444444!important;
@@ -1383,7 +1383,7 @@ body{
 			    text-decoration:none;
 			    width:100%;
 				}
-			#checkout UL#checkout-step-address LI A:after{
+			#checkout UL LI A:after{
 				border-bottom:50px solid transparent;
 				border-left:30px solid #696969;
 				border-top:50px solid transparent;
@@ -1397,9 +1397,9 @@ body{
 				width:0;
 				z-index:2;
 				}
-			#checkout UL#checkout-step-address LI A:before{
+			#checkout UL LI A:before{
 				border-bottom:50px solid transparent;
-				border-left:32px solid #272727;
+				border-left:32px solid #333333;
 				border-top:50px solid transparent;
 				content:" "; 
 				display:block; 
@@ -1412,28 +1412,28 @@ body{
 				width:0;
 				z-index:1;
 				}
-			#checkout UL#checkout-step-address LI:first-child A{
+			#checkout UL LI:first-child A{
 				padding-left:10px;
 				}
-			#checkout UL#checkout-step-address LI:nth-child(2) A,
-			#checkout UL#checkout-step-address LI:nth-child(3) A,
-			#checkout UL#checkout-step-address LI:nth-child(4) A{
+			#checkout UL LI:nth-child(2) A,
+			#checkout UL LI:nth-child(3) A,
+			#checkout UL LI:nth-child(4) A{
 				background:#696969;
 				}
-			#checkout UL#checkout-step-address LI:nth-child(2) A:after,
-			#checkout UL#checkout-step-address LI:nth-child(3) A:after,
-			#checkout UL#checkout-step-address LI:nth-child(4) A:after{
+			#checkout UL LI:nth-child(2) A:after,
+			#checkout UL LI:nth-child(3) A:after,
+			#checkout UL LI:nth-child(4) A:after{
 				border-left-color:#696969;
 				}
-			#checkout UL#checkout-step-address LI.active A{
+			#checkout UL LI.active A{
 				background:#cda11e!important;
 				color:#ffffff!important;
 				font-weight:bold;
 				}
-			#checkout UL#checkout-step-address LI.active A:after{
+			#checkout UL LI.active A:after{
 				border-left:30px solid #cda11e;
 				}
-				#checkout UL#checkout-step-address LI.active A:hover{
+				#checkout UL LI.active A:hover{
 					color:#ffffff!important;
 					}
 #checkout DIV[data-hook*="checkout_content"] FORM .panel{
