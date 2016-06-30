@@ -1452,6 +1452,9 @@ body{
 	background:none;
 	border:none;
 	}
+#checkout DIV[data-hook*="checkout_content"] FORM DIV[data-hook="billing_fieldset_wrapper"]{
+	padding-left:0;
+	}
 #checkout DIV[data-hook*="checkout_content"] FORM #billing,
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping{
     box-shadow:none;
