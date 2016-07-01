@@ -241,12 +241,13 @@ body{
 	float:left;
 	width:100%;
 	}
-	#header-top .contact-data A{
+	#header-top .navbar A{
 		color:#ffffff!important;
 		font-size:0.9em;
 		}		
 		#header-top .contact-data A:hover{
 			color:#cda11e!important;
+			text-decoration:none!important;
 			}		
 		#header-top .contact-data I{
 			margin:0 0.3em 0 0;
@@ -437,6 +438,7 @@ body{
 						#spree-header #header .main-menu UL LI A:hover{
 							background:none;
 							color:#cda11e!important;
+							text-decoration:none!important;
 							}
 						#spree-header #header .main-menu UL LI.selected A:hover{
 							color:#ffffff!important;
@@ -483,6 +485,7 @@ body{
 										}
 										#spree-header #header .main-menu UL LI .mega-menu UL LI A:hover{
 											color:#ffffff!important;
+											text-decoration:none!important;
 											}
 										#spree-header #header .main-menu UL LI .mega-menu UL LI P{
 											border-bottom:1px dotted #ffffff;
@@ -521,6 +524,7 @@ body{
 												}
 												#spree-header #header .main-menu UL LI .mega-menu UL LI .c SPAN A:hover{
 													color:#cda11e!important;
+													text-decoration:none!important;
 													}
 										#spree-header #header .main-menu UL LI .mega-menu UL LI.inspire P SPAN{
 											display:none;
@@ -677,6 +681,9 @@ body{
     						left:0.6em;
     						top:1.6em;
 							}
+							#content-page .banner .bx-wrapper .bxslider LI .right-text A:hover{
+								text-decoration:none!important;
+								}
 			#content-page .banner .bx-wrapper .bx-pager{
 			    bottom:3em;
 			    position:absolute;
@@ -824,6 +831,9 @@ body{
 								    padding:0;
 								    width:auto;
 									}
+									#content-page .products-content .thumbnail .caption SPAN A:hover{
+										text-decoration:none!important;
+										}
 							#content-page .products-content .thumbnail .caption H4{
 								float:left;
 							    font-size:1.1em;
@@ -843,6 +853,7 @@ body{
 									}
 									#content-page .products-content .thumbnail .caption H4 A:hover{
 									    color:#aaaaaa!important;
+									    text-decoration:none!important;
 										}				
 							#content-page .products-content .thumbnail .caption SPAN.button{
 							    border-top:1px solid #aaaaaa;
@@ -1740,6 +1751,7 @@ FOOTER{
 				}
 				#footer-top UL LI A:hover{
 					color:#cda11e!important;
+					text-decoration:none!important;
 					}
 		#footer-top IMG{
 		    float:right;
