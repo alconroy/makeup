@@ -1605,43 +1605,56 @@ body{
 #checkout DIV[data-hook*="checkout_content"] FORM .well.form-buttons{
 	padding:0;
 	}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items{
 	border:none;
 	}
 	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
-	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD,
+	#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD,
+	#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
 		border:none;
 		color:#aaaaaa;
 		font-size:1em;
 		padding:1.2em 1em;
 		}
-	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD.total{
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD.total,
+	#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TR[data-hook="order_details_line_item_row"] TD.total{
 		text-align:right;
 		}
-	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT{
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT,
+	#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT{
 	    background:rgba(0, 0, 0, 0.3);
 		}
-		#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+		#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD,
+		#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
 			background:none;
 			padding:0.5em 1em;
 			}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
-    padding:1.2em 1em;
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD{
+    padding:0.5em 1em;
 	}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT#subtotal TD{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT#subtotal TD,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT#subtotal TD{
     text-align:right;
 	}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted{
     font-weight:bold;
 	}
-	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted STRONG{
+	#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted STRONG,
+	#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.text-muted STRONG{
 	    font-weight:normal;
 		}
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total{
     text-align:right;
 	}
 #checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total SPAN#order_total,
-#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TR.warning.total TD B{
+#checkout DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TR.warning.total TD B,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TD.total SPAN#order_total,
+#order_summary DIV[data-hook*="checkout_content"] TABLE#line-items TFOOT TR.warning.total TD B{
     color:#aaaaaa;
     font-size:1.5em;
     font-weight:bold;
