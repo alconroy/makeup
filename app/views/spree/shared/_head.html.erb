@@ -106,6 +106,7 @@
 			$("body").addClass("edit-user");
 
 			$(".edit-user form").wrap('<div class="edit-box"></div');
+			$("<h3>Editing user</h3>").insertBefore("#signup form#new_spree_user");
 			$(".edit-user form .form-group").each(function(){
 				if($(this).children().attr("placeholder") == "Email"){
 					$("<label>Email:</label>").insertBefore($(this).children());
