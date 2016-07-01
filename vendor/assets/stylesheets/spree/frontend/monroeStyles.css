@@ -1604,7 +1604,7 @@ body{
 			}
 			#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL SPAN,
 			#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN,
-			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body LABEL SPAN{
+			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body SPAN{
 			    color:#aaaaaa;
 				}
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping P.field.checkbox{
