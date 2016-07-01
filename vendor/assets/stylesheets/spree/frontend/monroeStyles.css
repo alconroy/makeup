@@ -1533,6 +1533,9 @@ body{
 			#checkout UL LI.completed A::after{
 			    border-left: 30px solid #6f5300;
 				}
+				#checkout UL LI A:hover{
+					text-decoration:none!important;
+					}
 				#checkout UL LI.active A:hover,
 				#checkout UL LI.completed A:hover{
 					color:#ffffff!important;
