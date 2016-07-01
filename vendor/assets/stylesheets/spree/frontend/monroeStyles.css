@@ -20,7 +20,7 @@ A{
 	text-decoration:none;
 	}
 	A:hover{
-		text-decoration:underline;
+		text-decoration:underline!important;
 		}
 A.remove,
 A.continue,
@@ -132,19 +132,6 @@ FORM .form-group{
 			A.btn:hover{
 				background:#535049!important;
 				}
-UL{
-	float:left;
-	width:100%;
-	}
-	UL LI{
-		float:left;
-		list-style:none;
-		width:100%;
-		}
-		UL LI P,
-		UL LI A{
-			font-size:1em;
-			}
 TABLE{
 	border:1px solid #464341;
     float:left;
@@ -167,10 +154,12 @@ TABLE{
 		TABLE TBODY{
 			background:rgba(0, 0, 0, 0.3);
 			}			
-			TABLE TBODY TR{
+			TABLE TBODY TR,
+			TABLE.table-striped TBODY TR:nth-of-type(2n+1){
 			    background:none;
 				}
-				TABLE TBODY TD{
+				TABLE TBODY TD,
+				TABLE.table TBODY TD{
 					border-top:1px solid #464341!important;
 					font-size:1em;
 				    padding:1.2em 1em;
@@ -182,6 +171,45 @@ TABLE{
 					    max-width:6em;
 					    width:auto;
 						}
+				TABLE.table-striped TBODY TD{
+				    border:none;
+					}
+				TABLE TBODY TD.lead{
+				    color:#aaaaaa;
+				    font-size:1em;
+				    text-align:right;
+					}
+UL{
+	float:left;
+	width:100%;
+	}
+	UL LI{
+		float:left;
+		list-style:none;
+		width:100%;
+		}
+		UL LI P,
+		UL LI A{
+			font-size:1em;
+			}
+DL{
+    float:left;
+    margin:0 0 1em 0;
+    width:100%;
+	}
+	DL DT{
+	    clear:left;
+	    float:left;
+	    margin:0 0 0.5em 0;
+	    min-width:5em;
+	    width:auto;
+		}
+	DL DD{
+    clear:right;
+    float:left;
+    margin:0 0 0.5em 0;
+    width:auto;
+	}
 HR{
 	border:1px solid #494949;
 	}
