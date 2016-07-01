@@ -32,6 +32,7 @@ A.continue,
 	A.continue:hover,
 	#order_summary P[data-hook="links"] A.button:hover{
 		color:#cda11e!important;
+		text-decoration:none!important;
 		}
 .alert-info,
 .alert-alert{
