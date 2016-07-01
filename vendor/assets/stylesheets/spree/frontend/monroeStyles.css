@@ -162,19 +162,22 @@ TABLE{
 				}
 		TABLE TBODY{
 			background:rgba(0, 0, 0, 0.3);
-			}
-			TABLE TBODY TD{
-				border-top:1px solid #464341!important;
-				font-size:1em;
-			    padding:1.2em 1em;
+			}			
+			TABLE TBODY TR{
+			    background:none;
 				}
-				TABLE TBODY TD SPAN{
-				    color:#aaaaaa;
+				TABLE TBODY TD{
+					border-top:1px solid #464341!important;
+					font-size:1em;
+				    padding:1.2em 1em;
 					}
-				TABLE TBODY TD IMG{
-				    max-width:6em;
-				    width:auto;
-					}
+					TABLE TBODY TD SPAN{
+					    color:#aaaaaa;
+						}
+					TABLE TBODY TD IMG{
+					    max-width:6em;
+					    width:auto;
+						}
 HR{
 	border:1px solid #494949;
 	}
@@ -1124,6 +1127,17 @@ body{
     line-height:1.2em;
     margin:0 0 0.5em;
     text-align:left;
+    width:100%;
+	}
+#content-page .account-summary{
+    background:none;
+    border:none;
+    float:left;
+    padding:0;
+    width:100%;
+	}
+#content-page .account-my-orders{
+    float:left;
     width:100%;
 	}
 #errorExplanation H3{
