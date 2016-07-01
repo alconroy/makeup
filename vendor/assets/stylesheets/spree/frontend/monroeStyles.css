@@ -1614,6 +1614,11 @@ body{
 		padding:0;
 	    width:100%;
 		}
+		#checkout #payment UL LI IMG.pull-right{
+		    float:left !important;
+		    margin:0 0 2.3em 0;
+		    width:100%;
+			}
 		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body P.field{
 		    float:left;
 		    margin:0 0 2.3em 0;
