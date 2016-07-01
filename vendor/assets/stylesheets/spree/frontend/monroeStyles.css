@@ -1038,7 +1038,8 @@ body{
 			    margin:0 5em 0 3.5em;
 				}
 				#login H3,
-				#signup H3{
+				#signup H3,
+				.edit-user H3{
 				    color:#cda11e;
 				    font-family:Georgia,"Times New Roman",serif;
 				    font-size:3.45em;
@@ -1047,7 +1048,8 @@ body{
 				    text-transform:capitalize;
 					}
 				#login .alert H3,
-				#signup .alert H3{
+				#signup .alert H3,
+				.edit-user .alert H3{
 				    color:inherit;
 				    font-family:inherit;
 				    font-size:24px;
