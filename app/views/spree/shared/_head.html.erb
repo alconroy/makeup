@@ -113,11 +113,11 @@
 					$(this).children().attr("placeholder","Enter email address");
 				}
 				if($(this).children(":input").attr("placeholder") == "Password"){
-					$("<label>Password:</label>").insertBefore($(this).children());
+					$("<label>Password:</label>").insertBefore($(this).children(:input));
 					$(this).children(":input").attr("placeholder","Enter password");
 				}
 				if($(this).children(":input").attr("placeholder") == "Password Confirmation"){
-					$("<label>Confirm Password:</label>").insertBefore($(this).children());
+					$("<label>Confirm Password:</label>").insertBefore($(this).children(:input));
 					$(this).children(":input").attr("placeholder","Confirm password");
 				}
 			});
