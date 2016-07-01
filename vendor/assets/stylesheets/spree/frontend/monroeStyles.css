@@ -39,7 +39,7 @@ FORM .form-group{
     margin:0 0 2.3em 0;
     width:100%;
 	}
-	FORM LEGEND{
+	LEGEND{
 	    display:none;
 		}
 		FORM LABEL{
@@ -1317,6 +1317,9 @@ body{
 			    content:"\f067";
 			    font-family:FontAwesome;
 			    margin:0 0.5em 0 0;
+				}
+			#order_summary P[data-hook="links"] A.button::before{
+			    content:"\f053";
 				}
 	#cart-detail .box-price{
 		background:rgba(0, 0, 0, 0.3);
