@@ -129,7 +129,7 @@
 			$("body").addClass("forgot-password");
 
 			$(".forgot-password form").wrap('<div class="forgot-password-box"></div');
-			$("<h3>Forgot password</h3>").insertBefore(".forgot-password form");
+			$("<h3>Forgot password</h3>").insertAfter(".forgot-password .forgot-password-box");
 			if($(".forgot-password form p input.form-control").attr("type") == "email"){
 				$(".forgot-password form p input.form-control").attr("placeholder","Enter password");
 			}
