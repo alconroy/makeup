@@ -106,7 +106,7 @@
 			$("body").addClass("edit-user");
 
 			$(".edit-user form").wrap('<div class="edit-box"></div');
-			$("<h3>Editing user</h3>").insertBefore("#signup form#new_spree_user");
+			$("<h3>Editing user</h3>").insertBefore(".edit-user form");
 			$(".edit-user form .form-group").each(function(){
 				if($(this).children().attr("placeholder") == "Email"){
 					$("<label>Email:</label>").insertBefore($(this).children());
@@ -121,6 +121,19 @@
 					$(this).find("input").attr("placeholder","Confirm password");
 				}
 			});
+		}
+
+		//Change Forgot Password page structure
+		var pathname = window.location.pathname;
+		if(pathname == "/password/recover"){
+			$("body").addClass("forgot-password");
+
+			$(".forgot-password form").wrap('<div class="forgot-password-box"></div');
+			$("<h3>Forgot password</h3>").insertBefore(".forgot-password form");
+			if($(".forgot-password form p input").attr("type") == "email"){
+				$("<label>Email:</label>").insertBefore($(".forgot-password form p input"));
+				$(".forgot-password form p input").attr("placeholder","Enter password");
+			}
 		}
 
 		// Product description tabs

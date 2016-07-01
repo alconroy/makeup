@@ -1012,25 +1012,29 @@ body{
 	}
 	#login .panel.panel-default,
 	#signup .panel.panel-default,
-	.edit-user .panel.panel-default{
+	.edit-user .panel.panel-default,
+	.forgot-password .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
 		}
 		#login .panel-heading,
 		#signup .panel-heading,
-		.edit-user .panel-heading{
+		.edit-user .panel-heading,
+		.forgot-password .panel-heading{
 		    display:none;
 			}
 		#login .panel-body,
 		#signup .panel-body,
-		.edit-user .panel-body{
+		.edit-user .panel-body,
+		.forgot-password .panel-body{
 		    padding:0;
 			}
 			#login .login-box,
 			#login .register-box,
 			#signup .register-box,
-			.edit-user .edit-box{
+			.edit-user .edit-box,
+			.forgot-password .edit-box{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
@@ -1039,7 +1043,8 @@ body{
 				}
 				#login H3,
 				#signup H3,
-				.edit-user H3{
+				.edit-user H3,
+				.forgot-password H3{
 				    color:#cda11e;
 				    font-family:Georgia,"Times New Roman",serif;
 				    font-size:3.45em;
@@ -1049,7 +1054,8 @@ body{
 					}
 				#login .alert H3,
 				#signup .alert H3,
-				.edit-user .alert H3{
+				.edit-user .alert H3,
+				.forgot-password .alert H3{
 				    color:inherit;
 				    font-family:inherit;
 				    font-size:24px;
@@ -1075,8 +1081,7 @@ body{
 						background:#535049!important;
 						}
 			#login .panel-body .text-center,
-			#signup .panel-body .text-center,
-			.edit-user .panel-body .text-center{
+			#signup .panel-body .text-center{
 			    display:none;
 				}
 #tabs.product-tabs{
