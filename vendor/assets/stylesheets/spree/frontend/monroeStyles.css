@@ -1593,8 +1593,10 @@ body{
 			width:22.5em;
 			}
 		#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body SPAN,
-		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body SPAN{
+		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body SPAN,
+		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body SPAN{
 		    color:#cda11e;
+		    clear:none;
 			}
 		#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL,
 		#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL,
@@ -1603,13 +1605,43 @@ body{
 		    width:auto;
 			}
 			#checkout DIV[data-hook*="checkout_content"] FORM #billing .panel-body LABEL SPAN,
-			#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN,
-			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body SPAN{
+			#checkout DIV[data-hook*="checkout_content"] FORM #shipping .panel-body LABEL SPAN{
 			    color:#aaaaaa;
 				}
+	#checkout #payment UL LI{
+		background:none;
+		border:none;
+		padding:0;
+	    width:100%;
+		}
+		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body P.field{
+		    float:left;
+		    margin:0 0 2.3em 0;
+		    width:100%;
+			}
+		#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field{
+		    float:left;
+		    margin:0 0 2.3em 0;
+		    padding:0;
+		    width:100%;
+			}
+			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link{
+			    background:none!important;
+			    color:#aaaaaa!important;
+			    float:left;
+			    margin:0 0 0 0.5em;
+			    padding:0;
+			    width:auto;
+				}
+			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link::before{
+			    border:none;
+				}
+				#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link:hover{
+				    color:#cda11e!important;
+					}
 #checkout DIV[data-hook*="checkout_content"] FORM #shipping P.field.checkbox{
     float:left;
-    margin:0 0 1em;
+    margin:0 0 1em 0;
     width:100%;
 	}
 #checkout DIV[data-hook*="checkout_content"] FORM .well{
