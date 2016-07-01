@@ -1080,6 +1080,16 @@ body{
 					#login .register-box A:hover{
 						background:#535049!important;
 						}
+			.forgot-password .forgot-password-box P{
+			    clear:both;
+    			display:block;
+					}				
+				.forgot-password .forgot-password-box INPUT{
+				    margin:0 0 2.3em 0;
+					}
+				.forgot-password .forgot-password-box INPUT.btn{
+				    padding:0.75em 1.75em;
+					}
 			#login .panel-body .text-center,
 			#signup .panel-body .text-center{
 			    display:none;
