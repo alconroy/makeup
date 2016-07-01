@@ -37,92 +37,95 @@ FORM .form-group{
     margin:0 0 2.3em 0;
     width:100%;
 	}
-	FORM LABEL{
-	    color:#858585;
-	    float:left;
-	    font-size:1.1em;
-	    font-weight:normal;
-	    margin:0 0 0.6em 0;
-	    text-transform:capitalize;
-	    width:100%;
+	FORM LEGEND{
+	    display:none;
 		}
-	FORM INPUT.form-control,
-	FORM SELECT.form-control,
-	FORM TEXTAREA.form-control{
-		background:rgba(0, 0, 0, 0.3);
-	    border:1px solid #464341;
-	    border-radius:0;
-	    clear:both;
-	    color:#858585;
-	    float:left;
-	    font-family:Georgia,"Times New Roman",serif;
-	    font-size:1.3em;
-	    height:auto;
-	    margin:0;
-	    padding:0.7em 0.8em;
-	    width:13.75em;
-		}
-	FORM TEXTAREA.form-control{
-	    width:auto;
-		}
-		FORM INPUT.form-control:focus,
-		FORM SELECT.form-control:focus,
-		FORM TEXTAREA.form-control:focus{
-			border:1px solid #cda11e;
-			box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
+		FORM LABEL{
+		    color:#858585;
+		    float:left;
+		    font-size:1.1em;
+		    font-weight:normal;
+		    margin:0 0 0.6em 0;
+		    text-transform:capitalize;
+		    width:100%;
 			}
-		FORM INPUT.form-control::-webkit-input-placeholder,
-		FORM SELECT.form-control::-webkit-input-placeholder,
-		FORM TEXTAREA.form-control::-webkit-input-placeholder{
-			color:#464646;
-			text-transform:capitalize;
+		FORM INPUT.form-control,
+		FORM SELECT.form-control,
+		FORM TEXTAREA.form-control{
+			background:rgba(0, 0, 0, 0.3);
+		    border:1px solid #464341;
+		    border-radius:0;
+		    clear:both;
+		    color:#858585;
+		    float:left;
+		    font-family:Georgia,"Times New Roman",serif;
+		    font-size:1.3em;
+		    height:auto;
+		    margin:0;
+		    padding:0.7em 0.8em;
+		    width:13.75em;
+			}
+		FORM TEXTAREA.form-control{
+		    width:auto;
+			}
+			FORM INPUT.form-control:focus,
+			FORM SELECT.form-control:focus,
+			FORM TEXTAREA.form-control:focus{
+				border:1px solid #cda11e;
+				box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 161, 30, 0.6)!important;
 				}
-		FORM INPUT.form-control::-moz-placeholder,
-		FORM SELECT.form-control::-moz-placeholder,
-		FORM TEXTAREA.form-control::-moz-placeholder{
-			color:#464646;
-			text-transform:capitalize;
+			FORM INPUT.form-control::-webkit-input-placeholder,
+			FORM SELECT.form-control::-webkit-input-placeholder,
+			FORM TEXTAREA.form-control::-webkit-input-placeholder{
+				color:#464646;
+				text-transform:capitalize;
+					}
+			FORM INPUT.form-control::-moz-placeholder,
+			FORM SELECT.form-control::-moz-placeholder,
+			FORM TEXTAREA.form-control::-moz-placeholder{
+				color:#464646;
+				text-transform:capitalize;
+				}
+			FORM INPUT.form-control::-ms-input-placeholder,
+			FORM SELECT.form-control::-ms-input-placeholder,
+			FORM TEXTAREA.form-control::-ms-input-placeholder{
+				color:#464646;
+				text-transform:capitalize;
+				}
+		FORM A.forgot{
+		    clear:both;
+		    float:left;
+		    font-size:0.85em;
+		    margin:0.5em 0 0 0;
+		    text-decoration:none;
+		    width:auto;
 			}
-		FORM INPUT.form-control::-ms-input-placeholder,
-		FORM SELECT.form-control::-ms-input-placeholder,
-		FORM TEXTAREA.form-control::-ms-input-placeholder{
-			color:#464646;
-			text-transform:capitalize;
+			FORM A.forgot:hover{
+				text-decoration:underline!important;
+				}
+		FORM INPUT.btn,
+		BUTTON.btn,
+		A.btn{
+			background:#cda11e!important;
+			border-radius:0;
+		    color:#ffffff!important;
+		    font-size:1.28em;
+		    font-style:italic;
+			outline:none;
+			margin:0;
+			outline:none!important;
+		    padding:0.75em 3.75em;
+		    width:auto!important;
 			}
-	FORM A.forgot{
-	    clear:both;
-	    float:left;
-	    font-size:0.85em;
-	    margin:0.5em 0 0 0;
-	    text-decoration:none;
-	    width:auto;
-		}
-		FORM A.forgot:hover{
-			text-decoration:underline!important;
+		A.btn,
+		FORM#new_review INPUT.btn{
+		    padding:0.75em 1.75em;
 			}
-	FORM INPUT.btn,
-	BUTTON.btn,
-	A.btn{
-		background:#cda11e!important;
-		border-radius:0;
-	    color:#ffffff!important;
-	    font-size:1.28em;
-	    font-style:italic;
-		outline:none;
-		margin:0;
-		outline:none!important;
-	    padding:0.75em 3.75em;
-	    width:auto!important;
-		}
-	A.btn,
-	FORM#new_review INPUT.btn{
-	    padding:0.75em 1.75em;
-		}
-		FORM INPUT.btn:hover,
-		BUTTON.btn:hover,
-		A.btn:hover{
-			background:#535049!important;
-			}
+			FORM INPUT.btn:hover,
+			BUTTON.btn:hover,
+			A.btn:hover{
+				background:#535049!important;
+				}
 UL{
 	float:left;
 	width:100%;
