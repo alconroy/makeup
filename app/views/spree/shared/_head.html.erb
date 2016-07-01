@@ -112,13 +112,13 @@
 					$("<label>Email:</label>").insertBefore($(this).children());
 					$(this).children().attr("placeholder","Enter email address");
 				}
-				if($(this).children(":input").attr("placeholder") == "Password"){
-					$("<label>Password:</label>").insertBefore($(this).children(":input"));
-					$(this).children(":input").attr("placeholder","Enter password");
+				if($(this).find("input").attr("placeholder") == "Password"){
+					$("<label>Password:</label>").insertBefore($(this).find("input"));
+					$(this).find("input").attr("placeholder","Enter password");
 				}
-				if($(this).children(":input").attr("placeholder") == "Password Confirmation"){
-					$("<label>Confirm Password:</label>").insertBefore($(this).children(":input"));
-					$(this).children(":input").attr("placeholder","Confirm password");
+				if($(this).find("input").attr("placeholder") == "Password Confirmation"){
+					$("<label>Confirm Password:</label>").insertBefore($(this).find("input"));
+					$(this).find("input").attr("placeholder","Confirm password");
 				}
 			});
 		}
