@@ -1011,23 +1011,26 @@ body{
     width:100%;
 	}
 	#login .panel.panel-default,
-	#signup .panel.panel-default{
+	#signup .panel.panel-default,
+	.edit-user .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
 		}
 		#login .panel-heading,
-		#signup .panel-heading{
+		#signup .panel-heading,
+		.edit-user .panel-heading{
 		    display:none;
 			}
 		#login .panel-body,
-		#signup .panel-body{
+		#signup .panel-body,
+		.edit-user .panel-body{
 		    padding:0;
 			}
 			#login .login-box,
 			#login .register-box,
 			#signup .register-box,
-			#default .edit-box{
+			.edit-user .edit-box{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
@@ -1069,7 +1072,8 @@ body{
 						background:#535049!important;
 						}
 			#login .panel-body .text-center,
-			#signup .panel-body .text-center{
+			#signup .panel-body .text-center,
+			.edit-user .panel-body .text-center{
 			    display:none;
 				}
 #tabs.product-tabs{
