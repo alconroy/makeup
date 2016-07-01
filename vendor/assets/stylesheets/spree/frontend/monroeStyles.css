@@ -1034,7 +1034,7 @@ body{
 			#login .register-box,
 			#signup .register-box,
 			.edit-user .edit-box,
-			.forgot-password .edit-box{
+			.forgot-password .forgot-password-box{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
