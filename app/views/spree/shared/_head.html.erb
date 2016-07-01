@@ -105,9 +105,9 @@
 		if(pathname == "/users/7" || pathname == "/account/edit"){
 			$("body").addClass("edit-user");
 
-			$(".edit-user form").wrap('<div class="edit-box"></div');
-			$("<h3>Editing user</h3>").insertBefore(".edit-user form");
-			$(".edit-user form .form-group").each(function(){
+			$(".edit-user .panel-body form").wrap('<div class="edit-box"></div');
+			$("<h3>Editing user</h3>").insertBefore(".edit-user .panel-body form");
+			$(".edit-user .panel-body form .form-group").each(function(){
 				if($(this).children().attr("placeholder") == "Email"){
 					$("<label>Email:</label>").insertBefore($(this).children());
 					$(this).children().attr("placeholder","Enter email address");
