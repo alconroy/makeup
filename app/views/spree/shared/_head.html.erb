@@ -100,6 +100,23 @@
 			}
 		});
 
+		//Change Editing User page structure
+		$("#default form#new_#<Spree::User:0x007fc99567df70>").wrap('<div class="edit-box"></div');
+		$("#default form#new_#<Spree::User:0x007fc99567df70> .form-group").each(function(){
+			if($(this).children().attr("placeholder") == "Email"){
+				$("<label>Email:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Enter email address");
+			}
+			if($(this).children().attr("placeholder") == "Password"){
+				$("<label>Password:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Enter password");
+			}
+			if($(this).children().attr("placeholder") == "Password Confirmation"){
+				$("<label>Confirm Password:</label>").insertBefore($(this).children());
+				$(this).children().attr("placeholder","Confirm password");
+			}
+		});
+
 		// Product description tabs
 		$("#tabs.product-tabs").addClass("ui-tabs-vertical ui-helper-clearfix");
     	$("#abs.product-tabs").removeClass("ui-corner-top" ).addClass( "ui-corner-left");

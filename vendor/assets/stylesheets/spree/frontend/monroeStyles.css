@@ -1026,7 +1026,8 @@ body{
 			}
 			#login .login-box,
 			#login .register-box,
-			#signup .register-box{
+			#signup .register-box,
+			#default .edit-box{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
