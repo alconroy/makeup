@@ -1638,7 +1638,8 @@ body{
 			    padding:0;
 			    width:auto;
 				}
-			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link::before{
+			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link::before,
+			#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link::after{
 			    border:none;
 				}
 				#checkout DIV[data-hook*="checkout_content"] FORM #payment .panel-body DIV.field A#cvv_link:hover{
