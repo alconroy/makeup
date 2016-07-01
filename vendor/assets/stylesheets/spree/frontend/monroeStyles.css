@@ -675,6 +675,7 @@ body{
 							}
 							#content-page .banner .bx-wrapper .bxslider LI A:hover{
 								background:#535049;
+								text-decoration:none!important;
 								}
 						#content-page .banner .bx-wrapper .bxslider LI .right-text A{
 							float:left;
