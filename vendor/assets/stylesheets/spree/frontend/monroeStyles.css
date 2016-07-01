@@ -17,7 +17,11 @@ A{
 	color:#cda11e!important;
 	outline:none!important;
 	transition:all 0.3s ease 0s;
+	text-decoration:none;
 	}
+	A:hover{
+		text-decoration:underline;
+		}
 A.remove,
 A.continue,
 #order_summary P[data-hook="links"] A.button{
