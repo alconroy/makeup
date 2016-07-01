@@ -19,12 +19,14 @@ A{
 	transition:all 0.3s ease 0s;
 	}
 A.remove,
-A.continue{
+A.continue,
+#order_summary P[data-hook="links"] A.button{
 	color:#aaaaaa!important;
 	font-size:1.4em;
 	}
 	A.remove:hover,
-	A.continue:hover{
+	A.continue:hover,
+	#order_summary P[data-hook="links"] A.button:hover{
 		color:#cda11e!important;
 		}
 .alert-info,
@@ -1302,18 +1304,20 @@ body{
 			    float:left;
 			    margin:0;
 				}
-			#content-page .empty-cart A.continue{
-				background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-icon.png") no-repeat left center;
+			#content-page .empty-cart A.continue,
+			#order_summary P[data-hook="links"] A.button{
 				clear:both;
 			    float:left;
 			    font-size:1em;
 			    margin:0.5em 0 0;
-			    padding:0 0 0 1.3em;
 			    width:auto;
 				}
-				#content-page .empty-cart A.continue:hover{
-					background:transparent url("https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/add-iconHover.png") no-repeat left center;
-					}
+			#content-page .empty-cart A.continue::before,
+			#order_summary P[data-hook="links"] A.button::before{
+			    content:"\f067";
+			    font-family:FontAwesome;
+			    margin:0 0.5em 0 0;
+				}
 	#cart-detail .box-price{
 		background:rgba(0, 0, 0, 0.3);
 	    padding:1em;
