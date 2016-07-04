@@ -1014,7 +1014,8 @@ body{
 	#signup .panel.panel-default,
 	.edit-user .panel.panel-default,
 	.forgot-password .panel.panel-default,
-	#registration .panel.panel-default{
+	#registration .panel.panel-default,
+	.registration-user H1{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
