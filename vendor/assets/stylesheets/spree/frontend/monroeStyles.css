@@ -1103,7 +1103,7 @@ body{
 					}
 			#login .panel-body .text-center,
 			#signup .panel-body .text-center,
-			#registration #new-customer .panel-body .text-center{
+			#registration #new-customer .text-center{
 			    display:none;
 				}
 #tabs.product-tabs{
