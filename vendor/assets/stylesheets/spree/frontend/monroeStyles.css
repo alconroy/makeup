@@ -1013,7 +1013,8 @@ body{
 	#login .panel.panel-default,
 	#signup .panel.panel-default,
 	.edit-user .panel.panel-default,
-	.forgot-password .panel.panel-default{
+	.forgot-password .panel.panel-default,
+	#registration  .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
@@ -1021,13 +1022,15 @@ body{
 		#login .panel-heading,
 		#signup .panel-heading,
 		.edit-user .panel-heading,
-		.forgot-password .panel-heading{
+		.forgot-password .panel-heading,
+		#registration .panel-heading{
 		    display:none;
 			}
 		#login .panel-body,
 		#signup .panel-body,
 		.edit-user .panel-body,
-		.forgot-password .panel-body{
+		.forgot-password .panel-body,
+		#registration .panel-body{
 		    padding:0;
 			}
 			#login .login-box,
@@ -1038,13 +1041,15 @@ body{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
-			#login .login-box{
+			#login .login-box,
+			#registration #new-customer{
 			    margin:0 5em 0 3.5em;
 				}
 				#login H3,
 				#signup H3,
 				.edit-user H3,
-				.forgot-password H3{
+				.forgot-password H3,
+				#registration H3{
 				    color:#cda11e;
 				    font-family:Georgia,"Times New Roman",serif;
 				    font-size:3.45em;
@@ -1055,7 +1060,8 @@ body{
 				#login .alert H3,
 				#signup .alert H3,
 				.edit-user .alert H3,
-				.forgot-password .alert H3{
+				.forgot-password .alert H3,
+				#registration .alert H3{
 				    color:inherit;
 				    font-family:inherit;
 				    font-size:24px;

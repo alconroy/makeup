@@ -144,8 +144,8 @@
 		if(pathname == "/checkout/registration"){
 			$("body").addClass("registration-user");
 			
-			$("<h3>Create a new account</h3>").insertBefore(".registration-user #registration .panel-body form");
-			$(".registration-user #registration .panel-body form .form-group").each(function(){
+			$("<h3>Create a new account</h3>").insertBefore(".registration-user #registration #account .panel-body form");
+			$(".registration-user #registration #account .panel-body form .form-group").each(function(){
 				if($(this).children().attr("placeholder") == "Email"){
 					$("<label>Email:</label>").insertBefore($(this).children());
 					$(this).children().attr("placeholder","Enter email address");
