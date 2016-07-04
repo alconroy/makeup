@@ -1936,6 +1936,7 @@ FOOTER{
 				}
 	#content{
 		float:left;
+		width:320px;
 		}
 		#content-page .banner{
 		    height:15.5em;
