@@ -1863,6 +1863,59 @@ FOOTER{
 		display:block;
 		overflow-x:scroll;
 		}
+	#header-top .contact-data{
+		margin:0 0 0.5em 0;
+		width:100%;
+		}
+		#header-top .contact-data .phone,
+		#header-top .contact-data .email{
+		    float:left;
+		    width:auto;
+			}
+		#header-top .contact-data .email{
+		    float:right;
+			}
+	#header-top .navbar{
+		float:left;
+	    text-align:center;
+	    width:100%;
+		}
+		#header-top .navbar #top-nav-bar{
+			margin:0 0 0.5em 0;
+		    padding:0 1em;
+			}
+			#header-top  #top-nav-bar UL LI{
+				float:none;
+				padding:0!important;
+				}
+	#header-top .navbar #search-bar{
+	    float:left;
+	    padding:0 1em;
+	    width:100%;
+		}
+		#header-top #search-bar FORM{
+			border:none;
+			box-shadow:none;
+			}
+			#header-top #search-bar FORM .input-group{
+			    float:left;
+			    width:100%;
+				}
+	#spree-header #header{
+	    padding:2em 0 1em;
+		}
+		#spree-header #header #logo IMG{
+		    max-width:13.5em;
+			}
+		#spree-header .social A{
+		    background-size:2em auto!important;
+		    height:2em;
+		    margin:0 1.1em 0 0;
+		    width:2em;
+			}
+	#content{
+		float:left;
+		}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
 		text-align:center;
