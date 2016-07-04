@@ -138,7 +138,34 @@
 		// Product description tabs
 		$("#tabs.product-tabs").addClass("ui-tabs-vertical ui-helper-clearfix");
     	$("#abs.product-tabs").removeClass("ui-corner-top" ).addClass( "ui-corner-left");
+
+    	//Change Registration page without login structure
+		var pathname = window.location.pathname;
+		if(pathname == "/checkout/registration"){
+			$("body").addClass("registration-user");
 			
+			$("<h3>Create a new account</h3>").insertBefore(".registration-user #registration .panel-body form");
+			$(".registration-user #registration .panel-body form .form-group").each(function(){
+				if($(this).children().attr("placeholder") == "Email"){
+					$("<label>Email:</label>").insertBefore($(this).children());
+					$(this).children().attr("placeholder","Enter email address");
+				}
+				if($(this).find("input").attr("placeholder") == "Password"){
+					$("<label>Password:</label>").insertBefore($(this).find("input"));
+					$(this).find("input").attr("placeholder","Enter password");
+				}
+				if($(this).find("input").attr("placeholder") == "Password Confirmation"){
+					$("<label>Confirm Password:</label>").insertBefore($(this).find("input"));
+					$(this).find("input").attr("placeholder","Confirm password");
+				}
+			});
+			//Change Checkout as a guest structure
+			$("<h3>Checkout as a guest</h3>").insertBefore(".registration-user #registration #guest_checkout form");
+			if($(".registration-user #registration #guest_checkout form p input.form-control").attr("type") == "email"){
+				$("<label>Email:</label>").insertBefore($(".registration-user #registration #guest_checkout form p input.form-control");
+				$(".registration-user #registration #guest_checkout form p input.form-control").attr("placeholder","Enter email");
+			}
+		}
 	});
 </script>
 
