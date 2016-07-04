@@ -1920,6 +1920,7 @@ FOOTER{
 			float:left;
 		    padding:1em!important;
 		    right:0;
+		    text-align:center;
 		    width:100%;
 			}
 			#spree-header #link-to-cart A{
@@ -1974,10 +1975,10 @@ FOOTER{
 						    line-height:1em;
 						    margin:0 0 0 0.8em;
 							}
-						#content-page .banner .bx-wrapper .bxslider LI A{
-						    left:7.8em;
+						#content-page .banner .bx-wrapper .bxslider LI .right-text A{
+						    left:0;
 						    padding:0.5em 1.35em;
-						    top:2.6em;
+						    top:0.8em;
 							}
 				#content-page .banner .bx-wrapper .bx-pager{
 				    bottom:-3em;
