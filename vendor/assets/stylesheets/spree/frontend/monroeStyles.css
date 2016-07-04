@@ -1014,8 +1014,7 @@ body{
 	#signup .panel.panel-default,
 	.edit-user .panel.panel-default,
 	.forgot-password .panel.panel-default,
-	#registration .panel.panel-default,
-	.registration-user H1{
+	#registration .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
@@ -1024,7 +1023,8 @@ body{
 		#signup .panel-heading,
 		.edit-user .panel-heading,
 		.forgot-password .panel-heading,
-		#registration .panel-heading{
+		#registration .panel-heading,
+		.registration-user H1{
 		    display:none;
 			}
 		#login .panel-body,
