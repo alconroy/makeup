@@ -1014,7 +1014,7 @@ body{
 	#signup .panel.panel-default,
 	.edit-user .panel.panel-default,
 	.forgot-password .panel.panel-default,
-	#registration  .panel.panel-default{
+	#registration .panel.panel-default{
 	    background:none;
 	    border:medium none;
 	    border-radius:0;
@@ -1037,7 +1037,9 @@ body{
 			#login .register-box,
 			#signup .register-box,
 			.edit-user .edit-box,
-			.forgot-password .forgot-password-box{
+			.forgot-password .forgot-password-box,
+			#registration #new-customer,
+			#registration #guest_checkout{
 			    background:rgba(0, 0, 0, 0.3);
 	    		padding:2.3em;
 				}
@@ -1086,18 +1088,22 @@ body{
 					#login .register-box A:hover{
 						background:#535049!important;
 						}
-			.forgot-password .forgot-password-box P{
+			.forgot-password .forgot-password-box P,
+			#registration #guest_checkout P{
 			    clear:both;
     			display:block;
 					}				
-				.forgot-password .forgot-password-box INPUT{
+				.forgot-password .forgot-password-box INPUT,
+				#registration #guest_checkout INPUT{
 				    margin:0 0 2.3em 0;
 					}
-				.forgot-password .forgot-password-box INPUT.btn{
+				.forgot-password .forgot-password-box INPUT.btn,
+				#registration #guest_checkout INPUT.btn{
 				    padding:0.75em 1.75em;
 					}
 			#login .panel-body .text-center,
-			#signup .panel-body .text-center{
+			#signup .panel-body .text-center,
+			#registration #new-customer .panel-body .text-center{
 			    display:none;
 				}
 #tabs.product-tabs{
