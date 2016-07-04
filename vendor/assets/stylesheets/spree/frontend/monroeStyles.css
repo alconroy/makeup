@@ -1955,7 +1955,7 @@ FOOTER{
 						}
 					#content-page .banner .bx-wrapper .bxslider LI .right-text{
 						height:8.3em;
-					    right:1em;
+					    left:8.5em;
 					    top:1em;
 					    width:13.2em;
 						}
@@ -2004,6 +2004,19 @@ FOOTER{
 				#content-page .banner .bx-wrapper .bx-pager{
 				    bottom:-3em;
 				    padding:0;
+					}
+		#content-page .products-conten{
+			padding:0 1em;
+			}
+			#content-page .products-content H2,
+			#content-page .featured-brands H2,#content-page .product-promotions H2{
+				font-size:3em;
+				}
+			#content-page .products-content #tabs UL.ui-tabs-nav LI{
+			    padding:0 0.28em;
+				}
+				#content-page .products-content #tabs UL.ui-tabs-nav LI A{
+				    font-size:0.8em;
 					}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
