@@ -2177,6 +2177,26 @@ FOOTER{
 		    font-size:1.3em;
 		    width:100%;
 			}
+		#content-page FORM#new_review{
+		    width:100%;
+			}
+	#update-cart .table-responsive{
+		border:none;
+		}
+		#update-cart .table-responsive .product-info{
+			margin:0 0 1em 0;
+			padding:0;
+			}
+		#update-cart .table-responsive .box-price{
+		    margin:0;
+		    padding:0;
+		    width:100%;
+			}
+			#update-cart .table-responsive .box-price .links{
+			    border:none;
+			    box-shadow:none;
+			    margin:0;
+				}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
 		text-align:center;
