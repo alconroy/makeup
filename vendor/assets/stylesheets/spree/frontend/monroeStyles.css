@@ -1817,6 +1817,9 @@ FOOTER{
 	margin:5em 0 0 0;
 	width:100%;
 	}
+	FOOTER .admin_section{
+		display:none;
+		}
 	#footer-top{
 	    color:#7f7e7e;
 	    padding:2em 0;
@@ -2005,18 +2008,44 @@ FOOTER{
 				    bottom:-3em;
 				    padding:0;
 					}
-		#content-page .products-content{
+		#content-page .products-content,
+		#content-page .featured-brands,
+		#content-page .product-promotions{
+			margin:0 0 1em 0;
 			padding:0 1em;
 			}
 			#content-page .products-content H2,
 			#content-page .featured-brands H2,#content-page .product-promotions H2{
-				font-size:3em;
+				font-size:2.2em;
 				}
 			#content-page .products-content #tabs UL.ui-tabs-nav LI{
 			    margin:0 0.18em;
 				}
 				#content-page .products-content #tabs UL.ui-tabs-nav LI A{
 				    font-size:0.8em;
+					}
+			#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
+			    margin:0 2.5em;
+			    width:73.8%!important;
+				}
+				#content-page .products-content .thumbnail{
+				    width:12.5em!important;
+					}
+			#content-page .product-promotions UL LI{
+				height:26em;
+    			margin:0 0 1.5em 0;
+    			width:100%;
+				}
+				#content-page .product-promotions UL LI A IMG{
+				    max-width:20.8em;
+					}
+			#content-page .featured-brands UL LI{
+			    margin:0 0 1.5em 0;
+			    text-align:center;
+			    width:100%;
+				}
+				#content-page .featured-brands UL LI A{
+				    float:none;
 					}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
@@ -2042,22 +2071,20 @@ FOOTER{
 	#page_content .branch-image IMG{
 		max-width:20.8em;
 		}
-	#footer-top LI{
-		font-size:0.8em;
+	FOOTER{
+		margin:0;
 		}
-	#footer-top .foot-contact DIV{
-	   	float:left;
-	    margin-bottom:10px;
-	    width:100%;
-		}
-		#footer-top .foot-contact I{
-		    float:left;
-		    margin:0 1em 0 0;
-		    width:auto;
+		#footer-top{
+		    padding:1em 0;
 			}
-		#footer-top .foot-contact P{
-		    float:left;
-		    font-size:1em;
-		    margin:0;
-			}
+			#footer-top UL LI{
+			    width:50%;
+				}
+			#footer-top .col-xs-12.col-md-3{
+			    margin:1em 0 0;
+			    text-align:center;
+				}
+				#footer-top .col-xs-12.col-md-3 IMG{
+				    float:none;
+					}
 }
