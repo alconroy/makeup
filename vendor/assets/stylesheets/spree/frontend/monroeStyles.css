@@ -1963,6 +1963,7 @@ FOOTER{
 					font-size:1.5em;
 					}
 				#spree-header #header .main-menu UL{
+					display:none;
 				    margin:0;
 					}
 	#content{
