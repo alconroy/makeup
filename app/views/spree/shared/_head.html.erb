@@ -7,11 +7,13 @@
 <%= favicon_link_tag 'https://s3-eu-west-1.amazonaws.com/monroe-beauty/images/favicon.ico' %>
 <%= stylesheet_link_tag 'spree/frontend/all', media: 'screen' %>
 <%= stylesheet_link_tag 'spree/frontend/bxslider', :media => 'screen' %>
+<%= stylesheet_link_tag 'spree/frontend/slicknav', :media => 'screen' %>
 <%= stylesheet_link_tag '//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css', :media => 'screen' %>
 
 <%= csrf_meta_tags %>
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag 'spree/frontend/bxslider' %>
+<%= javascript_include_tag 'spree/frontend/slicknav' %>
 <%= javascript_include_tag '//code.jquery.com/ui/1.11.4/jquery-ui.js' %>
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
@@ -38,18 +40,8 @@
 			return false;
 		});
 
-		// User menu
-		$("#top-nav-bar ul").before('<span class="glyphicon glyphicon-menu-hamburger"></span>');
-		$("#top-nav-bar span").click(function(){
-			//slide up all the link lists
-			$("#top-nav-bar ul").slideUp();
-			$(this).css("color", "#ffffff");
-			//slide down the link list below the h3 clicked - only if its closed
-			if(!$(this).next().is(":visible")){
-				$(this).next().slideDown();
-				$(this).css("color", "#ec4445");
-			}
-		});
+		// Main menu mobile version
+		$("#main-nav-bar").slicknav();
 
 		/* Add class just to home page */
 		var pathname = window.location.pathname;

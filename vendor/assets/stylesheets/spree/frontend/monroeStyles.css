@@ -272,9 +272,6 @@ body{
 			#header-top .navbar A:focus{
 				background:none;
 				}
-		#top-nav-bar SPAN.glyphicon-menu-hamburger{
-			display:none;
-			}
 		#top-nav-bar UL{
 			float:left;
 			margin:0;
@@ -1855,6 +1852,19 @@ FOOTER{
 		}
 		#footer-bottom A{
 		    font-size:0.85em;
+			}
+#toTop A{
+    background:#cda11e;
+    border:1px solid #272727;
+    color:#272727!important;
+	}
+	#toTop A:hover{
+	    background:#272727;
+	    border:1px solid #cda11e;
+	    color:#cda11e!important;
+		}
+		#toTop A:hover I{
+		    color:#cda11e;
 			}
 
 /* Mobile devices */
