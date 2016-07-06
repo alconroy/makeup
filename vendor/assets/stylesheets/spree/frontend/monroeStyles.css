@@ -409,6 +409,9 @@ body{
 			margin:2.75em 0 0 0;
 			padding:0;
 			}
+			#spree-header #header .main-menu SPAN.glyphicon.glyphicon-menu-hamburger{
+				display:none;
+				}
 			#spree-header #header .main-menu UL{
 				float:left;
 				position:relative;
@@ -1915,7 +1918,8 @@ FOOTER{
 			    width:100%;
 				}
 	#spree-header #header{
-	    padding:2em 0 1em;
+	    padding:2em 0 0 0;
+	    position:relative;
 		}
 		#spree-header #header #logo IMG{
 		    max-width:13.5em;
@@ -1932,9 +1936,11 @@ FOOTER{
 		#spree-header #header #link-to-cart{
 			float:left;
 		    padding:1em!important;
+		    position:relative;
 		    right:0;
 		    text-align:center;
 		    width:100%;
+		    z-index:999;
 			}
 			#spree-header #link-to-cart A{
 			    background-size:2.3em auto!important;
@@ -1943,10 +1949,26 @@ FOOTER{
 				}
 		#spree-header #header .main-menu{
 		    margin:1em 0 0 0;
+		    padding:0 1em;
+		    position:absolute;
+		    top:10.8em;
+		    z-index:990;
 			}
-			#spree-header #header .main-menu UL{
-			    margin: 0;
-				}
+			#spree-header #header .main-menu #main-nav-bar{
+			    margin:1em 0 0 0;
+			    padding:0 1em;
+			    position:absolute;
+			    top:10.8em;
+			    z-index:990;
+				}	
+				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-menu-hamburger,
+				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-remove{
+					display:block;
+					font-size:1.5em;
+					}
+				#spree-header #header .main-menu UL{
+				    margin:0;
+					}
 	#content{
 		float:left;
 		width:320px;
