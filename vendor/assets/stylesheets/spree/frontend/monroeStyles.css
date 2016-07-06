@@ -2107,6 +2107,64 @@ FOOTER{
 				#content-page .featured-brands UL LI A{
 				    float:none;
 					}
+	#content-page .product-left-part,
+	#content-page .product-right-part{
+	    margin:0 0 1em 0;
+	    padding:0 1em;
+	    width:100%;
+		}
+		#content-page H1,
+		#content-page H3{
+			font-size:1.6em;
+			}
+		#content-page .product-right-part H1{
+		    text-align:center;
+			}
+		#content-page .product-left-part #product-images .panel-body{
+			margin:0;
+			}
+			#content-page .product-left-part #product-images .panel-body IMG{
+			    max-width:20.8em;
+				}
+		#product-description #cart-form{
+		    margin:0 0 1em 0;
+			}
+			#product-description #cart-form #product-price{
+				margin:0 0 0.5em 0;
+				padding:0;
+				text-align:center;
+				}
+				#product-description #cart-form #product-price SPAN.price{
+				    font-size:2.3em;			    
+					}
+			#product-description P{
+			    font-size:1.1em;
+				}
+				#product-description P SPAN{
+				    width:52.5%;
+					}
+				#product-description P SPAN.label{
+				    min-width:9em;
+					}
+				#product-description P:last-child SPAN{
+				    width:100%;
+					}
+		#product-description #cart-form .add-to-cart{
+			padding:0;
+			}
+			#product-description #cart-form .add-to-cart BUTTON{
+			    padding:0.75em 1.75em;
+				}
+		#tabs.product-tabs{
+		    padding:0 1em;
+			}
+			#tabs.ui-tabs-vertical UL.ui-tabs-nav,
+			#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
+				width:100%;
+				}
+				FORM#new_review INPUT.btn{
+				    font-size:1em;
+					}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
 		text-align:center;
@@ -2132,7 +2190,7 @@ FOOTER{
 		max-width:20.8em;
 		}
 	FOOTER{
-		margin:0;
+		margin:2em 0 0 0;
 		}
 		#footer-top{
 		    padding:1em 0;
