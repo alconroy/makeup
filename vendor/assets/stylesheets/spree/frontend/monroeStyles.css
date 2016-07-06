@@ -1883,6 +1883,11 @@ FOOTER{
 		display:block;
 		overflow-x:scroll;
 		}
+	FORM INPUT.form-control,
+	FORM SELECT.form-control,
+	FORM TEXTAREA.form-control{
+		width:100%;
+		}
 	#header-top .contact-data{
 		margin:0 0 0.5em 0;
 		width:100%;
@@ -2000,6 +2005,12 @@ FOOTER{
 		float:left;
 		width:320px;
 		}
+		#content-page{
+			padding:0 1em;
+			}
+		.home #content-page{
+			padding:0;
+			}
 		#content-page .banner{
 		    height:15.5em;
 		    margin:0 0 1em 0;
@@ -2110,7 +2121,7 @@ FOOTER{
 	#content-page .product-left-part,
 	#content-page .product-right-part{
 	    margin:0 0 1em 0;
-	    padding:0 1em;
+	    padding:0;
 	    width:100%;
 		}
 		#content-page H1,
@@ -2155,16 +2166,17 @@ FOOTER{
 			#product-description #cart-form .add-to-cart BUTTON{
 			    padding:0.75em 1.75em;
 				}
-		#tabs.product-tabs{
-		    padding:0 1em;
+		#tabs.ui-tabs-vertical UL.ui-tabs-nav,
+		#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
+			width:100%;
 			}
-			#tabs.ui-tabs-vertical UL.ui-tabs-nav,
-			#tabs.ui-tabs-vertical .ui-tabs-panel[style*="block"]{
-				width:100%;
+			#reviews A.btn{
+			    font-size:1em;
 				}
-				FORM#new_review INPUT.btn{
-				    font-size:1em;
-					}
+		#content-page H3.new-review-title{
+		    font-size:1.3em;
+		    width:100%;
+			}
 	#cart-detail .line-item .cart-item-image{
 		margin:0 0 1em 0;
 		text-align:center;
