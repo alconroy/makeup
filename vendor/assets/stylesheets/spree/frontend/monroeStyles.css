@@ -1951,7 +1951,7 @@ FOOTER{
 		    margin:0;
 		    padding:0 1em;
 		    position:absolute;
-		    top:11.75em;
+		    top:11em;
 		    z-index:990;
 			}
 			#spree-header #header .main-menu #main-nav-bar{
@@ -1959,10 +1959,16 @@ FOOTER{
 				}	
 				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-menu-hamburger,
 				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-remove{
-					color:#ffffff;
-					display:block;
-					font-size:1.5em;
-					margin:0 0 0.5em 0;
+					background:#272727;
+				    color:#ffffff;
+				    display:inline-block;
+				    font-size:1.5em;
+				    margin:0;
+				    padding:0.5em;
+				    width:auto;
+					}
+				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-remove{
+					background:none;
 					}
 				#spree-header #header .main-menu UL{
 					background:#272727;
