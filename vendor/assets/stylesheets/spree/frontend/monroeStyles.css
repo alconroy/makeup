@@ -1934,12 +1934,12 @@ FOOTER{
 			    margin:0 3.4em 0 0;
 				}
 		#spree-header #header #link-to-cart{
-			float:left;
+			float:right;
 		    padding:1em!important;
 		    position:relative;
 		    right:0;
 		    text-align:center;
-		    width:100%;
+		    width:auto;
 		    z-index:999;
 			}
 			#spree-header #link-to-cart A{
@@ -1948,18 +1948,14 @@ FOOTER{
 			    padding:0.8em 0 0.8em 2.8em!important;
 				}
 		#spree-header #header .main-menu{
-		    margin:1em 0 0 0;
+		    margin:0;
 		    padding:0 1em;
 		    position:absolute;
 		    top:10.8em;
 		    z-index:990;
 			}
 			#spree-header #header .main-menu #main-nav-bar{
-			    margin:1em 0 0 0;
-			    padding:0 1em;
-			    position:absolute;
-			    top:10.8em;
-			    z-index:990;
+			    min-height:auto;
 				}	
 				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-menu-hamburger,
 				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-remove{
