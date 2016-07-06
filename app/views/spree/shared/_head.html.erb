@@ -41,16 +41,19 @@
 		});
 
 		// Main menu mobile version
-		$("#main-nav-bar").slicknav();
 		$("#main-nav-bar ul").before('<span class="glyphicon glyphicon-menu-hamburger"></span>');
-		$("#main-nav-bar span").click(function(){
+		$("#main-nav-bar span.glyphicon.glyphicon-menu-hamburger").click(function(){
 			//slide up all the link lists
 			$("#main-nav-bar ul").slideUp();
-			$(this).css("color", "#ffffff");
+			$("#main-nav-bar span.glyphicon.glyphicons-remove").removeClass("glyphicon-remove");
+			$("#main-nav-bar span.glyphicon").addClass("glyphicon-menu-hamburger");
+			$("#main-nav-bar span.glyphicon-menu-hamburger").css("color", "#ffffff");
 			//slide down the link list below the h3 clicked - only if its closed
 			if(!$(this).next().is(":visible")){
 				$(this).next().slideDown();
-				$(this).css("color", "#ec4445");
+				$("#main-nav-bar span.glyphicon.glyphicon-menu-hamburger").removeClass("glyphicon-menu-hamburger");
+				$("#main-nav-bar span.glyphicon").addClass("glyphicon-remove");
+				$("#main-nav-bar span.glyphicon.glyphicon-remove").css("color", "#272727");
 			}
 		});
 
