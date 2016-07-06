@@ -1921,9 +1921,12 @@ FOOTER{
 	    padding:2em 0 0 0;
 	    position:relative;
 		}
-		#spree-header #header #logo IMG{
-		    max-width:13.5em;
+		#spree-header #header #logo{
+		    text-align:center;
 			}
+			#spree-header #header #logo IMG{
+			    max-width:16em;
+				}
 		#spree-header .social{
 		    float:left;
 		    padding:1em;
@@ -1981,6 +1984,9 @@ FOOTER{
 					    margin:0;
 					    width:50%;
 						}
+						#spree-header #header .main-menu UL LI:hover .mega-menu{
+						    display:none!important;
+							}
 						#spree-header #header .main-menu UL LI A{
 						    font-size:1em;
 						    padding:0.8em 1em;
