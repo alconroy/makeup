@@ -2074,12 +2074,15 @@ FOOTER{
 			#content-page .featured-brands H2,#content-page .product-promotions H2{
 				font-size:2.2em;
 				}
-			#content-page .products-content #tabs UL.ui-tabs-nav LI{
-			    margin:0 0.18em;
+			#content-page .products-content #tabs UL.ui-tabs-nav{
+			    transform:translate3d(11.55px, 0px, 0px)!important;
 				}
-				#content-page .products-content #tabs UL.ui-tabs-nav LI A{
-				    font-size:0.8em;
+				#content-page .products-content #tabs UL.ui-tabs-nav LI{
+				    margin:0 0.18em;
 					}
+					#content-page .products-content #tabs UL.ui-tabs-nav LI A{
+					    font-size:0.8em;
+						}
 			#content-page .products-content .clearfix .bx-wrapper .bx-viewport{
 			    margin:0 2.5em;
 			    width:73.8%!important;
