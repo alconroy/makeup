@@ -1967,7 +1967,7 @@ FOOTER{
 				    padding:0.5em;
 				    width:auto;
 					}
-				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-remove{
+				#spree-header #header .main-menu SPAN.glyphicon.glyphicon-menu-hamburger{
 					background:none;
 					}
 				#spree-header #header .main-menu UL{
