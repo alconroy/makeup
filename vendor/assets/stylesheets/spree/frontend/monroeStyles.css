@@ -802,6 +802,10 @@ body{
 				    margin:0 5em;
     				width:86.8%!important;
 					}
+					#content-page .products-content #tabs #tabs-2 UL.products-bxslider, #content-page .products-content #tabs #tabs-3 UL.products-bxslider{
+					    margin:0 0 0 -0.7em;
+					    padding:0;
+						}
 					#content-page .products-content .thumbnail{
 					    background:none;
 					    border:none;
