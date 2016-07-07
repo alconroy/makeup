@@ -2267,6 +2267,9 @@ FOOTER{
 	    margin:0 0 1em 0;
 	    padding:0 0 1em 0;
 		}
+		#order_summary #order TABLE#line-items{
+		    width:294px!important;
+			}
 	FOOTER{
 		margin:2em 0 0 0;
 		}
