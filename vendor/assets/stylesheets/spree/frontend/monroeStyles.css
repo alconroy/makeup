@@ -2273,6 +2273,10 @@ FOOTER{
 	#login .login-box, #registration #new-customer{
 	    margin:0 0 1em 0;
 		}
+	.forgot-password .forgot-password-box INPUT.btn,
+	#registration #guest_checkout INPUT.btn{
+	    font-size:1.1em;
+		}
 	FOOTER{
 		margin:2em 0 0 0;
 		}
