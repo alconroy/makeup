@@ -968,12 +968,27 @@ body{
 				  -o-transition: opacity 1s ease-in-out;
 				  transition: opacity 1s ease-in-out;
 				}
-
-				#cf img.top:hover {
-				  opacity:0;
-				}
 				#content-page .featured-brands UL LI IMG{
-				    max-width:12em;
+					position:absolute;
+					left:0;
+					max-width:12em;
+					-webkit-transition: opacity 1s ease-in-out;
+					-moz-transition: opacity 1s ease-in-out;
+					-o-transition: opacity 1s ease-in-out;
+					transition: opacity 1s ease-in-out;
+				    
+					}
+				#content-page .featured-brands UL LI:nth-child(2) IMG{
+					left:17.8em;
+					}
+				#content-page .featured-brands UL LI:nth-child(3) IMG{
+					left:35.3em;
+					}
+				#content-page .featured-brands UL LI:nth-child(4) IMG{
+					left:48em;
+					}
+				#content-page .featured-brands UL LI:nth-child(5) IMG{
+					left:50em;
 					}
 					#content-page .featured-brands UL LI IMG.top:hover{
 					    opacity:0;
