@@ -2221,8 +2221,46 @@ FOOTER{
 	#page_content .branch-image IMG{
 		max-width:20.8em;
 		}
+	#checkout UL LI{
+		width:94.4%;
+		}	
+	#checkout DIV[data-hook="checkout_form_wrapper"]{
+		padding:0;
+		}
+		#checkout DIV[data-hook*="checkout_content"] FORM .panel-body .form-group INPUT#order_email{
+	    	width:100%;
+			}
+		#checkout UL LI.active{
+		    width:95%;
+			}
+			#checkout UL LI A,
+			#checkout UL LI:last-child A{
+			    padding:10px 0 10px 10px;
+				}
+			#checkout UL LI A:after{
+				border-bottom:20px solid transparent;
+				border-left:13px solid #696969;
+				border-top:21px solid transparent;
+				margin-top:-20px;
+				}
+			#checkout UL LI A:before{
+				border-bottom:20px solid transparent;
+			    border-left:13px solid #333333;
+			    border-top:21px solid transparent;
+			    margin-top:-20px;
+				}
+			#checkout UL LI.active A:after{
+				border-left:13px solid #cda11e;
+				}
+			#checkout UL LI.completed A::after{
+			    border-left:20px solid #6f5300;
+				}
+	#checkout DIV[data-hook*="checkout_content"] #checkout-summary TABLE.table TBODY TD{
+	    min-width:54%;
+		}
 	FOOTER{
 		margin:2em 0 0 0;
+		padding:0 1em;
 		}
 		#footer-top{
 		    padding:1em 0;
