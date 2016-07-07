@@ -1,72 +1,39 @@
-<div id="header-top">
-	<div class="container">
-
+<header id="header" class="col-xs-12 col-md-2" data-hook>
   <div class="row">
-    <div class="contact-data col-xs-offset-2 col-xs-10 col-md-offset-0 col-md-4">
-      <div class="phone col-md-6">
-        <a href="tel:+353449382046">
-          <i class="fa fa-phone"></i>
-          044 938 2046
-        </a>
-      </div>
-      <div class="email col-md-6">
-        <a href="mailto:angela@monroe.ie">
-          <i class="fa fa-envelope"></i>
-          angela@monroe.ie
-        </a>
+    <div class="user-menu col-xs-12 col-md-12">
+      <div class="navbar">
+        <%= render :partial => 'spree/shared/nav_bar' %>
       </div>
     </div>
 
-    <div class="navbar col-md-8">
-      <div class="adminUser-link col-md-2">
-        <% if spree_current_user %>
-          <% if spree_current_user.has_spree_role?("admin") %>
-            <%= link_to "Admin Control", admin_path, class: 'admin_section' %>
-          <% end %>
-        <% end %>
-      </div>
-      <%= render :partial => 'spree/shared/nav_bar' %>
+    <div class="phone-box col-xs-12 col-md-12">
+      <i class="fa fa-phone"></i>
+      <% if @add.nil? %>
       
+      <% else %>
+        <%= @add.phone %>
+      <% end %>
+    </div>
+
+    <figure id="logo" class="col-xs-12 col-md-12" data-hook>
+      <%= logo %>
+    </figure>
+    
+    <div id="link-to-cart" class="col-xs-12 col-md-12" data-hook>
+        <%= link_to Spree.t(:cart), '/cart' %>
+      <script>Spree.fetch_cart()</script>
+    </div>
+
+    <div class="search-box col-xs-12 col-md-12">
+      <%= render :partial => 'spree/shared/search' %>
+    </div>
+
+    <div class="col-xs-12 col-md-12">
+      <hr class="hr--small">
+    </div>
+    
+    <div class="main-menu col-xs-12 col-md-12">
+      <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
     </div>
   </div>
-
-	</div>
-</div>
-
-<div id="spree-header">
-  <header id="header" data-hook>
-    <div class="container">
-      <div class="row">
-        <figure id="logo" class="col-md-4" data-hook>
-          <%= logo %>
-        </figure>
-        <div class="social col-md-6">
-          <a class="googlePlus" href="/">
-            <span>Google Plus</span>
-          </a>
-          <a class="instagram" href="/">
-            <span>Instagram</span>
-          </a>
-          <a class="twitter" href="/">
-            <span>Twitter</span>
-          </a>
-          <a class="facebook" href="/">
-            <span>Facebook</span>
-          </a>
-        </div>
-        <div id="link-to-cart" class="nav navbar-nav navbar-right col-md-2" data-hook>
-          <noscript>
-            <%= link_to Spree.t(:cart), '/cart' %>
-          </noscript>
-          <script>Spree.fetch_cart()</script>
-        </div>
-        <div class="search-box col-xs-12 col-md-12">
-          <%= render :partial => 'spree/shared/search' %>
-        </div>
-        <div class="main-menu col-xs-12 col-md-12">
-          <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
-        </div>
-      </div>
-    </div>
-  </header>
-</div>
+</header>
