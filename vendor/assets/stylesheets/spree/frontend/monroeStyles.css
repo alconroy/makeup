@@ -2262,7 +2262,7 @@ FOOTER{
 		padding:0;
 		}
 	#checkout #order_details .steps-data > DIV,
-	#checkout #order .steps-data > DIV{
+	#order_summary #order .steps-data > DIV{
 	    border-bottom:1px solid #aaaaaa;
 	    margin:0 0 1em 0;
 	    padding:0 0 1em 0;
