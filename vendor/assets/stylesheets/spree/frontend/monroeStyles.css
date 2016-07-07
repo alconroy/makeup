@@ -47,6 +47,9 @@ FORM .form-group{
 	LEGEND{
 	    display:none;
 		}
+	FIELDSET{
+		float:left;
+		}
 		FORM LABEL{
 		    color:#858585;
 		    float:left;
@@ -1873,6 +1876,57 @@ FOOTER{
 		#toTop A:hover I{
 		    color:#cda11e;
 			}
+
+/* IE 9 - IE 10 */
+@media screen and (min-width:0\0){
+	#header .searcher .keywordPanel input.inputBox{
+		padding:0.45em 1.25em 0.45em 1.25em!important;
+		}
+	#main .slider #slideFW #fwslider .slider_container{
+		height:21.4em;
+		}
+	#main #loginPage .imageContent{
+		height:22.7em;
+		}
+	#main #loginPage .loginContent .LoginPanel table td a[id*='emailLinkButton']{
+		top:8.4em;
+		}
+	#main #loginPage .loginContent #loginRegister{
+		bottom:5.6em;
+		position:absolute;
+		}
+	#main #loginPage .loginContent .LoginPanel table td .errorLabel{
+		bottom:5.5em;
+		left:0;
+		position:absolute;
+		}
+	.checkoutPanel .checkoutReviewPanel table.orderRadioButtonList tr td input[type='radio']{
+		padding:0!important;
+		}
+	#header .header-bottom .searcher .keywordPanel input.inputBox{
+		padding:0.6em 1.25em 0.55em 1.25em!important;
+		}
+	#header .header-bottom .searcher .keywordPanel INPUT.cssbutton{
+		padding:0.8em 1.6em 0.6em 2.3em!important;
+		}
+}
+
+/* IE 8 */
+#main #loginPage .imageContent{
+	height/*\**/:22.7em\0;
+	}
+		
+/* GOOGLE CHROME & SAFARI */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#content-page .product-promotions UL LI A .text-content{
+	    bottom:2.5em;
+		}
+}
+
+/* IE 11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+
+}
 
 /* Mobile devices */
 @media screen and (min-device-width:320px) and (max-device-width:400px){
