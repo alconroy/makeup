@@ -26,9 +26,7 @@
         <% end %>
       </div>
       <%= render :partial => 'spree/shared/nav_bar' %>
-      <div id="search-bar" class="search-bar col-md-2" data-hook>
-        <%= render :partial => 'spree/shared/search' %>
-      </div>
+      
     </div>
   </div>
 
@@ -61,6 +59,9 @@
             <%= link_to Spree.t(:cart), '/cart' %>
           </noscript>
           <script>Spree.fetch_cart()</script>
+        </div>
+        <div class="search-box col-xs-12 col-md-12">
+          <%= render :partial => 'spree/shared/search' %>
         </div>
         <div class="main-menu col-xs-12 col-md-12">
           <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
