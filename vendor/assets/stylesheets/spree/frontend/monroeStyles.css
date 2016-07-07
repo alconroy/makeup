@@ -1888,6 +1888,9 @@ FOOTER{
 	FORM TEXTAREA.form-control{
 		width:100%;
 		}
+	HR{
+		border:none;
+		}
 	#header-top .contact-data{
 		margin:0 0 0.5em 0;
 		width:100%;
@@ -2257,6 +2260,11 @@ FOOTER{
 		}
 	#checkout DIV[data-hook*="checkout_content"] FORM .well{
 		padding:0;
+		}
+	#checkout #order_details .steps-data > DIV{
+	    border-bottom:1px solid #aaaaaa;
+	    margin:0 0 1em 0;
+	    padding:0 0 1em 0;
 		}
 	FOOTER{
 		margin:2em 0 0 0;
