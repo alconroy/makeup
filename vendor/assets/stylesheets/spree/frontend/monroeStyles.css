@@ -2270,6 +2270,9 @@ FOOTER{
 		#order_summary #order TABLE#line-items{
 		    width:294px!important;
 			}
+	#login .login-box, #registration #new-customer{
+	    margin:0 0 1em 0;
+		}
 	FOOTER{
 		margin:2em 0 0 0;
 		}
