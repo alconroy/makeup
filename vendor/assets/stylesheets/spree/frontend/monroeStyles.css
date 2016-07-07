@@ -955,15 +955,29 @@ body{
 			}
 			#content-page .featured-brands UL LI A{
 			    float:left;
-			    opacity:0.6;
 			    width:auto;
 				}
 				#content-page .featured-brands UL LI A:hover{
 				    opacity:1;
 					}
+				#cf img {
+				  position:absolute;
+				  left:0;
+				  -webkit-transition: opacity 1s ease-in-out;
+				  -moz-transition: opacity 1s ease-in-out;
+				  -o-transition: opacity 1s ease-in-out;
+				  transition: opacity 1s ease-in-out;
+				}
+
+				#cf img.top:hover {
+				  opacity:0;
+				}
 				#content-page .featured-brands UL LI IMG{
 				    max-width:12em;
 					}
+					#content-page .featured-brands UL LI IMG.top:hover{
+					    opacity:0;
+						}
 	#content-page .product-promotions UL{
 	    float:left;
 	    padding:0;
