@@ -218,6 +218,9 @@ DL{
 HR{
 	border:1px solid #494949;
 	}
+#password-credentials HR{
+	display:none;
+	}
 .btn{
     background:#ec4445!important;
 	}
