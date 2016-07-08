@@ -2203,12 +2203,21 @@ FOOTER{
 					}
 			#content-page .featured-brands UL LI{
 			    margin:0 0 1.5em 0;
+			    min-height:4.4em;
 			    text-align:center;
 			    width:100%;
 				}
 				#content-page .featured-brands UL LI A{
-				    float:none;
+				    display:block;
+    				float:none;
 					}
+					#content-page .featured-brands UL LI IMG,
+					#content-page .featured-brands UL LI:nth-child(2) IMG,
+					#content-page .featured-brands UL LI:nth-child(3) IMG,
+					#content-page .featured-brands UL LI:nth-child(4) IMG,
+					#content-page .featured-brands UL LI:nth-child(5) IMG{
+					    left:30%;
+						}
 	#content-page .product-left-part,
 	#content-page .product-right-part{
 	    margin:0 0 1em 0;
